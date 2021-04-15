@@ -17,6 +17,7 @@ export default function Landing() {
               style={{
                 backgroundImage: "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')"
               }}>
+                
             <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
           </div>
           <div className="container relative mx-auto">
@@ -24,19 +25,17 @@ export default function Landing() {
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                   <div className="pr-12">
                     <h1 className="text-white font-semibold text-5xl">
-                      Your story starts with us.
+                      Hi. I'm Nichaphat.
                     </h1>
                     <p className="mt-4 text-lg text-gray-300">
-                      This is a simple example of a Landing Page you can build
-                      using Tailwind Starter Kit. It features multiple CSS
-                      components based on the Tailwindcss design system.
+                      An IT Consultant who have a passionate to turning herself into an UX/UI Designer.
                     </p>
                   </div>
                 </div>
 
               </div>
           </div>
-          <div
+          {/* <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
             style={{ height: "70px" }}
           >
@@ -54,7 +53,7 @@ export default function Landing() {
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
-          </div>
+          </div> */}
         </div>
 
         <section className="pb-20 bg-gray-300 -mt-24">
@@ -62,27 +61,30 @@ export default function Landing() {
             <div className="flex flex-wrap">
               <CardTextContent
                 icon="fas fa-award"
-                iconBackGroundColor="bg-red-400"
                 title="Awarded Agency"
                 description="Divide details about your product or agency work into parts. A paragraph describing a feature will be enough."
+                iconBackGroundColor="bg-red-400"
+                imageUrl={require("assets/img/cover-case1.png").default}
               />
+            </div>
 
+            <div className="flex flex-wrap">
               <CardTextContent
                 icon="fas fa-retweet"
                 iconBackGroundColor="bg-blue-400"
                 title="Free Revisions"
                 description="Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious."
               />
+            </div>
 
-              <CardTextContent
+            <div className="flex flex-wrap">
+            <CardTextContent
                 icon="fas fa-fingerprint"
                 iconBackGroundColor="bg-green-400"
                 title="Verified Company"
                 description="Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!"
               />
-
             </div>
-
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
