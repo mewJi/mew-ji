@@ -20,7 +20,7 @@ export default function Navbar(props) {
             }
             href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
           >
-            Tailwind Starter Kit
+            MEWJI BOX
           </a>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -42,7 +42,7 @@ export default function Navbar(props) {
           }
           id="example-navbar-warning"
         >
-          <ul className="flex flex-col lg:flex-row list-none mr-auto">
+          {/* <ul className="flex flex-col lg:flex-row list-none mr-auto">
             <li className="flex items-center">
               <a
                 className={
@@ -64,8 +64,56 @@ export default function Navbar(props) {
                 Docs
               </a>
             </li>
-          </ul>
+          </ul> */}
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li className="flex items-center">
+              <a
+                className={
+                  (props.transparent
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                    : "text-gray-800 hover:text-gray-600") +
+                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                }
+                href="#pabo"
+                target="_blank"
+              >
+                {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
+                Case Studies
+              </a>
+            </li>
+
+            <li className="flex items-center">
+              <a
+                className={
+                  (props.transparent
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                    : "text-gray-800 hover:text-gray-600") +
+                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                }
+                href="#pabo"
+                target="_blank"
+              >
+                {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
+                About Me
+              </a>
+            </li>
+
+            <li className="flex items-center">
+              <a
+                className={
+                  (props.transparent
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                    : "text-gray-800 hover:text-gray-600") +
+                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                }
+                href="#pabo"
+                target="_blank"
+              >
+                {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
+                Contact
+              </a>
+            </li>
+
             <li className="flex items-center">
               <a
                 className={
@@ -85,7 +133,7 @@ export default function Navbar(props) {
                     " fab fa-facebook text-lg leading-lg "
                   }
                 />
-                <span className="lg:hidden inline-block ml-2">Share</span>
+                <span className="lg:hidden inline-block ml-2">Facebook</span>
               </a>
             </li>
 
@@ -97,17 +145,18 @@ export default function Navbar(props) {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#pablo"
+                href="https://www.instagram.com/mew.nichaphat/"
+                target="_blank"
               >
                 <i
                   className={
                     (props.transparent
                       ? "lg:text-gray-300 text-gray-500"
                       : "text-gray-500") +
-                    " fab fa-twitter text-lg leading-lg "
+                    " fab fa-instagram text-lg leading-lg "
                   }
                 />
-                <span className="lg:hidden inline-block ml-2">Tweet</span>
+                <span className="lg:hidden inline-block ml-2">Instagram</span>
               </a>
             </li>
 
@@ -119,21 +168,22 @@ export default function Navbar(props) {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#pablo"
+                href="https://line.me/ti/p/ujMym0Xec4"
+                target="_blank"
               >
                 <i
                   className={
                     (props.transparent
                       ? "lg:text-gray-300 text-gray-500"
                       : "text-gray-500") +
-                    " fab fa-github text-lg leading-lg "
+                    " fab fa-line text-lg leading-lg "
                   }
                 />
-                <span className="lg:hidden inline-block ml-2">Star</span>
+                <span className="lg:hidden inline-block ml-2">Line</span>
               </a>
             </li>
 
-            <li className="flex items-center">
+            {/* <li className="flex items-center">
               <button
                 className={
                   (props.transparent
@@ -146,7 +196,7 @@ export default function Navbar(props) {
               >
                 <i className="fas fa-arrow-alt-circle-down"></i> Download
               </button>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
