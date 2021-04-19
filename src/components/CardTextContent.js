@@ -14,7 +14,7 @@ export default function CardTextContent ({
                     alt="..."
                     src={imageUrl}
                     className="shadow-lg max-w-full mx-auto rounded-lg"
-                     style={{ maxWidth: "1200px" }}
+                     //style={{ maxWidth: "1200px" }}
                   />
                 {/* <div className="px-4 py-5 flex-auto">
                 <div className={`text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full ${iconBackGroundColor}`}>

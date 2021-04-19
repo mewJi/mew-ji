@@ -75,7 +75,7 @@ export default function Navbar(props) {
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
                 href="#pabo"
-                target="_blank"
+                
               >
                 {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
                 Case Studies
@@ -180,6 +180,29 @@ export default function Navbar(props) {
                   }
                 />
                 <span className="lg:hidden inline-block ml-2">Line</span>
+              </a>
+            </li>
+
+            <li className="flex items-center">
+              <a
+                className={
+                  (props.transparent
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                    : "text-gray-800 hover:text-gray-600") +
+                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                }
+                href="https://dribbble.com/mewji"
+                target="_blank"
+              >
+                <i
+                  className={
+                    (props.transparent
+                      ? "lg:text-gray-300 text-gray-500"
+                      : "text-gray-500") +
+                    " fab fa-dribbble text-lg leading-lg "
+                  }
+                />
+                <span className="lg:hidden inline-block ml-2">Dribbble</span>
               </a>
             </li>
 
