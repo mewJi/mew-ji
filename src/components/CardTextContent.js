@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function CardTextContent ({
-    description,
-    icon,
-    iconBackGroundColor,
-    title,
-    imageUrl,
+export default function CardTextContent({
+  description,
+  icon,
+  iconBackGroundColor,
+  title,
+  imageUrl,
 }) {
     return (
         <div className="w-full md:w-12/12 px-4 text-center">
