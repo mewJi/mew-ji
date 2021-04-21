@@ -8,8 +8,14 @@ import Carousel from 'components/Carousel';
 export default function CaseStudyDetail() {
   return (
     <>
+      {' '}
+      {/* <!-- NavBar --> */}
       <Navbar />
+      {/* <!-- NavBar --> */}
       <main>
+        {/* <!-- Carousel --> */}
+        <Carousel />
+        {/* <!-- Carousel --> */}
         <div className="lg:w-4/5 mx-auto text-gray-800">
           <section className="container flex flex-col items-center mx-auto text-center py-8">
             <img
@@ -301,8 +307,8 @@ export default function CaseStudyDetail() {
 
         <section className="relative py-20">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap items-center lg:w-3/4 mx-auto justify-center">
-              <div>
+            <div className="relative flex flex-wrap items-center lg:w-3/4 mx-auto justify-center">
+              <div className="lg:w-3/5 mx-auto text-center">
                 <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-crosshairs text-xl text-blue-500"></i>
                 </div>
@@ -319,23 +325,33 @@ export default function CaseStudyDetail() {
                   user type.
                 </p>
               </div>
-              <div>
-                <img
-                  alt="..."
-                  src={require('assets/img/EmpathyMap_no1.png').default}
-                  className="w-full align-middle rounded-t-lg"
-                />
+            </div>
+            <div className="container text-center">
+              <div className="relative flex flex-wrap items-stretch mx-auto">
+                <div className="items-center lg:w-2/4 px-2 py-4">
+                  <img
+                    alt="..."
+                    src={require('assets/img/EmpathyMap_no1.png').default}
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                  <p className="italic text-s font-light text-gray-400 mt-2">
+                    Empathy map of user who got air conditioner cleaning service
+                  </p>
+                </div>
+                <div className="items-center lg:w-2/4 px-2 py-4">
+                  <img
+                    alt="..."
+                    src={require('assets/img/EmpathyMap_no2.png').default}
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                  <p className="italic text-s font-light text-gray-400 mt-2">
+                    Empathy map of user who got home renovation service
+                  </p>
+                </div>
               </div>
-              <p className="italic text-s font-light text-gray-400">
-                Empathy map of user who got air conditioner cleaning service
-              </p>
             </div>
           </div>
         </section>
-
-        {/* <!-- Carousel --> */}
-        <Carousel />
-        {/*<!-- Carousel --> */}
 
         <section className="relative py-20">
           <div
