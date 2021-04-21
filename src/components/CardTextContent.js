@@ -5,18 +5,21 @@ export default function CardTextContent({
   title,
   subtitle,
   imageUrl,
+  className = 'container',
 }) {
   return (
-    <div class="container ml-40 mr-40 ">
-      <div class="ml-10 mr-10 bg-white rounded-2xl shadow-lg">
-        <div class="items-center flex flex-wrap items-center justify-center ">
-          <div class="w-full md:w-8/12 ">
-            <a href="http://localhost:3000/CaseStudyDetail">
-              <img alt="Home Hero" class="max-w-full " src={imageUrl} />
-            </a>
+    <div className={className}>
+      <div class=" bg-gray-100 rounded-2xl shadow-lg">
+        <div class=" flex flex-wrap justify-around items-center ">
+          <div class="w-full md:w-6/12 p-8">
+            <img
+              alt="Home Hero"
+              class="max-w-full image-center"
+              src={imageUrl}
+            />
           </div>
-          <div class="w-full md:w-4/12 pl-10 mx-auto pt-10 pb-10 text-left bg-red-100 rounded-l-none rounded-r-2xl ">
-            <div class="md:pr-12">
+          <div class="w-full md:w-4/12 p-10 text-left ">
+            <div>
               <p class="mb-2 text-sm leading-relaxed text-gray-400">
                 {subtitle}
               </p>
@@ -25,7 +28,7 @@ export default function CardTextContent({
                 {description}
               </p>
             </div>
-            <div className="text-left mt-6">
+            <div className="mt-6">
               <a href="http://localhost:3000/CaseStudyDetail">
                 <button
                   className="bg-gray-800 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"

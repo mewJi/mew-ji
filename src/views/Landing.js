@@ -55,24 +55,15 @@ export default function Landing() {
         </div>
         <section className="pb-20 bg-white pt-20">
           <div className="container relative mx-auto">
-            <div className="flex flex-wrap justify-center text-center mb-8">
-              {/* <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-2xl font-semibold text-gray-700">
-                  Case Study
-                </h2>
-              </div> */}
-
-              <div className="flex flex-wrap">
-                <div className="flex flex-wrap">
-                  <CardTextContent
-                    icon="fas fa-award"
-                    title="HOME HERO"
-                    subtitle="Mobile Application Design"
-                    description="Technicians hub for better home maintenance experience."
-                    imageUrl={require('assets/img/cover-case1.png').default}
-                  />
-                </div>
-              </div>
+            <div className="flex flex-wrap justify-center text-center mb-8 mx-10">
+              <CardTextContent
+                className="md:w-3/4"
+                icon="fas fa-award"
+                title="HOME HERO"
+                subtitle="Mobile Application Design"
+                description="Technicians hub for better home maintenance experience."
+                imageUrl={require('assets/img/cover-case1.png').default}
+              />
             </div>
           </div>
         </section>
