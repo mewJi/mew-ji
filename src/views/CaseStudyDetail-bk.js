@@ -8,10 +8,8 @@ import './CaseStudyDetail.css';
 import CardArticleWithObject from 'components/CardArticleWithObject';
 import ImageWithCaption from 'components/ImageWithCaption';
 import TitleWithIcon from 'components/TitleWithIcon';
-import SubtitleWithIcon from 'components/SubtitleWithIcon';
 import TextWithBG from 'components/TextWithBG';
 import Button from 'components/Button';
-import Carousel from 'components/Carousel';
 
 export default function CaseStudyDetail() {
   return (
@@ -21,7 +19,7 @@ export default function CaseStudyDetail() {
       <Navbar />
       {/* <!-- NavBar --> */}
       <main>
-        <div className="lg:w-4/5 mx-auto text-gray-800 px-4">
+        <div className="lg:w-4/5 mx-auto text-gray-800">
           <section className="container flex flex-col items-center mx-auto text-center py-8">
             <img
               className="w-full text-center "
@@ -43,21 +41,21 @@ export default function CaseStudyDetail() {
           <section className="py-30">
             <div className="container mx-auto text-center">
               <div className="w-full lg:w-6/12 mx-auto">
-                <h2 className="text-4xl font-semibold mt-8 mb-4">HOME HERO</h2>
+                <h2 className="text-4xl font-semibold my-10">HOME HERO</h2>
                 <div className=" mb-12">
-                  <p className="text-lg font-semibold leading-relaxed text-blue-700 ">
+                  <p className="text-lg italic leading-relaxed text-gray-600 ">
                     Finding technicains is easier than ever,
                   </p>
-                  <p className="text-lg font-semibold leading-relaxed text-blue-700 ">
+                  <p className="text-lg italic leading-relaxed text-gray-600 ">
                     Better experience for your better life.
                   </p>
                 </div>
                 <div className="mb-8">
                   <div>
-                    <h2 className="text-2xl font-semibold">Overview</h2>
+                    <h2 className="text-xl font-semibold">Overview</h2>
                   </div>
                   <div className="mb-12">
-                    <p className="text-lg leading-relaxed my-4">
+                    <p className="text-lg leading-relaxed m-4 ">
                       Home Hero is a mobile application that help people easily
                       find a technician for home maintenance and easily find an
                       expert to get consulting about the home solution they need
@@ -67,10 +65,10 @@ export default function CaseStudyDetail() {
               </div>
             </div>
 
-            <div className="flex flex-wrap items-stretch items-center md:w-3/4 my-16 text-center mx-auto">
-              <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+            <div className="flex flex-wrap items-stretch items-center w-3/4 my-16 text-center mx-auto">
+              <div className="w-full lg:w-3/12 mx-auto py-8 bg-white">
                 <div className="mb-4">
-                  <i className="fas fa-suitcase text-2xl text-blue-500"></i>
+                  <i className="fas fa-suitcase text-2xl text-yellow-500"></i>
                 </div>
                 <div className="mb-8">
                   <h1 className="text-xl font-semibold leading-normal">
@@ -82,9 +80,9 @@ export default function CaseStudyDetail() {
                 </div>
               </div>
 
-              <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+              <div className="w-full lg:w-3/12 mx-auto py-8 bg-white">
                 <div className="mb-4">
-                  <i className="fas fa-clock text-2xl text-blue-500"></i>
+                  <i className="fas fa-clock text-2xl text-yellow-500"></i>
                 </div>
                 <div className="mb-8">
                   <h1 className="text-xl font-semibold leading-normal">
@@ -97,9 +95,9 @@ export default function CaseStudyDetail() {
                   </p>
                 </div>
               </div>
-              <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+              <div className="w-full lg:w-3/12 mx-auto py-8 bg-white">
                 <div className="mb-4">
-                  <i className="fas fa-tools text-2xl text-blue-500"></i>
+                  <i className="fas fa-tools text-2xl text-yellow-500"></i>
                 </div>
                 <div className="mb-8">
                   <h1 className="text-xl font-semibold leading-normal">
@@ -117,15 +115,18 @@ export default function CaseStudyDetail() {
                     <li className="py-1">
                       <p className="text- leading-normal">Miro</p>
                     </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">Zoom</p>
+                    </li>
                   </ul>
                 </div>
               </div>
-              <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+              <div className="w-full lg:w-3/12 mx-auto py-8 bg-white">
                 <div className="mb-4">
-                  <i className="fas fa-mobile text-2xl text-blue-500"></i>
+                  <i className="fas fa-mobile text-2xl text-yellow-500"></i>
                 </div>
                 <div className="mb-8">
-                  <h1 className="text-2xl font-semibold leading-normal">
+                  <h1 className="text-xl font-semibold leading-normal">
                     PLATFORM
                   </h1>
                 </div>
@@ -136,10 +137,10 @@ export default function CaseStudyDetail() {
             </div>
 
             <div className="flex flex-wrap text-center mx-auto w-full">
-              <div className="flex flex-wrap md:w-2/4 mx-auto justify-center ">
-                <h2 className="text-2xl font-semibold ">Problem</h2>
+              <div className="flex flex-wrap w-2/4 mx-auto justify-center ">
+                <h2 className="text-xl font-semibold ">Problem</h2>
 
-                <p className="text-lg leading-relaxed my-4">
+                <p className="text-lg leading-relaxed mb-4 mt-4">
                   Designed a mobile application to help people easily find a
                   technician for home maintenance and easily find an expert to
                   get consulting about the home solution they need
@@ -147,33 +148,33 @@ export default function CaseStudyDetail() {
               </div>
             </div>
 
-            <div className="flex felx-wrap justify-center items-center md:w-4/5 mx-auto mb-16">
-              <div className="md:w-1/3 mx-2">
+            <div className="flex felx-wrap justify-center items-center w-4/5 mx-auto mb-16">
+              <div className="w-1/3 mx-2">
                 {' '}
                 <img
                   alt="..."
                   src={require('assets/img/problem1.png').default}
-                  className="w-full align-middle rounded-lg"
+                  className="w-full align-middle rounded-t-lg"
                 />
               </div>
-              <div className="md:w-1/3 mx-2">
+              <div className="w-1/3 mx-2">
                 {' '}
                 <img
                   alt="..."
                   src={require('assets/img/problem2.png').default}
-                  className="w-full align-middle rounded-lg"
+                  className="w-full align-middle rounded-t-lg"
                 />
               </div>
             </div>
 
             <div className="flex flex-wrap items-center mb-16 text-center">
-              <div className="w-full md:w-2/4 mx-auto">
+              <div className="w-full lg:w-2/4 mx-auto">
                 <div>
                   <div>
-                    <h2 className="text-2xl font-semibold">Challege</h2>
+                    <h2 className="text-xl font-semibold">Challege</h2>
                   </div>
                   <div className="mb-8">
-                    <p className="text-lg leading-relaxed my-4">
+                    <p className="text-lg leading-relaxed m-3 ">
                       ปัจจุบันผู้ให้บริการช่างซ่อมแซม ปรับปรุง หรือ
                       ต่อเติมบ้านมีอยู่มากมาย
                       ผู้คนที่ต้องการใช้บริการจึงต้องใช้เวลาในการค้นหา รวบรวม
@@ -200,13 +201,11 @@ export default function CaseStudyDetail() {
         </div>
 
         {/* Design Process*/}
-        <div className="text-center md:w-3/4 mx-auto">
-          <div className="flex flex-wrap justify-center">
-            <div className="mb-8">
-              <h2 className="text-2xl font-semibold text-center">
-                Design Process
-              </h2>
-            </div>
+        <div className="flex flex-wrap text-center w-2/4 justify-center item-center mx-auto">
+          <div className="mb-8">
+            <h2 className="text-xl font-semibold text-center">
+              Design Process
+            </h2>
           </div>
           <div className="mb-20">
             <img
@@ -218,131 +217,131 @@ export default function CaseStudyDetail() {
         </div>
 
         {/* Empathy */}
-        <section className="relative py-12 bg-gray-100 px-4">
-          <div className="container mx-auto ">
-            <div className="flex flex-wrap md:w-4/5 mx-auto ">
+        <section className="relative py-20 bg-gray-100 ">
+          <div className="container mx-auto px-4 ">
+            <div className="flex flex-wrap lg:w-4/5 mx-auto ">
               <div className="flex flex-wrap w-full items-center justify-center">
                 <TitleWithIcon
                   title="Discovering design opportunities"
                   icon="fas fa-search"
                 />
               </div>
-
-              <div className="flex flex-wrap w-full mx-auto items-center ">
-                <div className="w-full md:w-6/12 mx-auto">
-                  <div className="flex flex-wrap w-full items-center justify-center">
-                    <SubtitleWithIcon title="Start with empathy" />
-                  </div>
-                  <div className="my-5">
-                    <CardArticleWithObject
-                      subtiltle="Understand user with Qualitative Research"
-                      description={
-                        <div>
-                          In the initial state, I decided to explore people’s
-                          home service experience by setting an interview
-                          questions and conducting <b>online user interview</b>{' '}
-                          to learn user behavior and thier activities from start
-                          to end. You can see my some questions in the link
-                        </div>
-                      }
-                      object={
-                        <Button
-                          iconClassName="far fa-eye"
-                          targetUrl="http://localhost:3000/CaseStudyDetail"
-                          buttonText="SEE QUESTIONS"
-                          buttontype="secondary"
-                        />
-                      }
-                    />
-
-                    <div className="mt-8">
-                      <CardArticleWithObject
-                        subtiltle="Organize research study with Affinity Mapping"
-                        description={
-                          <div>
-                            Affinity Mapping helps me organize research study
-                            and allowed me to find some theme and focus point
-                          </div>
-                        }
-                      />
+              <div className="w-full md:w-6/12 mr-auto ml-auto ">
+                <CardArticleWithObject
+                  subtiltle="Start with empathy by conducting online user interview"
+                  description={
+                    <div>
+                      {' '}
+                      Understand users by conducting{' '}
+                      <b>online user interview</b> to learn user behavior and
+                      thier activities from start to end of getting service from
+                      a home service provider.
                     </div>
-                  </div>
-                </div>
+                  }
+                />
 
-                <div className="w-full md:w-1/3">
-                  <ImageWithCaption
-                    imageUrl={require('assets/img/affinity_map.jpg').default}
-                    caption="Affinity Map"
-                  />
+                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 px-4">
+                  Here are some questions I asked
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+                    className="font-bold text-red-500 ml-8"
+                  >
+                    Click
+                  </a>
+                </p>
+                <div className="w-full mx-4">
+                  <h4 className="text-xl mt-20 font-semibold leading-normal  text-blue-500">
+                    Key Finding I found
+                  </h4>
+                  <ul className="list-none mt-6 w-2/3">
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 mr-5">
+                            <i className="fas fa-clock"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-gray-800 text-lg font-semibold">
+                            It’s very time-consuming{' '}
+                          </h4>
+                          <p className="text-gray-600 text-lg font-light leading-relaxed">
+                            in collecting service information from many sources
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 mr-5">
+                            <i className="fas fa-book"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-gray-800 text-lg font-semibold">
+                            Lacking of specialized knowledge and skill{' '}
+                          </h4>
+                          <p className="text-gray-600 text-lg font-light leading-relaxed">
+                            made people feel anxious and many time made them
+                            lost a lot of money
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 mr-5">
+                            <i className="fas fa-search-dollar"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-gray-800 text-lg font-semibold">
+                            “How trust” is more important than “How much”{' '}
+                          </h4>
+                          <p className="text-gray-600 text-lg font-light leading-relaxed">
+                            people pay more If the result is worth it
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 mr-5">
+                            <i className="fas fa-wrench"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-gray-800 text-lg font-semibold">
+                            “How can I do it by myself?”{' '}
+                          </h4>
+                          <p className="text-gray-600 text-lg font-light leading-relaxed">
+                            is the question they usually ask in case of minor
+                            problem
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
 
-              <div className="w-full ">
-                <h4 className="text-2xl text-center mt-14 font-semibold leading-normal  text-blue-500">
-                  Key Finding
-                </h4>
-                <div className="flex flex-wrap mt-6 md:w-full mx-auto text-center mx-auto">
-                  <div className="py-2 md:w-1/4 px-5">
-                    <div className="flex flex-wrap justify-center px-5">
-                      <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
-                          <i className="fas fa-clock"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <p className="text-gray-600 text-md leading-relaxed my-5">
-                          <b> It’s very time-consuming</b> in collecting service
-                          information from many sources
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="py-2 md:w-1/4 px-5">
-                    <div className="flex flex-wrap justify-center">
-                      <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100">
-                          <i className="fas fa-book"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <p className="text-gray-600 text-md  leading-relaxed my-5">
-                          <b> Lacking of specialized knowledge and skill</b>{' '}
-                          made people feel anxious and many time made them lost
-                          a lot of money
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="py-2 md:w-1/4 px-5">
-                    <div className="flex flex-wrap justify-center">
-                      <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
-                          <i className="fas fa-search-dollar"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <p className="text-gray-600 text-md  leading-relaxed my-5">
-                          <b> “How trust” is more important than “How much”</b>
-                          people pay more If the result is worth it
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="py-2 md:w-1/4 px-5">
-                    <div className="flex flex-wrap justify-center">
-                      <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
-                          <i className="fas fa-wrench"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <p className="text-gray-600 text-md leading-relaxed my-5">
-                          <b>“How can I do it by myself?” </b>is the question
-                          they usually ask in case of minor problem
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+              <div className="w-full md:w-6/12 mr-auto">
+                <div className="">
+                  <CardArticleWithObject
+                    subtiltle="Organize research study with Affinity Mapping"
+                    description="Affinity Mapping helps me organize research study and allowed me to find some theme and focus point"
+                    object={
+                      <ImageWithCaption
+                        imageUrl={
+                          require('assets/img/affinity_map.jpg').default
+                        }
+                        caption="Affinity Map"
+                      />
+                    }
+                  />
                 </div>
               </div>
             </div>
@@ -350,228 +349,141 @@ export default function CaseStudyDetail() {
         </section>
 
         {/* Define */}
-
-        <section className="relative py-12 px-4">
-          <div className="container mx-auto">
-            <div className="flex flex-wrap md:w-4/5 mx-auto">
-              <div className="flex flex-wrap w-full items-center justify-center">
+        <section className="relative py-20">
+          <div className="container mx-auto px-4">
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
+              <div className="relative flex flex-wrap w-full mx-auto">
+                {' '}
                 <TitleWithIcon
-                  title="Discovering design opportunities"
-                  icon="fas fa-search"
+                  title="Define the right problem"
+                  icon="fas fa-crosshairs"
                 />
               </div>
-              <div className="flex flex-wrap w-full items-center justify-center md:mb-12">
-                <div className="md:w-6/12">
-                  <div className="flex flex-wrap w-full items-center justify-center">
-                    <SubtitleWithIcon title="Know users, then know problems" />
-                  </div>
-                  {/* Empathy Map */}
-                  <div className="my-5">
-                    <CardArticleWithObject
-                      subtiltle="Learn more about users"
-                      description={
-                        <div>
-                          {' '}
-                          According to my research study, I have two differences
-                          type of users seperated by service that they got. So
-                          that I created two empathy map to understand user
-                          attitudes and behaviors of each user type.
-                        </div>
-                      }
-                      textalign={'left'}
-                    />
-                  </div>
-                </div>
-
-                <div className="md:w-6/12">
-                  <div className="md:px-16">
-                    <Carousel
-                      first={require('assets/img/EmpathyMap_no1.png').default}
-                      second={require('assets/img/EmpathyMap_no2.png').default}
-                    />
-                    <p className="italic text-xs font-light text-gray-400 mt-2 ">
-                      Empathy Mapp
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Personas */}
-              <div className="flex flex-wrap w-full items-center justify-center mt-5 mb-16">
-                <div className="md:w-6/12">
-                  <div className="my-5">
-                    <CardArticleWithObject
-                      subtiltle="Define target users"
-                      description={
-                        <div>
-                          {' '}
-                          To follow user-centered design(UCD), I used personas
-                          to help me indentify who are my target users, so that
-                          I can design the right things to the right person.
-                        </div>
-                      }
-                      textalign={'left'}
-                    />
-                  </div>
-                </div>
-                <div className="md:w-6/12 md:px-16">
-                  <img
-                    alt="..."
-                    src={require('assets/img/Persona_1.png').default}
-                    className="max-w-full mx-auto mb-3"
-                    style={{}}
-                  />
-
-                  <p className="italic text-xs font-light text-gray-400 mt-2 ">
-                    Personas
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap w-full items-center justify-center">
-                <div className="flex flex-wrap w-full items-center justify-center">
-                  <SubtitleWithIcon title="Addressing problems and needs"></SubtitleWithIcon>
-                </div>
-                <div className="flex flex-wrap w-full justify-center">
-                  <div className="md:w-6/12 md:pr-8">
-                    <div className="my-5">
-                      <CardArticleWithObject
-                        subtiltle="See the whole story and capture the problems
-                      "
-                        description={
-                          <div>
-                            {' '}
-                            I created storyboard to understand a sequence and
-                            capture at attention point of user’s story. It’s
-                            good way to understand whole story by seeing image.
-                          </div>
-                        }
-                        textalign={'left'}
-                        object={
-                          <ImageWithCaption
-                            imageUrl={
-                              require('assets/img/Storyboard.jpg').default
-                            }
-                            caption="Storyboard"
-                          />
-                        }
-                      />
-                    </div>
-                  </div>
-                  <div className="md:w-6/12 md:pl-8">
-                    <div className="my-5">
-                      <CardArticleWithObject
-                        subtiltle="Analyze User’s Journey
-                      "
-                        description={
-                          <div>
-                            {' '}
-                            To understand user’s problems, I created user
-                            journey map to visualize the home service
-                            experience. This help me see what/where/when/why
-                            those problem occur in the user’s journey.
-                          </div>
-                        }
-                        textalign={'left'}
-                        object={
-                          <ImageWithCaption
-                            imageUrl={
-                              require('assets/img/User_Journey1.png').default
-                            }
-                            caption="User’s Journey"
-                          />
-                        }
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-100 py-12">
-            <div className="px-4 md:w-4/5 mx-auto">
-              <div className="md:w-3/5 mx-auto mb-4 text-center">
-                <h2 className=" text-2xl font-semibold text-blue-600">
-                  Define main problem with HMW
-                </h2>
-
-                <p className="mt-8 text-lg leading-relaxed text-gray-600">
-                  Mapping user’s problem with its HMW questions to find out what
-                  is the most impact problem for them. After mapping, I found
-                  common HMW that reflect user’s main problems
-                </p>
-              </div>
-
-              <div className="w-full md:px-12 mx-auto">
-                <ImageWithCaption
-                  imageUrl={require('assets/img/Define_Problem.jpg').default}
-                  caption="Define Problem Process"
-                />
-              </div>
-              <div className="w-full ">
-                <h4 className="text-xl text-center italic mt-12 font-semibold leading-normal  text-gray-700">
-                  User’s Main Problems
-                </h4>
-                <div className="flex flex-wrap mt-6 md:w-4/5 mx-auto text-center mx-auto">
-                  <div className="py-2 md:w-1/3 px-8">
+              <div className="lg:w-1/3 mx-auto pr-10">
+                <CardArticleWithObject
+                  subtiltle="More understand user with Empathy Map"
+                  description={
                     <div>
-                      <div className="flex flex-wrap mx-auto justify-center">
-                        <span className="text-3xl text-center font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
-                          <i className="fas fa-book"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <p className="text-gray-600 text-md leading-relaxed my-5">
-                          lacking of technical knowledge
-                        </p>
-                      </div>
+                      {' '}
+                      According to my research study, I have two differences
+                      type of user seperated by service that they got. So I
+                      created two empathy map to understand user{' '}
+                      <b>attitudes and behaviors</b> of each user type.
                     </div>
-                  </div>
-                  <div className="py-2 md:w-1/3 px-8">
-                    <div className="flex flex-wrap justify-center">
-                      <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100">
-                          <i className="fas fa-book"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <p className="text-gray-600 text-md  leading-relaxed my-5">
-                          have no time to learn technical skill
-                        </p>
-                      </div>
+                  }
+                  object={
+                    <Button
+                      iconClassName="far fa-eye"
+                      targetUrl="http://localhost:3000/CaseStudyDetail"
+                      buttonText="SEE PICTURE"
+                      buttontype="secondary"
+                    />
+                  }
+                />
+              </div>
+              <div className="lg:w-1/3 mx-auto pr-10">
+                <CardArticleWithObject
+                  subtiltle="Follow user-centered design (UCD) with Personas"
+                  description={
+                    <div>
+                      This can help me indentify who is target user, so that I
+                      can design <b>the right things to the right person</b>
                     </div>
-                  </div>
-                  <div className="py-2 md:w-1/3 px-8">
-                    <div className="flex flex-wrap justify-center">
-                      <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100">
-                          <i className="fas fa-clock"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <p className="text-gray-600 text-md  leading-relaxed my-5">
-                          Seeking a satisfied technician from multiple sources
-                          is very time-consuming
-                        </p>
-                      </div>
+                  }
+                  object={
+                    <Button
+                      iconClassName="far fa-eye"
+                      targetUrl="http://localhost:3000/CaseStudyDetail"
+                      buttonText="SEE PICTURE"
+                      buttontype="secondary"
+                    />
+                  }
+                />
+              </div>
+              <div className="lg:w-1/3 mx-auto pr-10">
+                <CardArticleWithObject
+                  subtiltle="See the whole story with Storyboard"
+                  description={
+                    <div>
+                      I created storyboard to understand a sequence and capture
+                      at attention point of user’s story. It’s good way to
+                      understand whole story by seeing image
                     </div>
-                  </div>
+                  }
+                  object={
+                    <Button
+                      iconClassName="far fa-eye"
+                      targetUrl="http://localhost:3000/CaseStudyDetail"
+                      buttonText="SEE PICTURE"
+                      buttontype="secondary"
+                    />
+                  }
+                />
+              </div>
+              <div className="lg:w-full mx-auto pr-10 my-14">
+                <CardArticleWithObject
+                  subtiltle="Analyze User’s Journey"
+                  description={
+                    <div>
+                      To understand user’s problems, I created user journey map
+                      to visualize the current home service process. This help
+                      me see what/where/when/why those problem occur in the
+                      user’s journey.
+                    </div>
+                  }
+                  object={
+                    <ImageWithCaption
+                      imageUrl={require('assets/img/User_Journey1.png').default}
+                      caption="User's Story"
+                    />
+                  }
+                />
+              </div>
+
+              <div className="relative flex flex-wrap lg:w-full mx-auto pr-10">
+                <CardArticleWithObject
+                  subtiltle="Define main problem with How Might We Question"
+                  description={
+                    <div>
+                      Mapping user’s problem with its HMW questions to find out
+                      what is the most impact problem for them. After mapping, I
+                      found common HMW that reflect user’s main problems.
+                    </div>
+                  }
+                  object={
+                    <ImageWithCaption
+                      imageUrl={
+                        require('assets/img/Define_Problem.jpg').default
+                      }
+                      caption="User's Story"
+                    />
+                  }
+                />
+              </div>
+
+              <div className="relative flex flex-wrap w-full mx-auto justify-center">
+                <div className="lg:w-1/2 mx-auto mx-10">
+                  <TextWithBG
+                    title="FROM : User’s main problems"
+                    description="
+                  lacking of technical knowledge
+
+                      have no time to learn technical skill
+
+                      Seeking a satisfied technician from 
+                      multiple sources is very time-consuming "
+                  ></TextWithBG>
                 </div>
-                <h4 className="text-xl text-center mt-4 italic font-semibold leading-normal  text-gray-700">
-                  How Might We
-                </h4>
-                <div className="md:w-3/5 mx-auto">
-                  <div className="text-center bg-white rounded-xl py-8 px-8 m-8">
-                    <p className="text-lg leading-relaxed text-gray-700">
-                      Getting home service by just find a satisfied technician
-                      in one source and able to get advices or technical
-                      knowledge from an expert
-                    </p>
-                    <p className="text-xl">?</p>
-                  </div>
+                <div className="lg:w-1/2 mx-auto mx-10">
+                  {' '}
+                  <TextWithBG
+                    title="TO : How Might We"
+                    description="
+                    “Getting home service by just find a satisfied 
+                    technician in one source and able to get 
+                    some technical knowledge or advices from 
+                    an expert”"
+                  ></TextWithBG>
                 </div>
               </div>
             </div>
@@ -579,126 +491,118 @@ export default function CaseStudyDetail() {
         </section>
 
         {/* Ideate */}
-        <div className="relative flex flex-wrap w-full mx-auto justify-center pt-12 px-4">
-          {' '}
-          <TitleWithIcon title="Get into Solution" icon="fas fa-lightbulb" />
-        </div>
-        <section>
-          <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-100 py-12">
-            <div className="px-4 md:w-4/5 mx-auto">
-              <div className="md:w-3/5 mx-auto mb-4">
-                <CardArticleWithObject
-                  subtiltle="HMW will come up with Solution"
-                  description={
-                    <div>
-                      With all problem defination and how might we I got, I
-                      started to generate several solutions and pick the most
-                      impact solution by concidering their pros and cons.
-                    </div>
-                  }
-                  textalign="center"
-                />
-              </div>
-              <div className="w-full md:px-12 mx-auto ">
-                <ImageWithCaption
-                  imageUrl={require('assets/img/IdeateSolution.jpg').default}
-                  caption="Ideation Solution Process"
-                />
-              </div>
-              <div className="w-full ">
-                <h4 className="text-xl text-center mt-12 italic font-semibold leading-normal  text-gray-700">
-                  Solution
-                </h4>
-                <div className="md:w-3/5 mx-auto">
-                  <div className="text-center bg-white rounded-xl py-8 px-8 m-8">
-                    <p className="text-lg leading-relaxed text-gray-700">
-                      Get home service by using online platform which a huge of
-                      technician information to find a satisfied technician and
-                      get technical advice from an expert
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        <section className="relative py-12 px-4">
-          <div className="container mx-auto">
-            <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
-              <div className="w-full md:w-6/12 mx-auto md:pr-10">
-                <div className="flex flex-wrap w-full items-center justify-center">
-                  <SubtitleWithIcon title="Designing an Experience" />
+        <section className="relative py-20">
+          <div className="container mx-auto px-4">
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
+              <div className="relative flex flex-wrap w-full mx-auto">
+                {' '}
+                <TitleWithIcon
+                  title="Get into the solution"
+                  icon="fas fa-lightbulb"
+                />
+              </div>
+              <CardArticleWithObject subtiltle="Ideate solutions from HMW" />
+              <div className="relative flex flex-wrap w-full mx-auto mt-20">
+                <div>
+                  <img
+                    alt="..."
+                    src={require('assets/img/findsolution_map2.png').default}
+                    className="max-w-full mx-auto"
+                    style={{}}
+                  />
                 </div>
+                <div>
+                  <img
+                    alt="..."
+                    src={require('assets/img/IdeateSolution.png').default}
+                    className="max-w-full mx-auto"
+                    style={{}}
+                  />
+                </div>
+              </div>
+              <div className="relative flex flex-wrap lg:w-full mx-auto my-12">
                 <CardArticleWithObject
                   subtiltle="Design user experience with User Story Mapping"
                   description={
                     <div>
-                      I mapped out user’s activity, user’s task, and subtask to
-                      visualize the main user’s flow and user interaction that I
-                      expected them to go through to complete their goal
+                      Mapping out user’s activity, user’s task, and subtask to
+                      visualize the main user’s flow and user interaction while
+                      users are trying to complete their main goal
                     </div>
                   }
-                  textalign="left"
+                  object={
+                    <ImageWithCaption
+                      imageUrl={require('assets/img/userstory_map.jpg').default}
+                      caption="User's Story Map"
+                    />
+                  }
                 />
-                <div className="my-5">
+              </div>
+              <div className="relative flex flex-wrap lg:w-full mx-auto">
+                <div className="lg:w-1/3 mx-auto pr-10">
                   <CardArticleWithObject
                     subtiltle="Minimum-Viable-Product approach"
                     description={
                       <div>
                         I sliced a story map into first and second release in
                         order to{' '}
-                        <b>prioritize which features should be in prototype</b>{' '}
+                        <b>prioritize which features should be in prototype </b>{' '}
                         to learn if users understand the process and can
                         successfully reach the goal
                       </div>
                     }
                   />
                 </div>
-              </div>
-
-              <div className="w-full md:w-6/12 md:px-16 mx-auto ">
-                <ImageWithCaption
-                  imageUrl={require('assets/img/userstory_map.jpg').default}
-                  caption="User Story Mapping"
-                />
-              </div>
-            </div>
-            <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
-              <div className="w-full md:w-6/12 mx-auto md:pr-10">
-                <div className="flex flex-wrap w-full  ">
-                  <SubtitleWithIcon title="Structure the Site" />
-                </div>
-                <div className="my-5">
+                <div className="lg:w-1/3 mx-auto pr-10">
                   <CardArticleWithObject
-                    subtiltle="Structure the site with Information Architecture (IA)"
+                    subtiltle="Effective IA with Card Sorting"
                     description={
                       <div>
-                        After I maped out user’s story and conducted open-card
-                        sorting using online tool (Optimal Workshop), I can
-                        identify content and fuctionality that should be placed
-                        in platform by creating sitemap.
+                        I conducted <b>open-card sorting </b>using online tool
+                        (Optimal Workshop) with users and analyzed the result
                       </div>
                     }
-                    textalign="left"
+                    object={
+                      <Button
+                        iconClassName="far fa-eye"
+                        targetUrl="http://localhost:3000/CaseStudyDetail"
+                        buttonText="SEE PICTURE"
+                        buttontype="secondary"
+                      />
+                    }
                   />
                 </div>
-              </div>
-              <div className="w-full md:w-6/12 md:px-20 mx-auto md:pt-5">
-                <ImageWithCaption
-                  imageUrl={require('assets/img/sitemap.jpg').default}
-                  caption="Sitemap"
-                />
+                <div className="lg:w-1/3 mx-auto pr-10">
+                  <CardArticleWithObject
+                    subtiltle="Structure the site with Information Architecture"
+                    description={
+                      <div>
+                        After I maped out user’s story and conducted card
+                        sorting, I can identify content and fuctionality that
+                        should be in platform by creating sitemap.
+                      </div>
+                    }
+                    object={
+                      <Button
+                        iconClassName="far fa-eye"
+                        targetUrl="http://localhost:3000/CaseStudyDetail"
+                        buttonText="SEE PICTURE"
+                        buttontype="secondary"
+                      />
+                    }
+                  />
+                </div>
               </div>
             </div>
           </div>
         </section>
 
         {/* { Prototype} */}
-        <section className="relative py-12 px-4">
-          <div className="container mx-auto">
+        <section className="relative py-20">
+          <div className="container mx-auto px-4">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
-              <div className="relative flex flex-wrap w-full mx-auto justify-center">
+              <div className="relative flex flex-wrap w-full mx-auto">
                 {' '}
                 <TitleWithIcon
                   title="Turn ideas into prototype"

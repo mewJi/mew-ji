@@ -3,12 +3,19 @@ import React from 'react';
 import Navbar from 'components/Navbar.js';
 import Footer from 'components/Footer.js';
 import CardTextContent from 'components/CardTextContent';
+import Carousel from 'components/Carousel';
 
 export default function Landing() {
   return (
     <>
       <Navbar />
       <main>
+        {/* <!-- Carousel --> */}
+        <Carousel
+          firstChildren={<div>First Children</div>}
+          secondChildren={<div>Second Children</div>}
+        />
+        {/* <!-- Carousel --> */}
         <div
           className="relative pt-32 pb-32 flex content-center items-center justify-center bg-blue-500"
           style={{
@@ -58,11 +65,12 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center text-center mb-8 mx-10">
               <CardTextContent
                 className="md:w-3/4"
-                icon="fas fa-award"
                 title="HOME HERO"
                 subtitle="Mobile Application Design"
                 description="Technicians hub for better home maintenance experience."
                 imageUrl={require('assets/img/cover-case1.png').default}
+                targetUrl="http://localhost:3000/CaseStudyDetail"
+                buttonText="View Project"
               />
             </div>
           </div>

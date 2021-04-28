@@ -1,10 +1,13 @@
 import React from 'react';
+import Button from 'components/Button';
 
 export default function CardTextContent({
   description,
   title,
   subtitle,
   imageUrl,
+  targetUrl,
+  buttonText,
   className = 'container',
 }) {
   return (
@@ -29,15 +32,13 @@ export default function CardTextContent({
               </p>
             </div>
             <div className="mt-6">
-              <a href="http://localhost:3000/CaseStudyDetail">
-                <button
-                  className="bg-gray-800 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                  type="button"
-                  style={{ transition: 'all .15s ease' }}
-                >
-                  View Project
-                </button>
-              </a>
+              <Button
+                iconClassName="far fa-eye"
+                fuck="What"
+                buttonText={buttonText}
+                targetUrl={targetUrl}
+                buttontype="primary"
+              />
             </div>
           </div>
         </div>
