@@ -12,6 +12,8 @@ import SubtitleWithIcon from 'components/SubtitleWithIcon';
 import TextWithBG from 'components/TextWithBG';
 import Button from 'components/Button';
 import Carousel from 'components/Carousel';
+import CardContentPrototype from 'components/CardContentPrototype';
+import CardSumaryWithBorder from 'components/CardSumaryWithBorder';
 
 export default function CaseStudyDetail() {
   return (
@@ -695,13 +697,235 @@ export default function CaseStudyDetail() {
         </section>
 
         {/* { Prototype} */}
+        <section className="relative py-12 px-4 bg-gray-100">
+          <div className="container mx-auto ">
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
+              <div className="relative flex flex-wrap w-full mx-auto justify-center">
+                {' '}
+                <TitleWithIcon
+                  title="Turn ideas into prototype"
+                  icon="fas fa-pencil-ruler"
+                />
+              </div>
+              <div className="md:w-3/5 mx-auto mb-4">
+                <CardArticleWithObject
+                  description={
+                    <div>
+                      I started with some rough sketch on my iPad with the main
+                      user’s flow screen and turn them into a high-fidelity
+                      wireframe on Figma
+                    </div>
+                  }
+                  textalign="center"
+                />
+              </div>
+            </div>
+            <div className="relative flex flex-wrap lg:w-full mx-auto justify-center items-center">
+              <div className="w-full md:w-6/12 mx-auto md:pr-10">
+                <SubtitleWithIcon title="Low Fidelity Wideframe"></SubtitleWithIcon>
+                <ImageWithCaption
+                  imageUrl={require('assets/img/affinity_map.jpg').default}
+                  caption="Affinity Map"
+                />
+              </div>
+              <div className="w-full md:w-6/12 mx-auto md:pr-10">
+                <SubtitleWithIcon title="High Fidelity Wideframe"></SubtitleWithIcon>
+                <ImageWithCaption
+                  imageUrl={require('assets/img/affinity_map.jpg').default}
+                  caption="Affinity Map"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* { Prototype} */}
+        <section>
+          <div className="relative flex flex-wrap lg:w-full mx-auto bg-white-100 py-12">
+            <div className="px-4 md:w-4/5 mx-auto">
+              <div className="md:w-3/5 mx-auto mb-4">
+                <CardArticleWithObject
+                  subtiltle="Prototype"
+                  textalign="center"
+                />
+              </div>
+
+              <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
+                <div className="md:w-6/12 mx-auto mb-4">
+                  <CardContentPrototype
+                    title="Onboarding & Login"
+                    subtitle="Provide user a key feature and 
+                  alternative social media login method"
+                    description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                  />
+                </div>
+
+                <div className="md:w-6/12 mx-auto mb-4 px-20">
+                  <ImageWithCaption
+                    imageUrl={require('assets/img/OnboardAndLogin.gif').default}
+                  />
+                </div>
+              </div>
+
+              <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
+                <div className="md:w-6/12 mx-auto mb-4 px-20">
+                  <ImageWithCaption
+                    imageUrl={require('assets/img/SearchAndFilter.gif').default}
+                  />
+                </div>
+                <div className="md:w-6/12 mx-auto mb-4">
+                  <CardContentPrototype
+                    title="Searching & Filtering"
+                    subtitle="Provide user a key feature and 
+                  alternative social media login method"
+                    description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                  />
+                </div>
+              </div>
+
+              <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
+                <div className="md:w-6/12 mx-auto mb-4">
+                  <CardContentPrototype
+                    title="Booking and Scheduling"
+                    subtitle="Provide user a key feature and 
+                  alternative social media login method"
+                    description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                  />
+                </div>
+                <div className="md:w-6/12 mx-auto mb-4 px-20">
+                  <ImageWithCaption
+                    imageUrl={
+                      require('assets/img/BookingAndScheduling.gif').default
+                    }
+                  />
+                </div>
+              </div>
+
+              <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
+                <div className="md:w-6/12 mx-auto mb-4 px-20">
+                  <ImageWithCaption
+                    imageUrl={require('assets/img/OnboardAndLogin.gif').default}
+                  />
+                </div>
+                <div className="md:w-6/12 mx-auto mb-4">
+                  <CardContentPrototype
+                    title="Video Calling"
+                    subtitle="Provide user a key feature and 
+                  alternative social media login method"
+                    description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testing */}
         <section className="relative py-12 px-4">
           <div className="container mx-auto">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
               <div className="relative flex flex-wrap w-full mx-auto justify-center">
                 {' '}
                 <TitleWithIcon
-                  title="Turn ideas into prototype"
+                  title="Testing prototype
+                  to uncover improvement opportunities "
+                  icon="fas fa-pencil-ruler"
+                />
+              </div>
+              <div className="md:w-3/5 mx-auto mb-4">
+                <CardArticleWithObject
+                  description={
+                    <div>
+                      After conducting the online usability testing with a
+                      clickable prototype by using think aloud method, I found
+                      some usability problems and also discovered some
+                      opportunities to improve the design for the for the next
+                      iteration
+                    </div>
+                  }
+                  textalign="center"
+                />
+              </div>
+            </div>
+            <div className="relative flex flex-wrap items-stretch md:w-full md:px-12 mx-auto ">
+              <div className="md:w-1/3">
+                <CardSumaryWithBorder
+                  title="Problem #1"
+                  subtitle="Missing Information"
+                  description="Users were asking for more technician’s information such as technician work history, contact number, email, personal website those can gain more trust
+
+                Users need to see the service detail such as service name and technician’s name during scheduling and additional information process "
+                />
+              </div>
+              <div className="md:w-1/3">
+                <CardSumaryWithBorder
+                  title="Problem #2"
+                  subtitle="Unclear Icon Meaningtest"
+                  description="Users did not understand the meaning of the icon such as the calendar icon(following with date and time) on the order summary card. because they did not know if it's an order create date or an appointment date
+                "
+                />
+              </div>
+              <div className="md:w-1/3">
+                <CardSumaryWithBorder
+                  title="Problem #3"
+                  subtitle="Confusing Button Position"
+                  description="Service selecting button made them confused because this button contains the smaller one text button in there, which means they will get an unexpected response after tap the bigger button"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testing */}
+        <section className="relative py-12 px-4">
+          <div className="container mx-auto">
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
+              <div className="relative flex flex-wrap w-full mx-auto justify-center">
+                {' '}
+                <TitleWithIcon
+                  title="Brand identity  and Handover Preparation"
+                  icon="fas fa-pencil-ruler"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="relative py-12 px-4">
+          <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-100 py-12">
+            <div className="px-4 md:w-4/5 mx-auto">
+              <div className="md:w-3/5 mx-auto mb-4">
+                <CardArticleWithObject
+                  subtiltle="Defining brand identity with a logo and color"
+                  description={
+                    <div>
+                      According to my research study, I have two differences
+                      type of users seperated by service that they got. So that
+                      I created two empathy map to understand user attitudes and
+                      behaviors of each user type
+                    </div>
+                  }
+                  textalign="center"
+                />
+              </div>
+            </div>
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
+              <SubtitleWithIcon title="Create UI style guide to maintain design’s consistancy" />
+              <SubtitleWithIcon
+                title="Create a component library to save time 
+in the development process"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Learning and Reflections */}
+        <section className="relative py-12 px-4">
+          <div className="container mx-auto">
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
+              <div className="relative flex flex-wrap w-full mx-auto justify-center">
+                {' '}
+                <TitleWithIcon
+                  title="Brand identity  and Handover Preparation"
                   icon="fas fa-pencil-ruler"
                 />
               </div>

@@ -34,8 +34,8 @@ export default function Landing() {
               </div>
               <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
                 <p className="mt-4 text-lg text-white">
-                  Designing solutions to improve people's lives is why I am
-                  passionate about UX
+                  Because UX brings people's lives better. This is the reason
+                  why I am passionate about UX
                 </p>
               </div>
             </div>
