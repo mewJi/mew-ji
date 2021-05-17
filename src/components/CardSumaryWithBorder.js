@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function CardSumaryWithBorder({ title, subtitle, description }) {
   return (
-    <div className="text-left px-8 py-8 border-gray-600 border rounded-md my-2 mx-8">
+    <div className="text-left px-8 py-8 border-gray-200 border rounded-md my-4 mx-8 bg-white">
       <div>
-        <h2 className=" text-xl font-semibold text-blue-600 mb-8">{title}</h2>
+        <h2 className=" text-xl font-semibold text-yellow-500 mb-2">{title}</h2>
       </div>
       <div>
         <h2 className=" text-2xl font-semibold text-gray-800 mb-8">

@@ -4,7 +4,7 @@ export default function CardContentPrototype({ title, subtitle, description }) {
   return (
     <div className="text-left">
       <div>
-        <h2 className=" text-xl font-semibold text-blue-600 mb-8">{title}</h2>
+        <h2 className=" text-xl font-semibold text-blue-600 mb-4">{title}</h2>
       </div>
       <div>
         <h2 className=" text-2xl font-semibold text-gray-800 mb-8">

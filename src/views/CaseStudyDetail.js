@@ -69,7 +69,7 @@ export default function CaseStudyDetail() {
               </div>
             </div>
 
-            <div className="flex flex-wrap items-stretch items-center md:w-3/4 my-16 text-center mx-auto">
+            <div className="flex flex-wrap items-stretch items-center md:w-4/ my-16 text-center mx-auto">
               <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
                 <div className="mb-4">
                   <i className="fas fa-suitcase text-2xl text-blue-500"></i>
@@ -138,10 +138,10 @@ export default function CaseStudyDetail() {
             </div>
 
             <div className="flex flex-wrap text-center mx-auto w-full">
-              <div className="flex flex-wrap md:w-2/4 mx-auto justify-center ">
-                <h2 className="text-2xl font-semibold ">Problem</h2>
+              <div className="flex flex-wrap md:w-4/5 mx-auto justify-center ">
+                <h2 className="text-2xl font-semibold mb-4">Problem</h2>
 
-                <p className="text-lg leading-relaxed my-4">
+                <p className="text-lg leading-relaxed mb-8">
                   Designed a mobile application to help people easily find a
                   technician for home maintenance and easily find an expert to
                   get consulting about the home solution they need
@@ -149,22 +149,62 @@ export default function CaseStudyDetail() {
               </div>
             </div>
 
-            <div className="flex felx-wrap justify-center items-center md:w-4/5 mx-auto mb-16">
-              <div className="md:w-1/3 mx-2">
-                {' '}
-                <img
-                  alt="..."
-                  src={require('assets/img/problem1.png').default}
-                  className="w-full align-middle rounded-lg"
-                />
-              </div>
-              <div className="md:w-1/3 mx-2">
-                {' '}
-                <img
-                  alt="..."
-                  src={require('assets/img/problem2.png').default}
-                  className="w-full align-middle rounded-lg"
-                />
+            <div className="flex flex-wrap pb-16 md:w-full mx-auto items-center justify-center">
+              <div className="flex flex-wrap justify-center items-center">
+                <div className="md:w-6/12 lg:w-3/12 mx-auto">
+                  <img
+                    alt="..."
+                    src={require('assets/img/green-house.png').default}
+                    className="shadow-lg max-w-full mx-auto"
+                    style={{ maxWidth: '120px' }}
+                  />
+                  <div className="pt-4 text-center">
+                    <p className="mt-1 text-sm text-gray-500  ">
+                      Home <br /> Living Place
+                    </p>
+                  </div>
+                </div>
+                <div className="md:w-6/12 lg:w-3/12 mx-auto">
+                  <img
+                    alt="..."
+                    src={require('assets/img/two-businessmen.png').default}
+                    className="shadow-lg max-w-full mx-auto"
+                    style={{ maxWidth: '120px' }}
+                  />
+                  <div className="pt-4 text-center">
+                    <p className="mt-1 text-sm text-gray-500  ">
+                      Freindly <br /> Buddy
+                    </p>
+                  </div>
+                </div>
+
+                <div className="md:w-6/12 lg:w-3/12 mx-auto">
+                  <img
+                    alt="..."
+                    src={require('assets/img/blue.png').default}
+                    className="shadow-lg  max-w-full mx-auto rounded-full"
+                    style={{ maxWidth: '120px' }}
+                  />
+                  <div className="pt-4 text-center">
+                    <p className="mt-1 text-sm text-gray-500  ">
+                      Trustworthly <br /> Reliable
+                    </p>
+                  </div>
+                </div>
+                <div className="md:w-6/12 lg:w-3/12 mx-auto">
+                  <img
+                    alt="..."
+                    src={require('assets/img/orange.png').default}
+                    className="shadow-lg max-w-full mx-auto rounded-full"
+                    style={{ maxWidth: '120px' }}
+                  />
+                  <div className="pt-4 text-center">
+                    <p className="mt-1 text-sm text-gray-500 ">
+                      Communication <br />
+                      Encouragement
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -237,7 +277,7 @@ export default function CaseStudyDetail() {
                   </div>
                   <div className="my-5">
                     <CardArticleWithObject
-                      subtiltle="Understand user with Qualitative Research"
+                      subtitle="Understand user with Qualitative Research"
                       description={
                         <div>
                           In the initial state, I decided to explore people’s
@@ -259,7 +299,7 @@ export default function CaseStudyDetail() {
 
                     <div className="mt-8">
                       <CardArticleWithObject
-                        subtiltle="Organize research study with Affinity Mapping"
+                        subtitle="Organize research study with Affinity Mapping"
                         description={
                           <div>
                             Affinity Mapping helps me organize research study
@@ -370,7 +410,7 @@ export default function CaseStudyDetail() {
                   {/* Empathy Map */}
                   <div className="my-5">
                     <CardArticleWithObject
-                      subtiltle="Learn more about users"
+                      subtitle="Learn more about users"
                       description={
                         <div>
                           {' '}
@@ -403,7 +443,7 @@ export default function CaseStudyDetail() {
                 <div className="md:w-6/12">
                   <div className="my-5">
                     <CardArticleWithObject
-                      subtiltle="Define target users"
+                      subtitle="Define target users"
                       description={
                         <div>
                           {' '}
@@ -438,7 +478,7 @@ export default function CaseStudyDetail() {
                   <div className="md:w-6/12 md:pr-8">
                     <div className="my-5">
                       <CardArticleWithObject
-                        subtiltle="See the whole story and capture the problems
+                        subtitle="See the whole story and capture the problems
                       "
                         description={
                           <div>
@@ -463,7 +503,7 @@ export default function CaseStudyDetail() {
                   <div className="md:w-6/12 md:pl-8">
                     <div className="my-5">
                       <CardArticleWithObject
-                        subtiltle="Analyze User’s Journey
+                        subtitle="Analyze User’s Journey
                       "
                         description={
                           <div>
@@ -590,7 +630,7 @@ export default function CaseStudyDetail() {
             <div className="px-4 md:w-4/5 mx-auto">
               <div className="md:w-3/5 mx-auto mb-4">
                 <CardArticleWithObject
-                  subtiltle="HMW will come up with Solution"
+                  subtitle="HMW will come up with Solution"
                   description={
                     <div>
                       With all problem defination and how might we I got, I
@@ -633,7 +673,7 @@ export default function CaseStudyDetail() {
                   <SubtitleWithIcon title="Designing an Experience" />
                 </div>
                 <CardArticleWithObject
-                  subtiltle="Design user experience with User Story Mapping"
+                  subtitle="Design user experience with User Story Mapping"
                   description={
                     <div>
                       I mapped out user’s activity, user’s task, and subtask to
@@ -645,7 +685,7 @@ export default function CaseStudyDetail() {
                 />
                 <div className="my-5">
                   <CardArticleWithObject
-                    subtiltle="Minimum-Viable-Product approach"
+                    subtitle="Minimum-Viable-Product approach"
                     description={
                       <div>
                         I sliced a story map into first and second release in
@@ -673,7 +713,7 @@ export default function CaseStudyDetail() {
                 </div>
                 <div className="my-5">
                   <CardArticleWithObject
-                    subtiltle="Structure the site with Information Architecture (IA)"
+                    subtitle="Structure the site with Information Architecture (IA)"
                     description={
                       <div>
                         After I maped out user’s story and conducted open-card
@@ -697,7 +737,7 @@ export default function CaseStudyDetail() {
         </section>
 
         {/* { Prototype} */}
-        <section className="relative py-12 px-4 bg-gray-100">
+        <section className="relative py-12 bg-gray-100">
           <div className="container mx-auto ">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
               <div className="relative flex flex-wrap w-full mx-auto justify-center">
@@ -707,7 +747,7 @@ export default function CaseStudyDetail() {
                   icon="fas fa-pencil-ruler"
                 />
               </div>
-              <div className="md:w-3/5 mx-auto mb-4">
+              <div className="md:w-4/5 mx-auto mb-4">
                 <CardArticleWithObject
                   description={
                     <div>
@@ -716,20 +756,26 @@ export default function CaseStudyDetail() {
                       wireframe on Figma
                     </div>
                   }
-                  textalign="center"
+                  textalign="left"
                 />
               </div>
             </div>
-            <div className="relative flex flex-wrap lg:w-full mx-auto justify-center items-center">
-              <div className="w-full md:w-6/12 mx-auto md:pr-10">
-                <SubtitleWithIcon title="Low Fidelity Wideframe"></SubtitleWithIcon>
-                <ImageWithCaption
-                  imageUrl={require('assets/img/affinity_map.jpg').default}
-                  caption="Affinity Map"
-                />
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
+              <div className="w-full md:w-6/12 mx-auto md:px-10">
+                <h2 className=" text-xl font-semibold text-gray-800 my-8 text-center">
+                  Low Fidelity Wideframe
+                </h2>
+                <div className="text-center">
+                  <ImageWithCaption
+                    imageUrl={require('assets/img/affinity_map.jpg').default}
+                    caption="Affinity Map"
+                  />
+                </div>
               </div>
-              <div className="w-full md:w-6/12 mx-auto md:pr-10">
-                <SubtitleWithIcon title="High Fidelity Wideframe"></SubtitleWithIcon>
+              <div className="w-full md:w-6/12 mx-auto md:px-10">
+                <h2 className=" text-xl font-semibold text-gray-800 my-8 text-center">
+                  High Fidelity Wideframe
+                </h2>
                 <ImageWithCaption
                   imageUrl={require('assets/img/affinity_map.jpg').default}
                   caption="Affinity Map"
@@ -743,12 +789,9 @@ export default function CaseStudyDetail() {
         <section>
           <div className="relative flex flex-wrap lg:w-full mx-auto bg-white-100 py-12">
             <div className="px-4 md:w-4/5 mx-auto">
-              <div className="md:w-3/5 mx-auto mb-4">
-                <CardArticleWithObject
-                  subtiltle="Prototype"
-                  textalign="center"
-                />
-              </div>
+              <h2 className=" text-4xl font-semibold text-gray-800 my-8 text-center">
+                Prototype
+              </h2>
 
               <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
                 <div className="md:w-6/12 mx-auto mb-4">
@@ -821,7 +864,7 @@ export default function CaseStudyDetail() {
         </section>
 
         {/* Testing */}
-        <section className="relative py-12 px-4">
+        <section className="relative py-12 px-4 bg-gray-100">
           <div className="container mx-auto">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
               <div className="relative flex flex-wrap w-full mx-auto justify-center">
@@ -832,23 +875,24 @@ export default function CaseStudyDetail() {
                   icon="fas fa-pencil-ruler"
                 />
               </div>
-              <div className="md:w-3/5 mx-auto mb-4">
+              <div className="md:w-4/5 mx-auto mb-4">
                 <CardArticleWithObject
                   description={
                     <div>
-                      After conducting the online usability testing with a
-                      clickable prototype by using think aloud method, I found
-                      some usability problems and also discovered some
-                      opportunities to improve the design for the for the next
-                      iteration
+                      After conducting the{' '}
+                      <b className="text-blue-700">online usability testing</b>{' '}
+                      with a clickable prototype by using think aloud method, I
+                      found some usability problems and also discovered some
+                      opportunities to improve the design for the for the{' '}
+                      <b className="text-blue-700">next iteration</b>
                     </div>
                   }
-                  textalign="center"
+                  textalign="left"
                 />
               </div>
             </div>
-            <div className="relative flex flex-wrap items-stretch md:w-full md:px-12 mx-auto ">
-              <div className="md:w-1/3">
+            <div className="relative flex flex-wrap items-stretch md:w-full lg:px-12 mx-auto ">
+              <div className="flex lg:w-1/3">
                 <CardSumaryWithBorder
                   title="Problem #1"
                   subtitle="Missing Information"
@@ -857,7 +901,7 @@ export default function CaseStudyDetail() {
                 Users need to see the service detail such as service name and technician’s name during scheduling and additional information process "
                 />
               </div>
-              <div className="md:w-1/3">
+              <div className="flex lg:w-1/3">
                 <CardSumaryWithBorder
                   title="Problem #2"
                   subtitle="Unclear Icon Meaningtest"
@@ -865,7 +909,7 @@ export default function CaseStudyDetail() {
                 "
                 />
               </div>
-              <div className="md:w-1/3">
+              <div className="flex lg:w-1/3">
                 <CardSumaryWithBorder
                   title="Problem #3"
                   subtitle="Confusing Button Position"
@@ -876,364 +920,185 @@ export default function CaseStudyDetail() {
           </div>
         </section>
 
-        {/* Testing */}
-        <section className="relative py-12 px-4">
+        {/* Brand and UI */}
+
+        <section className="relative pt-16 px-4">
           <div className="container mx-auto">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
               <div className="relative flex flex-wrap w-full mx-auto justify-center">
                 {' '}
                 <TitleWithIcon
-                  title="Brand identity  and Handover Preparation"
+                  title="Brand identity and Handover Preparation"
                   icon="fas fa-pencil-ruler"
                 />
               </div>
-            </div>
-          </div>
-        </section>
-        <section className="relative py-12 px-4">
-          <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-100 py-12">
-            <div className="px-4 md:w-4/5 mx-auto">
-              <div className="md:w-3/5 mx-auto mb-4">
-                <CardArticleWithObject
-                  subtiltle="Defining brand identity with a logo and color"
-                  description={
-                    <div>
-                      According to my research study, I have two differences
-                      type of users seperated by service that they got. So that
-                      I created two empathy map to understand user attitudes and
-                      behaviors of each user type
-                    </div>
-                  }
-                  textalign="center"
-                />
-              </div>
-            </div>
-            <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
-              <SubtitleWithIcon title="Create UI style guide to maintain design’s consistancy" />
-              <SubtitleWithIcon
-                title="Create a component library to save time 
-in the development process"
-              />
+              <img imageUrl={require('assets/img/affinity_map.jpg').default} />
+              <div className="relative flex flex-wrap w-full mx-auto justify-center"></div>
             </div>
           </div>
         </section>
 
-        {/* Learning and Reflections */}
-        <section className="relative py-12 px-4">
-          <div className="container mx-auto">
-            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
-              <div className="relative flex flex-wrap w-full mx-auto justify-center">
-                {' '}
-                <TitleWithIcon
-                  title="Brand identity  and Handover Preparation"
-                  icon="fas fa-pencil-ruler"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="pt-20 pb-48">
+        <section className="pb-8">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center text-center mb-24">
-              <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
-                <p className="text-lg leading-relaxed m-4 text-gray-600">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
-                </p>
+            <div className="relative flex flex-wrap md:w-4/5 mx-auto items-center justify-center">
+              <div className="md:w-6/12 mx-auto md:pr-2 mb-4">
+                <CardContentPrototype
+                  title="Brand Identity"
+                  subtitle="Defining brand identity with a logo and color"
+                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                />
+              </div>
+              <div className="md:w-4/12 mx-auto mb-4 ">
+                <ImageWithCaption
+                  imageUrl={require('assets/img/logo.svg').default}
+                />
               </div>
             </div>
-            <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src={require('assets/img/team-1-800x800.jpg').default}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: '120px' }}
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Web Developer
-                    </p>
-                    <div className="mt-6">
-                      <button
-                        className="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-facebook-f"></i>
-                      </button>
-                      <button
-                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-dribbble"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src={require('assets/img/team-2-800x800.jpg').default}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: '120px' }}
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Marketing Specialist
-                    </p>
-                    <div className="mt-6">
-                      <button
-                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-facebook-f"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src={require('assets/img/team-3-800x800.jpg').default}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: '120px' }}
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      UI/UX Designer
-                    </p>
-                    <div className="mt-6">
-                      <button
-                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-instagram"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src={require('assets/img/team-4-470x470.png').default}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: '120px' }}
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Founder and CEO
-                    </p>
-                    <div className="mt-6">
-                      <button
-                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-dribbble"></i>
-                      </button>
-                      <button
-                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-instagram"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        <section className="pb-20 relative block bg-gray-900">
-          <div
-            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-            style={{ height: '80px' }}
-          >
-            <svg
-              className="absolute bottom-0 overflow-hidden"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              <polygon
-                className="text-gray-900 fill-current"
-                points="2560 0 2560 100 0 100"
-              ></polygon>
-            </svg>
-          </div>
-
-          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
-            <div className="flex flex-wrap text-center justify-center">
-              <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold text-white">
-                  Build something
+            <div className="flex flex-wrap pb-16 md:w-4/5 mx-auto items-center justify-center">
+              <div className="w-full lg:w-5/12 mb-4 px-4">
+                <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
+                  The Idea
                 </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                  Put the potentially record low maximum sea ice extent tihs
-                  year down to low ice. According to the National Oceanic and
-                  Atmospheric Administration, Ted, Scambos.
-                </p>
+                <div className="flex flex-wrap justify-center items-center">
+                  <div className="md:w-6/12 px-6">
+                    <img
+                      alt="..."
+                      src={require('assets/img/green-house.png').default}
+                      className="shadow-lg max-w-full mx-auto"
+                      style={{ maxWidth: '120px' }}
+                    />
+                    <div className="pt-4 text-center">
+                      <p className="mt-1 text-sm text-gray-500  ">
+                        Home <br /> Living Place
+                      </p>
+                    </div>
+                  </div>
+                  <div className="md:w-6/12 px-6">
+                    <img
+                      alt="..."
+                      src={require('assets/img/two-businessmen.png').default}
+                      className="shadow-lg max-w-full mx-auto"
+                      style={{ maxWidth: '120px' }}
+                    />
+                    <div className="pt-4 text-center">
+                      <p className="mt-1 text-sm text-gray-500  ">
+                        Freindly <br /> Buddy
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full lg:w-2/12 mb-12"></div>
+
+              <div className="w-full lg:w-5/12 mb-4 mx-auto px-4">
+                <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
+                  The Color
+                </h2>
+                <div className="flex flex-wrap justify-center items-center">
+                  <div className="md:w-6/12 px-6">
+                    <img
+                      alt="..."
+                      src={require('assets/img/blue.png').default}
+                      className="shadow-lg  max-w-full mx-auto rounded-full"
+                      style={{ maxWidth: '120px' }}
+                    />
+                    <div className="pt-4 text-center">
+                      <p className="mt-1 text-sm text-gray-500  ">
+                        Trustworthly <br /> Reliable
+                      </p>
+                    </div>
+                  </div>
+                  <div className="md:w-6/12 px-6">
+                    <img
+                      alt="..."
+                      src={require('assets/img/orange.png').default}
+                      className="shadow-lg max-w-full mx-auto rounded-full"
+                      style={{ maxWidth: '120px' }}
+                    />
+                    <div className="pt-4 text-center">
+                      <p className="mt-1 text-sm text-gray-500 ">
+                        Communication <br />
+                        Encouragement
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="flex flex-wrap mt-12 justify-center">
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-medal text-xl"></i>
-                </div>
-                <h6 className="text-xl mt-5 font-semibold text-white">
-                  Excelent Services
-                </h6>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+            <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
+              <div className="md:w-4/12 mx-auto md:pr-2 mb-4">
+                <CardContentPrototype
+                  title="Style Guide"
+                  subtitle="Create UI style guide to 
+                  maintain design’s consistancy"
+                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                />
               </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-poll text-xl"></i>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                  Grow your market
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+
+              <div className="md:w-6/12 mx-auto mb-4 ">
+                <ImageWithCaption
+                  imageUrl={require('assets/img/StyleGuide.png').default}
+                />
               </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-lightbulb text-xl"></i>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                  Launch time
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+            </div>
+            <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
+              <div className="md:w-6/12 mx-auto mb-4">
+                <ImageWithCaption
+                  imageUrl={require('assets/img/Components_1.png').default}
+                />
+              </div>
+              <div className="md:w-4/12 mx-auto mb-4">
+                <CardContentPrototype
+                  title="Component Library"
+                  subtitle="Create a component library to save time in the development"
+                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                />
               </div>
             </div>
           </div>
         </section>
-        <section className="relative block py-24 lg:pt-0 bg-gray-900">
-          <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-              <div className="w-full lg:w-6/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
-                  <div className="flex-auto p-5 lg:p-10">
-                    <h4 className="text-2xl font-semibold">
-                      Want to work with us?
-                    </h4>
-                    <p className="leading-relaxed mt-1 mb-4 text-gray-600">
-                      Complete this form and we will get back to you in 24
-                      hours.
-                    </p>
-                    <div className="relative w-full mb-3 mt-8">
-                      <label
-                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                        htmlFor="full-name"
-                      >
-                        Full Name
-                      </label>
-                      <input
-                        type="text"
-                        className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                        placeholder="Full Name"
-                        style={{ transition: 'all .15s ease' }}
-                      />
-                    </div>
 
-                    <div className="relative w-full mb-3">
-                      <label
-                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                        htmlFor="email"
-                      >
-                        Email
-                      </label>
-                      <input
-                        type="email"
-                        className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                        placeholder="Email"
-                        style={{ transition: 'all .15s ease' }}
-                      />
-                    </div>
+        {/* Brand and UI */}
+        <section className="pb-32">
+          <div className="container mx-auto">
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
+              <div className="relative flex flex-wrap w-full mx-auto justify-center">
+                {' '}
+                <TitleWithIcon title="My Learning" icon="fas fa-pencil-ruler" />
+              </div>
 
-                    <div className="relative w-full mb-3">
-                      <label
-                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                        htmlFor="message"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        rows="4"
-                        cols="80"
-                        className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                        placeholder="Type a message..."
-                      />
-                    </div>
-                    <div className="text-center mt-6">
-                      <button
-                        className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                        style={{ transition: 'all .15s ease' }}
-                      >
-                        Send Message
-                      </button>
-                    </div>
+              <div className="relative flex flex-wrap w-full mx-auto justify-center">
+                <div className="md:w-1/4 px-5 py-5">
+                  <div className="bg-gray-100 rounded-xl shadow-md px-5 py-5 text-xl text-blue-500">
+                    <h2>
+                      Educate the user about the functions and benefits of the
+                      app and encourage them to learn through exploring the app.
+                    </h2>
+                  </div>
+                </div>
+                <div className="md:w-1/4 px-5 py-5">
+                  <div className="bg-gray-100 rounded-xl shadow-md px-5 py-5 text-xl text-blue-500">
+                    <h2>
+                      Educate the user about the functions and benefits of the
+                      app and encourage them to learn through exploring the app.
+                    </h2>
+                  </div>
+                </div>
+                <div className="md:w-1/4 px-5 py-5">
+                  <div className="bg-gray-100 rounded-xl shadow-md px-5 py-5 text-xl text-blue-500">
+                    <h2>
+                      Educate the user about the functions and benefits of the
+                      app and encourage them to learn through exploring the app.
+                    </h2>
+                  </div>
+                </div>
+                <div className="md:w-1/4 px-5 py-5">
+                  <div className="bg-gray-100 rounded-xl shadow-md px-5 py-5 text-xl text-blue-500">
+                    <h2>
+                      Educate the user about the functions and benefits of the
+                      app and encourage them to learn through exploring the app.
+                    </h2>
                   </div>
                 </div>
               </div>
