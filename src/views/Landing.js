@@ -10,20 +10,14 @@ export default function Landing() {
     <>
       <Navbar />
       <main>
-        {/* <!-- Carousel --> */}
-        <Carousel
-          firstChildren={<div>First Children</div>}
-          secondChildren={<div>Second Children</div>}
-        />
-        {/* <!-- Carousel --> */}
         <div
-          className="relative pt-32 pb-32 flex content-center items-center justify-center bg-blue-500"
+          className="relative pt-32 pb-32 flex content-center items-center justify-center bg-gray-700"
           style={{
             minHeight: '20vh',
           }}
         >
           <div className="container relative mx-auto">
-            <div className="items-center flex flex-wrap">
+            <div className="items-center justify-center flex flex-wrap md:w-4/5">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
                 <h1 className="text-white font-semibold text-5xl lg:hover:text-red-300">
                   Hi.

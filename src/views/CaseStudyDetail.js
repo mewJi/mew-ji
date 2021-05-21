@@ -14,6 +14,8 @@ import Button from 'components/Button';
 import Carousel from 'components/Carousel';
 import CardContentPrototype from 'components/CardContentPrototype';
 import CardSumaryWithBorder from 'components/CardSumaryWithBorder';
+import HomeTopic from 'components/HomeTopic';
+import CardArticleWithTopImg from 'components/CardArticleWithTopImg';
 
 export default function CaseStudyDetail() {
   return (
@@ -23,25 +25,87 @@ export default function CaseStudyDetail() {
       <Navbar />
       {/* <!-- NavBar --> */}
       <main>
-        <div className="lg:w-4/5 mx-auto text-gray-800 px-4">
-          <section className="container flex flex-col items-center mx-auto text-center py-8">
-            <img
-              className="w-full text-center "
-              src={require('assets/img/banner-case1.png').default}
-            />
-            <div className="relative flex flex-wrap items-stretch justify-around w-full text-xl bg-white">
-              <div className="w-1/3 lg:shadow-sm py-4">
-                <h3 className="hover:text-gray-400">Overview & Challenge</h3>
+        <div className="md:w-full text-center">
+          <img
+            alt="..."
+            src={require('assets/img/Cover_Final_Large.jpg').default}
+            className="max-w-full"
+            style={{}}
+          />
+        </div>
+
+        {/* {show case section 1} */}
+        <section className="px-4 mb-16">
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <HomeTopic
+              caption="start with WHY"
+              title="Why people so upset 
+when home maintenance time is coming?"
+            ></HomeTopic>
+            <div className="flex flex-wrap justify-center mx-auto">
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Lack of Skill"
+                  description="Home maintenance skill
+is so wide, meanwhile, it is specific. Studying and practicing was a need"
+                ></CardArticleWithTopImg>
               </div>
-              <div className="w-1/3 lg:shadow-sm py-4">
-                <h3 className="hover:text-gray-400">Design Process</h3>
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Distrust Technician "
+                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                ></CardArticleWithTopImg>
               </div>
-              <div className="w-1/3 lg:shadow-sm py-4">
-                <h3 className="hover:text-gray-400">Learning & Reflection</h3>
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Time-Consuming
+                  Research"
+                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                ></CardArticleWithTopImg>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
+        {/* {show case section 2} */}
+        <section className="px-4 bg-blue-50">
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <HomeTopic
+              caption="start with WHY"
+              title="Why people so upset 
+when home maintenance time is coming?"
+            ></HomeTopic>
+            <div className="flex flex-wrap justify-center mx-auto">
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Lack of Skill"
+                  description="Home maintenance skill
+is so wide, meanwhile, it is specific. Studying and practicing was a need"
+                ></CardArticleWithTopImg>
+              </div>
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Distrust Technician "
+                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                ></CardArticleWithTopImg>
+              </div>
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Time-Consuming
+                  Research"
+                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                ></CardArticleWithTopImg>
+              </div>
+            </div>
+          </div>
+        </section>
 
+        <div className="lg:w-4/5 mx-auto text-gray-800 px-4">
           <section className="py-30">
             <div className="container mx-auto text-center">
               <div className="w-full lg:w-6/12 mx-auto">
@@ -847,7 +911,7 @@ export default function CaseStudyDetail() {
               <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
                 <div className="md:w-6/12 mx-auto mb-4 px-20">
                   <ImageWithCaption
-                    imageUrl={require('assets/img/OnboardAndLogin.gif').default}
+                    imageUrl={require('assets/img/Calling.gif').default}
                   />
                 </div>
                 <div className="md:w-6/12 mx-auto mb-4">
