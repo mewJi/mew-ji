@@ -708,7 +708,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 />
               </div>
               <div className="flex flex-wrap w-full items-center justify-center md:mb-12">
-                <div className="md:w-2/5">
+                <div className="w-full md:w-2/5">
                   <div className="flex flex-wrap w-full items-center justify-center">
                     <SubtitleWithIcon title="Know users, then know problems" />
                   </div>
@@ -730,11 +730,13 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                 </div>
 
-                <div className="md:w-3/5">
-                  <div className="md:px-16">
+                <div className="w-full md:w-3/5">
+                  <div className="w-full md:px-16">
                     <Carousel
-                      first={require('assets/img/EmpathyMap_no1.png').default}
-                      second={require('assets/img/EmpathyMap_no2.png').default}
+                      imageUrls={[
+                        require('assets/img/EmpathyMap_no1.png').default,
+                        require('assets/img/EmpathyMap_no2.png').default,
+                      ]}
                     />
                     <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
                       Empathy Map
@@ -745,7 +747,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
 
               {/* Personas */}
               <div className="flex flex-wrap w-full items-center justify-center mt-5 mb-16">
-                <div className="md:w-2/5">
+                <div className="w-full md:w-2/5">
                   <div className="my-5">
                     <CardArticleWithObject
                       subtitle="Define target users"
@@ -761,17 +763,19 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     />
                   </div>
                 </div>
-                <div className="md:w-3/5 md:px-16">
+                <div className="w-full md:w-3/5 md:px-16">
                   <img
                     alt="..."
                     src={require('assets/img/Persona_1.png').default}
                     className="max-w-full mx-auto mb-3"
                     style={{}}
                   />
-                  <div className="md:px-16">
+                  <div className="w-full md:px-16">
                     <Carousel
-                      first={require('assets/img/EmpathyMap_no1.png').default}
-                      second={require('assets/img/EmpathyMap_no2.png').default}
+                      imageUrls={[
+                        require('assets/img/EmpathyMap_no1.png').default,
+                        require('assets/img/EmpathyMap_no2.png').default,
+                      ]}
                     />
                     <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
                       Empathy Map
