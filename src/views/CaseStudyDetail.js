@@ -16,6 +16,7 @@ import CardContentPrototype from 'components/CardContentPrototype';
 import CardSumaryWithBorder from 'components/CardSumaryWithBorder';
 import HomeTopic from 'components/HomeTopic';
 import CardArticleWithTopImg from 'components/CardArticleWithTopImg';
+import CaseStudyTextBanner from 'components/caseStudyDetail/CaseStudyTextBanner';
 
 export default function CaseStudyDetail() {
   return (
@@ -25,13 +26,14 @@ export default function CaseStudyDetail() {
       <Navbar />
       {/* <!-- NavBar --> */}
       <main>
-        <div className="md:w-full text-center">
+        <div className="flex-col items-stretch w-full relative text-center">
           <img
             alt="..."
             src={require('assets/img/Cover_Final_Large.jpg').default}
             className="max-w-full"
             style={{}}
           />
+          <CaseStudyTextBanner />
         </div>
 
         {/* {show case section 1} */}
