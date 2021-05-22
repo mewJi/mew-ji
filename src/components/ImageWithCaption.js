@@ -12,7 +12,9 @@ export default function ImageWithCaption({
         src={imageUrl}
         className="w-full align-middle rounded-lg"
       />
-      <p className="italic text-xs font-light text-gray-400 mt-2 ">{caption}</p>
+      <p className="italic text-xs font-light text-gray-400 mt-2 text-center">
+        {caption}
+      </p>
     </div>
   );
 }

@@ -7,9 +7,9 @@ export default function Button({
   buttontype,
   className = 'container',
 }) {
-  const primaryClassButton = 'bg-gray-800 text-white';
+  const primaryClassButton = 'bg-blue-500 text-white';
   const secondaryClassButton =
-    'bg-white border-gray-800 border-2 solid text-gray-800';
+    'bg-white border-blue-500 border-2 solid text-blue-500';
 
   const btnClassName =
     {
@@ -21,12 +21,10 @@ export default function Button({
     <div className="text-left">
       <a href={targetUrl}>
         <button
-          className={`active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 my-4 ${btnClassName}`}
+          className={`active:bg-orange-500 text-xl font-bold px-10 py-3 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 my-4 ${btnClassName}`}
           type="button"
           style={{ transition: 'all .15s ease' }}
         >
-          {iconClassName && <i className={iconClassName} />}
-          &nbsp;&nbsp;&nbsp;
           {buttonText}
         </button>
       </a>

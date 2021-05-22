@@ -34,7 +34,6 @@ export default function CardTextContent({
             <div className="mt-6">
               <Button
                 iconClassName="far fa-eye"
-                fuck="What"
                 buttonText={buttonText}
                 targetUrl={targetUrl}
                 buttontype="primary"

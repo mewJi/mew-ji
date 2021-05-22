@@ -80,7 +80,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               this trouble?   "
             ></HomeTopic>
             <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/4">
+              <div className="md:w-1/3">
                 <img
                   alt="..."
                   src={require('assets/img/SearchAndFilter.gif').default}
@@ -88,7 +88,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   style={{}}
                 />
               </div>
-              <div className="md:w-2/4 px-16 py-8">
+              <div className="md:w-2/3 px-16 py-8">
                 <div className="flex flex-wrap">
                   <p className="text-xl font-light text-gray-400 text-left mb-4">
                     solution
@@ -117,8 +117,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <div className="flex flex-wrap justify-center">
                   <div className="w-2/4 md:w-1/4 text-center md:text-left">
                     <div>
-                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
-                        <i className="fas fa-clock"></i>
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase text-blue-500  ">
+                        <i className="fas fa-search"></i>
                       </span>
                     </div>
                     <div>
@@ -129,8 +129,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                   <div className="w-2/4 md:w-1/4 text-center md:text-left">
                     <div>
-                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
-                        <i className="fas fa-clock"></i>
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase text-blue-500 ">
+                        <i className="fas fa-calendar-alt"></i>
                       </span>
                     </div>
                     <div>
@@ -141,8 +141,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                   <div className="w-2/4 md:w-1/4 text-center md:text-left">
                     <div>
-                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
-                        <i className="fas fa-clock"></i>
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase  text-blue-500  ">
+                        <i className="fas fa-video"></i>
                       </span>
                     </div>
                     <div>
@@ -153,8 +153,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                   <div className="w-2/4 md:w-1/4 text-center md:text-left">
                     <div>
-                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
-                        <i className="fas fa-clock"></i>
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase  text-blue-500 ">
+                        <i className="fas fa-star"></i>
                       </span>
                     </div>
                     <div>
@@ -164,17 +164,21 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-wrap">
-                  <Button
-                    buttonText="Try prototype"
-                    targetUrl="http://localhost:3000/CaseStudyDetail"
-                    buttontype="primary"
-                  />
-                  <Button
-                    buttonText="See [rototype in shot"
-                    targetUrl="http://localhost:3000/CaseStudyDetail"
-                    buttontype="secondary"
-                  />
+                <div className="flex flex-wrap md:mt-8 justify-center md:justify-start">
+                  <div className="md:text-left">
+                    <Button
+                      buttonText="Try prototype"
+                      targetUrl="http://localhost:3000/CaseStudyDetail"
+                      buttontype="primary"
+                    />
+                  </div>
+                  <div className="md:text-left md:ml-10">
+                    <Button
+                      buttonText="Prototype Demo"
+                      targetUrl="http://localhost:3000/CaseStudyDetail"
+                      buttontype="secondary"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -203,43 +207,52 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               />
             </div>
           </div>
-          <div className="flex flex-wrap items-stretch items-center md:w-3/5 my-8 text-center mx-auto">
-            <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+          <div className="flex flex-wrap items-stretch items-center md:w-3/5 my-12 text-center mx-auto">
+            <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
               <div className="mb-4">
                 <i className="fas fa-suitcase text-2xl text-blue-500"></i>
               </div>
               <div className="mb-8">
-                <h1 className="text-xl font-semibold leading-normal">
-                  MY ROLE
+                <h1 className="text-xl font-semibold leading-normal text-gray-800">
+                  My Role
                 </h1>
               </div>
               <div>
-                <p className="text- leading-normal">UX/UI Designer</p>
+                <div>
+                  <ul className="list-none mt-6 text-gray-600">
+                    <li className="py-1">
+                      <p className="text- leading-normal">User Research</p>
+                    </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">
+                        Information Architecture
+                      </p>
+                    </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">Wireframing</p>
+                    </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">Prototyping</p>
+                    </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">Visual Design</p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
-              <div className="mb-4">
-                <i className="fas fa-clock text-2xl text-blue-500"></i>
-              </div>
-              <div className="mb-8">
-                <h1 className="text-xl font-semibold leading-normal">
-                  DURATION
-                </h1>
-              </div>
-              <div>
-                <p className="text- leading-normal">March 2021 - April 2021</p>
-              </div>
-            </div>
-            <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+            <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
               <div className="mb-4">
                 <i className="fas fa-tools text-2xl text-blue-500"></i>
               </div>
               <div className="mb-8">
-                <h1 className="text-xl font-semibold leading-normal">TOOLS</h1>
+                <h1 className="text-xl font-semibold leading-normal text-gray-800">
+                  Tools
+                </h1>
               </div>
               <div>
-                <ul className="list-none mt-6">
+                <ul className="list-none mt-6 text-gray-600">
                   <li className="py-1">
                     <p className="text- leading-normal">Figma</p>
                   </li>
@@ -249,20 +262,43 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   <li className="py-1">
                     <p className="text- leading-normal">Miro</p>
                   </li>
+                  <li className="py-1">
+                    <p className="text- leading-normal">Zoom</p>
+                  </li>
+                  <li className="py-1">
+                    <p className="text- leading-normal">Adobe Illustrator</p>
+                  </li>
                 </ul>
               </div>
             </div>
-            <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+            <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
               <div className="mb-4">
                 <i className="fas fa-mobile text-2xl text-blue-500"></i>
               </div>
               <div className="mb-8">
-                <h1 className="text-2xl font-semibold leading-normal">
-                  PLATFORM
+                <h1 className="text-xl font-semibold leading-normal text-gray-800">
+                  Platform
                 </h1>
               </div>
               <div>
-                <p className="text- leading-normal">Mobile Application</p>
+                <p className="text- leading-normal text-gray-600">
+                  Mobile Application
+                </p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
+              <div className="mb-4">
+                <i className="fas fa-clock text-2xl text-blue-500"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-xl font-semibold leading-normal text-gray-800">
+                  Duration
+                </h1>
+              </div>
+              <div>
+                <p className="text- leading-normal text-gray-600">
+                  March 2021 - April 2021
+                </p>
               </div>
             </div>
           </div>
@@ -291,30 +327,33 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 opportunity
               </p>
             </div>
-            <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/3 px-8">
-                <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Missing Information"
-                  description="Home maintenance skill
-is so wide, meanwhile, it is specific. Studying and practicing was a need"
-                ></CardArticleWithTopImg>
+            <div className="relative flex flex-wrap items-stretch md:w-full lg:px-4 mx-auto ">
+              <div className="flex flex-wrap lg:w-full">
+                <CardSumaryWithBorder
+                  title="Problem #1"
+                  subtitle="Missing Information"
+                  description="Users need to see the service detail such as service name and technician’s name during scheduling and additional information process "
+                  imageUrl={require('assets/img/Problem1-2.png').default}
+                />
               </div>
-              <div className="md:w-1/3 px-8">
-                <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Unclear Icon 
-                  Meaning"
-                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
-                ></CardArticleWithTopImg>
+            </div>
+            <div className="relative flex flex-wrap items-stretch md:w-full lg:px-4 mx-auto ">
+              <div className="flex  flex-wrap lg:w-1/2">
+                <CardSumaryWithBorder
+                  title="Problem #2"
+                  subtitle="Unclear Icon Meaning"
+                  description="Users did not understand the meaning of the icon such as the calendar icon(following with date and time) on the order summary card. because they did not know if it's an order create date or an appointment date
+                "
+                  imageUrl={require('assets/img/Icon_Meaning.png').default}
+                />
               </div>
-              <div className="md:w-1/3 px-8">
-                <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Confusing Button 
-                  Position"
-                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
-                ></CardArticleWithTopImg>
+              <div className="flex lg:w-1/2">
+                <CardSumaryWithBorder
+                  title="Problem #3"
+                  subtitle="Confused Button Position"
+                  description="Service selecting button made them confused because this button contains the smaller one text button in there, which means they will get an unexpected response after tap the bigger button"
+                  imageUrl={require('assets/img/Button_Position.png').default}
+                />
               </div>
             </div>
           </div>
@@ -359,9 +398,9 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 Defining brand identity with a logo and color
               </p>
             </div>
-            <div className="flex flex-wrap justify-center mx-auto">
-              <div>
-                <h2 className="text-xl font-semibold text-gray-800 text-center">
+            <div className="flex flex-wrap justify-center mx-auto w-full">
+              <div className="flex flex-wrap w-full">
+                <h2 className="text-xl font-semibold text-gray-800 text-center w-full">
                   Logo
                 </h2>
               </div>
@@ -369,7 +408,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 alt="..."
                 src={require('assets/img/logo.svg').default}
                 className=" max-w-full mx-auto"
-                style={{ maxWidth: '300px' }}
+                style={{}}
               />
             </div>
 
@@ -407,16 +446,16 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 mb-4 mx-auto px-4">
+              <div className="w-full md:w-1/2 ">
                 <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
                   Color
                 </h2>
                 <div className="flex flex-wrap justify-center items-center">
-                  <div className="w-full md:w-6/12 px-6">
+                  <div className="w-full sm:w-1/2 px-6 mb-4">
                     <img
                       alt="..."
                       src={require('assets/img/blue.png').default}
-                      className="shadow-lg  max-w-full mx-auto rounded-full"
+                      className="shadow-lg max-w-full mx-auto"
                       style={{ maxWidth: '120px' }}
                     />
                     <div className="pt-4 text-center">
@@ -425,15 +464,15 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       </p>
                     </div>
                   </div>
-                  <div className="w-full md:w-6/12 px-6">
+                  <div className="w-1/2 px-6 mb-4">
                     <img
                       alt="..."
                       src={require('assets/img/orange.png').default}
-                      className="shadow-lg max-w-full mx-auto rounded-full"
+                      className="shadow-lg max-w-full mx-auto"
                       style={{ maxWidth: '120px' }}
                     />
                     <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500 ">
+                      <p className="mt-1 text-sm text-gray-500  ">
                         Communication <br />
                         Encouragement
                       </p>
@@ -466,6 +505,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <div className="md:w-6/12 mx-auto mb-4 ">
                   <ImageWithCaption
                     imageUrl={require('assets/img/StyleGuide.png').default}
+                    caption="UI Style Guide"
                   />
                 </div>
               </div>
@@ -473,6 +513,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <div className="md:w-6/12 mx-auto mb-4">
                   <ImageWithCaption
                     imageUrl={require('assets/img/Components_1.png').default}
+                    caption="Components"
                   />
                 </div>
                 <div className="md:w-4/12 mx-auto mb-4">
@@ -652,12 +693,12 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             <div className="flex flex-wrap md:w-4/5 mx-auto">
               <div className="flex flex-wrap w-full items-center justify-center">
                 <TitleWithIcon
-                  title="Discovering design opportunities"
-                  icon="fas fa-search"
+                  title="Define the right problem"
+                  icon="fas fa-crosshairs"
                 />
               </div>
               <div className="flex flex-wrap w-full items-center justify-center md:mb-12">
-                <div className="md:w-6/12">
+                <div className="md:w-2/5">
                   <div className="flex flex-wrap w-full items-center justify-center">
                     <SubtitleWithIcon title="Know users, then know problems" />
                   </div>
@@ -679,14 +720,14 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                 </div>
 
-                <div className="md:w-6/12">
+                <div className="md:w-3/5">
                   <div className="md:px-16">
                     <Carousel
                       first={require('assets/img/EmpathyMap_no1.png').default}
                       second={require('assets/img/EmpathyMap_no2.png').default}
                     />
-                    <p className="italic text-xs font-light text-gray-400 mt-2 ">
-                      Empathy Mapp
+                    <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
+                      Empathy Map
                     </p>
                   </div>
                 </div>
@@ -694,7 +735,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
 
               {/* Personas */}
               <div className="flex flex-wrap w-full items-center justify-center mt-5 mb-16">
-                <div className="md:w-6/12">
+                <div className="md:w-2/5">
                   <div className="my-5">
                     <CardArticleWithObject
                       subtitle="Define target users"
@@ -710,15 +751,24 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     />
                   </div>
                 </div>
-                <div className="md:w-6/12 md:px-16">
+                <div className="md:w-3/5 md:px-16">
                   <img
                     alt="..."
                     src={require('assets/img/Persona_1.png').default}
                     className="max-w-full mx-auto mb-3"
                     style={{}}
                   />
+                  <div className="md:px-16">
+                    <Carousel
+                      first={require('assets/img/EmpathyMap_no1.png').default}
+                      second={require('assets/img/EmpathyMap_no2.png').default}
+                    />
+                    <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
+                      Empathy Map
+                    </p>
+                  </div>
 
-                  <p className="italic text-xs font-light text-gray-400 mt-2 ">
+                  <p className="italic text-xs font-light text-gray-400 mt-2 text-center">
                     Personas
                   </p>
                 </div>
@@ -926,7 +976,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         <section className="relative py-16 px-4 bg-gray-50">
           <div className="container mx-auto">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
-              <div className="w-full md:w-6/12 mx-auto md:pr-10">
+              <div className="w-full md:w-4/12 mx-auto md:pr-10">
                 <div className="flex flex-wrap w-full items-center justify-center">
                   <SubtitleWithIcon title="Designing an Experience" />
                 </div>
@@ -957,7 +1007,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 </div>
               </div>
 
-              <div className="w-full md:w-6/12 md:px-16 mx-auto ">
+              <div className="w-full md:w-8/12 md:px-4 mx-auto ">
                 <ImageWithCaption
                   imageUrl={require('assets/img/userstory_map.jpg').default}
                   caption="User Story Mapping"
@@ -984,7 +1034,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   />
                 </div>
               </div>
-              <div className="w-full md:w-6/12 md:px-20 mx-auto md:pt-5">
+              <div className="w-full md:w-6/12 md:px-8 mx-auto md:pt-5">
                 <ImageWithCaption
                   imageUrl={require('assets/img/sitemap.jpg').default}
                   caption="Sitemap"
@@ -1018,15 +1068,16 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 />
               </div>
             </div>
-            <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
+            <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center ">
               <div className="w-full md:w-6/12 mx-auto md:px-10">
                 <h2 className=" text-xl font-semibold text-gray-800 my-8 text-center">
                   Low Fidelity Wideframe
                 </h2>
                 <div className="text-center">
                   <ImageWithCaption
-                    imageUrl={require('assets/img/affinity_map.jpg').default}
-                    caption="Affinity Map"
+                    imageUrl={
+                      require('assets/img/Low-Fidelity-Wireframe.jpg').default
+                    }
                   />
                 </div>
               </div>
@@ -1035,8 +1086,9 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   High Fidelity Wideframe
                 </h2>
                 <ImageWithCaption
-                  imageUrl={require('assets/img/affinity_map.jpg').default}
-                  caption="Affinity Map"
+                  imageUrl={
+                    require('assets/img/High-Fidelity-Wireframe.png').default
+                  }
                 />
               </div>
             </div>
@@ -1045,9 +1097,9 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
 
         {/* { Prototype} */}
         <section>
-          <div className="relative flex flex-wrap lg:w-full mx-auto bg-white-100 py-12">
+          <div className="relative flex flex-wrap lg:w-full mx-auto bg-white-100 py-8">
             <div className="px-4 md:w-4/5 mx-auto">
-              <h2 className=" text-4xl font-semibold text-gray-800 my-8 text-center">
+              <h2 className=" text-3xl font-semibold text-gray-800 my-8 text-center">
                 Prototype
               </h2>
 
@@ -1061,7 +1113,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   />
                 </div>
 
-                <div className="md:w-6/12 mx-auto mb-4 px-20">
+                <div className="md:w-5/12 mx-auto mb-4 px-20">
                   <ImageWithCaption
                     imageUrl={require('assets/img/OnboardAndLogin.gif').default}
                   />
@@ -1069,7 +1121,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               </div>
 
               <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
-                <div className="md:w-6/12 mx-auto mb-4 px-20">
+                <div className="md:w-5/12 mx-auto mb-4 px-20">
                   <ImageWithCaption
                     imageUrl={require('assets/img/SearchAndFilter.gif').default}
                   />
@@ -1093,7 +1145,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
                   />
                 </div>
-                <div className="md:w-6/12 mx-auto mb-4 px-20">
+                <div className="md:w-5/12 mx-auto mb-4 px-20">
                   <ImageWithCaption
                     imageUrl={
                       require('assets/img/BookingAndScheduling.gif').default
@@ -1103,7 +1155,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               </div>
 
               <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
-                <div className="md:w-6/12 mx-auto mb-4 px-20">
+                <div className="md:w-5/12 mx-auto mb-4 px-20">
                   <ImageWithCaption
                     imageUrl={require('assets/img/Calling.gif').default}
                   />
@@ -1128,9 +1180,9 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               <div className="relative flex flex-wrap w-full mx-auto justify-center">
                 {' '}
                 <TitleWithIcon
-                  title="Testing Prototype
+                  title="Prototype Testing
                   "
-                  icon="fas fa-pencil-ruler"
+                  icon="fas fa-user-check"
                 />
               </div>
               <div className="md:w-3/5 mx-auto mb-4">
@@ -1150,29 +1202,34 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               </div>
             </div>
             <div className="relative flex flex-wrap items-stretch md:w-full lg:px-12 mx-auto ">
-              <div className="flex lg:w-1/3">
-                <CardSumaryWithBorder
-                  title="Problem #1"
-                  subtitle="Missing Information"
-                  description="Users were asking for more technician’s information such as technician work history, contact number, email, personal website those can gain more trust
-
-                Users need to see the service detail such as service name and technician’s name during scheduling and additional information process "
-                />
+              <div className="relative flex flex-wrap items-stretch md:w-full lg:px-4 mx-auto ">
+                <div className="flex flex-wrap lg:w-full">
+                  <CardSumaryWithBorder
+                    title="Problem #1"
+                    subtitle="Missing Information"
+                    description="Users need to see the service detail such as service name and technician’s name during scheduling and additional information process "
+                    imageUrl={require('assets/img/Problem1-2.png').default}
+                  />
+                </div>
               </div>
-              <div className="flex lg:w-1/3">
-                <CardSumaryWithBorder
-                  title="Problem #2"
-                  subtitle="Unclear Icon Meaningtest"
-                  description="Users did not understand the meaning of the icon such as the calendar icon(following with date and time) on the order summary card. because they did not know if it's an order create date or an appointment date
+              <div className="relative flex flex-wrap items-stretch md:w-full lg:px-4 mx-auto ">
+                <div className="flex  flex-wrap lg:w-1/2">
+                  <CardSumaryWithBorder
+                    title="Problem #2"
+                    subtitle="Unclear Icon Meaning"
+                    description="Users did not understand the meaning of the icon such as the calendar icon(following with date and time) on the order summary card. because they did not know if it's an order create date or an appointment date
                 "
-                />
-              </div>
-              <div className="flex lg:w-1/3">
-                <CardSumaryWithBorder
-                  title="Problem #3"
-                  subtitle="Confusing Button Position"
-                  description="Service selecting button made them confused because this button contains the smaller one text button in there, which means they will get an unexpected response after tap the bigger button"
-                />
+                    imageUrl={require('assets/img/Icon_Meaning.png').default}
+                  />
+                </div>
+                <div className="flex lg:w-1/2">
+                  <CardSumaryWithBorder
+                    title="Problem #3"
+                    subtitle="Confused Button Position"
+                    description="Service selecting button made them confused because this button contains the smaller one text button in there, which means they will get an unexpected response after tap the bigger button"
+                    imageUrl={require('assets/img/Button_Position.png').default}
+                  />
+                </div>
               </div>
             </div>
           </div>

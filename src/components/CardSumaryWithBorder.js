@@ -1,8 +1,13 @@
 import React from 'react';
 
-export default function CardSumaryWithBorder({ title, subtitle, description }) {
+export default function CardSumaryWithBorder({
+  title,
+  subtitle,
+  description,
+  imageUrl,
+}) {
   return (
-    <div className="text-left px-8 py-8 border-gray-200 border rounded-md my-4 mx-8 bg-white">
+    <div className="text-left px-8 py-8 border-gray-200 border rounded-md my-4 mx-4 bg-white">
       <div>
         <h2 className=" text-xl font-semibold text-yellow-500 mb-2">{title}</h2>
       </div>
@@ -11,9 +16,10 @@ export default function CardSumaryWithBorder({ title, subtitle, description }) {
           {subtitle}
         </h2>
       </div>
-      <p className="mt-4 text-lg leading-relaxed text-gray-500">
+      <p className="mt-4 text-lg leading-relaxed text-gray-500 mb-8">
         {description}
       </p>
+      <img alt="..." src={imageUrl} className="w-full rounded-sm " />
     </div>
   );
 }
