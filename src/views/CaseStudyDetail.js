@@ -33,8 +33,16 @@ export default function CaseStudyDetail() {
             className="max-w-full"
             style={{}}
           />
-          <CaseStudyTextBanner />
+          <CaseStudyTextBanner
+            className="w-full h-full absolute top-0 hidden md:flex"
+            textCss="items-start"
+            isAbsolute
+          />
         </div>
+
+        <section className="block sm:hidden pt-4">
+          <CaseStudyTextBanner className="flex w-full" textCss="items-center" />
+        </section>
 
         {/* {show case section 1} */}
         <section className="px-4 bg-white pb-16">
