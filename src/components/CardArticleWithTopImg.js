@@ -7,11 +7,7 @@ export default function CardArticleWithTopImg({
 }) {
   return (
     <div>
-      <img
-        alt="..."
-        src={imageUrl}
-        className="w-full align-middle rounded-lg"
-      />
+      <img alt="..." src={imageUrl} className="w-full rounded-lg" />
       <h2 className=" text-2xl font-semibold text-blue-600">{title}</h2>
 
       <p className="mt-4 text-lg leading-relaxed text-gray-600">

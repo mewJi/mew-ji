@@ -5,7 +5,6 @@ export default function Button({
   buttonText,
   targetUrl,
   buttontype,
-  fuck,
   className = 'container',
 }) {
   const primaryClassButton = 'bg-gray-800 text-white';

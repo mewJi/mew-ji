@@ -35,13 +35,14 @@ export default function CaseStudyDetail() {
         </div>
 
         {/* {show case section 1} */}
-        <section className="px-4 mb-16">
+        <section className="px-4 bg-white pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic
               caption="start with WHY"
               title="Why people so upset 
 when home maintenance time is coming?"
             ></HomeTopic>
+
             <div className="flex flex-wrap justify-center mx-auto">
               <div className="md:w-1/3 px-8">
                 <CardArticleWithTopImg
@@ -69,262 +70,451 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
+
         {/* {show case section 2} */}
-        <section className="px-4 bg-blue-50">
+        <section className="px-4 bg-blue-50 pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic
-              caption="start with WHY"
-              title="Why people so upset 
-when home maintenance time is coming?"
+              caption="challenge"
+              title="How can we help people to get out of 
+              this trouble?   "
             ></HomeTopic>
             <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/3 px-8">
-                <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Lack of Skill"
-                  description="Home maintenance skill
-is so wide, meanwhile, it is specific. Studying and practicing was a need"
-                ></CardArticleWithTopImg>
+              <div className="md:w-1/4">
+                <img
+                  alt="..."
+                  src={require('assets/img/SearchAndFilter.gif').default}
+                  className="max-w-full rounded-xl"
+                  style={{}}
+                />
               </div>
-              <div className="md:w-1/3 px-8">
-                <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Distrust Technician "
-                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
-                ></CardArticleWithTopImg>
-              </div>
-              <div className="md:w-1/3 px-8">
-                <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Time-Consuming
-                  Research"
-                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
-                ></CardArticleWithTopImg>
+              <div className="md:w-2/4 px-16 py-8">
+                <div className="flex flex-wrap">
+                  <p className="text-xl font-light text-gray-400 text-left mb-4">
+                    solution
+                  </p>
+                </div>
+                <div className="flex flex-wrap mb-4 md:mb-10">
+                  <i className="fas fa-play text-3xl text-blue-500 mr-6 mb-4"></i>
+                  <h3 className="text-4xl font-normal text-blue-500">
+                    What is Home Hero?
+                  </h3>
+                </div>
+                <div className="flex flex-wrap">
+                  <h3 className="text-lg leading-relaxed text-gray-600 mb-4 md:mb-1">
+                    Home Hero is a mobile application that help people easily
+                    find a trustworthy home service technician and easily find
+                    an expert to get consulting about the home solution they
+                    need
+                  </h3>
+                </div>
+                <div className="flex flex-wrap mt-6 md:mt-12 mb-4">
+                  <p className="text-xl font-light text-gray-400 text-left mb-4">
+                    experience in here
+                  </p>
+                </div>
+
+                <div className="flex flex-wrap justify-center">
+                  <div className="w-2/4 md:w-1/4 text-center md:text-left">
+                    <div>
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
+                        <i className="fas fa-clock"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <p className="text-gray-600 text-md leading-relaxed my-5">
+                        <b>Searching</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="w-2/4 md:w-1/4 text-center md:text-left">
+                    <div>
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
+                        <i className="fas fa-clock"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <p className="text-gray-600 text-md leading-relaxed my-5">
+                        <b> Booking</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="w-2/4 md:w-1/4 text-center md:text-left">
+                    <div>
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
+                        <i className="fas fa-clock"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <p className="text-gray-600 text-md leading-relaxed my-5">
+                        <b> Calling</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="w-2/4 md:w-1/4 text-center md:text-left">
+                    <div>
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
+                        <i className="fas fa-clock"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <p className="text-gray-600 text-md leading-relaxed my-5">
+                        <b> Rating</b>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-wrap">
+                  <Button
+                    buttonText="Try prototype"
+                    targetUrl="http://localhost:3000/CaseStudyDetail"
+                    buttontype="primary"
+                  />
+                  <Button
+                    buttonText="See [rototype in shot"
+                    targetUrl="http://localhost:3000/CaseStudyDetail"
+                    buttontype="secondary"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <div className="lg:w-4/5 mx-auto text-gray-800 px-4">
-          <section className="py-30">
-            <div className="container mx-auto text-center">
-              <div className="w-full lg:w-6/12 mx-auto">
-                <h2 className="text-4xl font-semibold mt-8 mb-4">HOME HERO</h2>
-                <div className=" mb-12">
-                  <p className="text-lg font-semibold leading-relaxed text-blue-700 ">
-                    Finding technicains is easier than ever,
-                  </p>
-                  <p className="text-lg font-semibold leading-relaxed text-blue-700 ">
-                    Better experience for your better life.
-                  </p>
-                </div>
-                <div className="mb-8">
-                  <div>
-                    <h2 className="text-2xl font-semibold">Overview</h2>
-                  </div>
-                  <div className="mb-12">
-                    <p className="text-lg leading-relaxed my-4">
-                      Home Hero is a mobile application that help people easily
-                      find a technician for home maintenance and easily find an
-                      expert to get consulting about the home solution they need
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <section className="px-4 bg-white pb-16">
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <HomeTopic
+              caption="design process"
+              title="How does Home Hero comes?"
+            ></HomeTopic>
+            <div className="flex flex-wrap justify-center mx-auto mb-4 md:mb-10 md:w-3/5">
+              <p className="text-lg leading-relaxed my-4">
+                <b>Design Think Process</b> lead me to discover several
+                solutions to the above problem and this is how the prototype
+                comes
+              </p>
             </div>
-
-            <div className="flex flex-wrap items-stretch items-center md:w-4/ my-16 text-center mx-auto">
-              <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
-                <div className="mb-4">
-                  <i className="fas fa-suitcase text-2xl text-blue-500"></i>
-                </div>
-                <div className="mb-8">
-                  <h1 className="text-xl font-semibold leading-normal">
-                    MY ROLE
-                  </h1>
-                </div>
-                <div>
-                  <p className="text- leading-normal">UX/UI Designer</p>
-                </div>
-              </div>
-
-              <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
-                <div className="mb-4">
-                  <i className="fas fa-clock text-2xl text-blue-500"></i>
-                </div>
-                <div className="mb-8">
-                  <h1 className="text-xl font-semibold leading-normal">
-                    DURATION
-                  </h1>
-                </div>
-                <div>
-                  <p className="text- leading-normal">
-                    March 2021 - April 2021
-                  </p>
-                </div>
-              </div>
-              <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
-                <div className="mb-4">
-                  <i className="fas fa-tools text-2xl text-blue-500"></i>
-                </div>
-                <div className="mb-8">
-                  <h1 className="text-xl font-semibold leading-normal">
-                    TOOLS
-                  </h1>
-                </div>
-                <div>
-                  <ul className="list-none mt-6">
-                    <li className="py-1">
-                      <p className="text- leading-normal">Figma</p>
-                    </li>
-                    <li className="py-1">
-                      <p className="text- leading-normal">Draw.io</p>
-                    </li>
-                    <li className="py-1">
-                      <p className="text- leading-normal">Miro</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
-                <div className="mb-4">
-                  <i className="fas fa-mobile text-2xl text-blue-500"></i>
-                </div>
-                <div className="mb-8">
-                  <h1 className="text-2xl font-semibold leading-normal">
-                    PLATFORM
-                  </h1>
-                </div>
-                <div>
-                  <p className="text- leading-normal">Mobile Application</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap text-center mx-auto w-full">
-              <div className="flex flex-wrap md:w-4/5 mx-auto justify-center ">
-                <h2 className="text-2xl font-semibold mb-4">Problem</h2>
-
-                <p className="text-lg leading-relaxed mb-8">
-                  Designed a mobile application to help people easily find a
-                  technician for home maintenance and easily find an expert to
-                  get consulting about the home solution they need
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap pb-16 md:w-full mx-auto items-center justify-center">
-              <div className="flex flex-wrap justify-center items-center">
-                <div className="md:w-6/12 lg:w-3/12 mx-auto">
-                  <img
-                    alt="..."
-                    src={require('assets/img/green-house.png').default}
-                    className="shadow-lg max-w-full mx-auto"
-                    style={{ maxWidth: '120px' }}
-                  />
-                  <div className="pt-4 text-center">
-                    <p className="mt-1 text-sm text-gray-500  ">
-                      Home <br /> Living Place
-                    </p>
-                  </div>
-                </div>
-                <div className="md:w-6/12 lg:w-3/12 mx-auto">
-                  <img
-                    alt="..."
-                    src={require('assets/img/two-businessmen.png').default}
-                    className="shadow-lg max-w-full mx-auto"
-                    style={{ maxWidth: '120px' }}
-                  />
-                  <div className="pt-4 text-center">
-                    <p className="mt-1 text-sm text-gray-500  ">
-                      Freindly <br /> Buddy
-                    </p>
-                  </div>
-                </div>
-
-                <div className="md:w-6/12 lg:w-3/12 mx-auto">
-                  <img
-                    alt="..."
-                    src={require('assets/img/blue.png').default}
-                    className="shadow-lg  max-w-full mx-auto rounded-full"
-                    style={{ maxWidth: '120px' }}
-                  />
-                  <div className="pt-4 text-center">
-                    <p className="mt-1 text-sm text-gray-500  ">
-                      Trustworthly <br /> Reliable
-                    </p>
-                  </div>
-                </div>
-                <div className="md:w-6/12 lg:w-3/12 mx-auto">
-                  <img
-                    alt="..."
-                    src={require('assets/img/orange.png').default}
-                    className="shadow-lg max-w-full mx-auto rounded-full"
-                    style={{ maxWidth: '120px' }}
-                  />
-                  <div className="pt-4 text-center">
-                    <p className="mt-1 text-sm text-gray-500 ">
-                      Communication <br />
-                      Encouragement
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap items-center mb-16 text-center">
-              <div className="w-full md:w-2/4 mx-auto">
-                <div>
-                  <div>
-                    <h2 className="text-2xl font-semibold">Challege</h2>
-                  </div>
-                  <div className="mb-8">
-                    <p className="text-lg leading-relaxed my-4">
-                      ปัจจุบันผู้ให้บริการช่างซ่อมแซม ปรับปรุง หรือ
-                      ต่อเติมบ้านมีอยู่มากมาย
-                      ผู้คนที่ต้องการใช้บริการจึงต้องใช้เวลาในการค้นหา รวบรวม
-                      และเปรียบเทียบข้อมูลของผู้ให้บริการจากหลากแหล่งที่มา
-                      ก่อนตัดสินใจเลือกใช้บริการ เพื่อให้มั่นใจได้ว่าบ้าน
-                      อันเป็นที่พักอาศัยและเป็นศูนย์รวมของครอบครัวของเขาจะถูกซ่อมแซม
-                      ปรับปรุง หรือ ต่อเติมอย่างมีคุณภาพ
-                      และไม่เกิดความเสียหายภายหลัง จึงเป็นที่มาของ Case Study
-                      นี้ กับคำถามที่ว่า
-                    </p>
-                  </div>
-                  <div className="">
-                    <h1 className="text-lg text-red-300">
-                      “จะทำอย่างไร
-                      ที่จะทำให้ผู้คนสามารถเข้าถึงข้อมูลการให้บริการช่างได้ง่ายขึ้น
-                      และมีส่วนช่วยในการตัดสินใจเลือกใช้บริการ
-                      เพื่อให้ได้รับบริการที่พึงพอใจกลับไป”
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        {/* Design Process*/}
-        <div className="text-center md:w-3/4 mx-auto">
-          <div className="flex flex-wrap justify-center">
-            <div className="mb-8">
-              <h2 className="text-2xl font-semibold text-center">
-                Design Process
-              </h2>
+            <div className="flex flex-wrap md:w-2/3">
+              <img
+                alt="..."
+                src={require('assets/img/DesignProcess.png').default}
+                className="max-w-full"
+                style={{}}
+              />
             </div>
           </div>
-          <div className="mb-20">
-            <img
-              alt="..."
-              src={require('assets/img/DesignProcess.png').default}
-              className="w-full align-middle rounded-t-lg"
+          <div className="flex flex-wrap items-stretch items-center md:w-3/5 my-8 text-center mx-auto">
+            <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+              <div className="mb-4">
+                <i className="fas fa-suitcase text-2xl text-blue-500"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-xl font-semibold leading-normal">
+                  MY ROLE
+                </h1>
+              </div>
+              <div>
+                <p className="text- leading-normal">UX/UI Designer</p>
+              </div>
+            </div>
+
+            <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+              <div className="mb-4">
+                <i className="fas fa-clock text-2xl text-blue-500"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-xl font-semibold leading-normal">
+                  DURATION
+                </h1>
+              </div>
+              <div>
+                <p className="text- leading-normal">March 2021 - April 2021</p>
+              </div>
+            </div>
+            <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+              <div className="mb-4">
+                <i className="fas fa-tools text-2xl text-blue-500"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-xl font-semibold leading-normal">TOOLS</h1>
+              </div>
+              <div>
+                <ul className="list-none mt-6">
+                  <li className="py-1">
+                    <p className="text- leading-normal">Figma</p>
+                  </li>
+                  <li className="py-1">
+                    <p className="text- leading-normal">Draw.io</p>
+                  </li>
+                  <li className="py-1">
+                    <p className="text- leading-normal">Miro</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-full md:w-3/12 mx-auto py-2 bg-white">
+              <div className="mb-4">
+                <i className="fas fa-mobile text-2xl text-blue-500"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-2xl font-semibold leading-normal">
+                  PLATFORM
+                </h1>
+              </div>
+              <div>
+                <p className="text- leading-normal">Mobile Application</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center my-4 md:my-8">
+            <Button
+              buttonText="See all process"
+              targetUrl="http://localhost:3000/CaseStudyDetail"
+              buttontype="primary"
             />
           </div>
-        </div>
+        </section>
 
+        {/* {show case section 4} */}
+        <section className="px-4 bg-blue-50 pb-16">
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <HomeTopic
+              caption="feedback"
+              title="Does it actually work for user?, 
+              Any Problem were found?"
+            ></HomeTopic>
+            <div className="flex flex-wrap justify-center mx-auto mb-4 md:mb-10 md:w-3/5">
+              <p className="text-lg leading-relaxed my-4">
+                The <b>usability testing</b> result told me several problems
+                need to be fixed in the next itinerary, but on my honest, it
+                still needs more test with more users to uncover improvement
+                opportunity
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center mx-auto">
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Missing Information"
+                  description="Home maintenance skill
+is so wide, meanwhile, it is specific. Studying and practicing was a need"
+                ></CardArticleWithTopImg>
+              </div>
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Unclear Icon 
+                  Meaning"
+                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                ></CardArticleWithTopImg>
+              </div>
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Confusing Button 
+                  Position"
+                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                ></CardArticleWithTopImg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* {show case section 5} */}
+        <section className="px-4 bg-white pb-16">
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <HomeTopic
+              caption="strategy"
+              title="It’s not only about user experience, but ?"
+            ></HomeTopic>
+
+            <div className="flex flex-wrap justify-center mx-auto">
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Business Growth"
+                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                ></CardArticleWithTopImg>
+              </div>
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Techinician Opportunity"
+                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                ></CardArticleWithTopImg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* {show case section 6} */}
+        <section className="px-4 bg-blue-50 pb-16">
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <HomeTopic
+              caption="Brand Identity"
+              title="What make Home Hero memorable?"
+            ></HomeTopic>
+            <div className="flex flex-wrap justify-center mx-auto mb-4 md:mb-10 md:w-3/4">
+              <p className="text-lg leading-relaxed my-4">
+                Defining brand identity with a logo and color
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center mx-auto">
+              <div>
+                <h2 className="text-xl font-semibold text-gray-800 text-center">
+                  Logo
+                </h2>
+              </div>
+              <img
+                alt="..."
+                src={require('assets/img/logo.svg').default}
+                className=" max-w-full mx-auto"
+                style={{ maxWidth: '300px' }}
+              />
+            </div>
+
+            <div className="flex flex-wrap justify-center mx-auto md:mb-10">
+              <div className="w-full md:w-1/2 ">
+                <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
+                  Idea
+                </h2>
+                <div className="flex flex-wrap justify-center items-center">
+                  <div className="w-full sm:w-1/2 px-6 mb-4">
+                    <img
+                      alt="..."
+                      src={require('assets/img/green-house.png').default}
+                      className="shadow-lg max-w-full mx-auto"
+                      style={{ maxWidth: '120px' }}
+                    />
+                    <div className="pt-4 text-center">
+                      <p className="mt-1 text-sm text-gray-500  ">
+                        Home <br /> Living Place
+                      </p>
+                    </div>
+                  </div>
+                  <div className="w-1/2 px-6 mb-4">
+                    <img
+                      alt="..."
+                      src={require('assets/img/two-businessmen.png').default}
+                      className="shadow-lg max-w-full mx-auto"
+                      style={{ maxWidth: '120px' }}
+                    />
+                    <div className="pt-4 text-center">
+                      <p className="mt-1 text-sm text-gray-500  ">
+                        Freindly <br /> Buddy
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 mb-4 mx-auto px-4">
+                <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
+                  Color
+                </h2>
+                <div className="flex flex-wrap justify-center items-center">
+                  <div className="w-full md:w-6/12 px-6">
+                    <img
+                      alt="..."
+                      src={require('assets/img/blue.png').default}
+                      className="shadow-lg  max-w-full mx-auto rounded-full"
+                      style={{ maxWidth: '120px' }}
+                    />
+                    <div className="pt-4 text-center">
+                      <p className="mt-1 text-sm text-gray-500  ">
+                        Trustworthly <br /> Reliable
+                      </p>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-6/12 px-6">
+                    <img
+                      alt="..."
+                      src={require('assets/img/orange.png').default}
+                      className="shadow-lg max-w-full mx-auto rounded-full"
+                      style={{ maxWidth: '120px' }}
+                    />
+                    <div className="pt-4 text-center">
+                      <p className="mt-1 text-sm text-gray-500 ">
+                        Communication <br />
+                        Encouragement
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* {show case section 7} */}
+        <section className="px-4 bg-white pb-16">
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <HomeTopic
+              caption="visual Design"
+              title="How visual design impact people?"
+            ></HomeTopic>
+            <div className="flex flex-wrap justify-center mx-auto">
+              <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
+                <div className="md:w-4/12 mx-auto md:pr-2 mb-4">
+                  <CardContentPrototype
+                    title="Style Guide"
+                    subtitle="Create UI style guide to 
+                  maintain design’s consistancy"
+                    description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                  />
+                </div>
+
+                <div className="md:w-6/12 mx-auto mb-4 ">
+                  <ImageWithCaption
+                    imageUrl={require('assets/img/StyleGuide.png').default}
+                  />
+                </div>
+              </div>
+              <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
+                <div className="md:w-6/12 mx-auto mb-4">
+                  <ImageWithCaption
+                    imageUrl={require('assets/img/Components_1.png').default}
+                  />
+                </div>
+                <div className="md:w-4/12 mx-auto mb-4">
+                  <CardContentPrototype
+                    title="Component Library"
+                    subtitle="Create a component library to save time in the development"
+                    description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* {Learning} */}
+        <section className="px-4 bg-blue-50 pb-16">
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <HomeTopic caption="learning" title="What I learning?"></HomeTopic>
+            <div className="flex flex-wrap justify-center mx-auto">
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Business Growth"
+                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                ></CardArticleWithTopImg>
+              </div>
+              <div className="md:w-1/3 px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/logo.svg').default}
+                  title="Time-Consuming
+                  Research"
+                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                ></CardArticleWithTopImg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* All Design Process*/}
         {/* Empathy */}
-        <section className="relative py-12 bg-gray-100 px-4">
+        <section className="relative py-16 bg-gray-50 px-4">
+          <HomeTopic title="Design Process Indeep"></HomeTopic>
           <div className="container mx-auto ">
             <div className="flex flex-wrap md:w-4/5 mx-auto ">
               <div className="flex flex-wrap w-full items-center justify-center">
@@ -597,14 +787,14 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         <section>
-          <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-100 py-12">
+          <div className="relative flex flex-wrap lg:w-full mx-auto bg-white pt-9 pb-16">
             <div className="px-4 md:w-4/5 mx-auto">
               <div className="md:w-3/5 mx-auto mb-4 text-center">
                 <h2 className=" text-2xl font-semibold text-blue-600">
                   Define main problem with HMW
                 </h2>
 
-                <p className="mt-8 text-lg leading-relaxed text-gray-600">
+                <p className="mt-8 text-lg leading-relaxed text-gray-600 text-left">
                   Mapping user’s problem with its HMW questions to find out what
                   is the most impact problem for them. After mapping, I found
                   common HMW that reflect user’s main problems
@@ -621,8 +811,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <h4 className="text-xl text-center italic mt-12 font-semibold leading-normal  text-gray-700">
                   User’s Main Problems
                 </h4>
-                <div className="flex flex-wrap mt-6 md:w-4/5 mx-auto text-center mx-auto">
-                  <div className="py-2 md:w-1/3 px-8">
+                <div className="flex flex-wrap mt-6 md:w-3/5 mx-auto text-center mx-auto">
+                  <div className="py-2 md:w-1/3 px-4">
                     <div>
                       <div className="flex flex-wrap mx-auto justify-center">
                         <span className="text-3xl text-center font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
@@ -636,22 +826,22 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       </div>
                     </div>
                   </div>
-                  <div className="py-2 md:w-1/3 px-8">
-                    <div className="flex flex-wrap justify-center">
-                      <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100">
+                  <div className="py-2 md:w-1/3 px-4">
+                    <div>
+                      <div className="flex flex-wrap mx-auto justify-center">
+                        <span className="text-3xl text-center font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
                           <i className="fas fa-book"></i>
                         </span>
                       </div>
                       <div>
-                        <p className="text-gray-600 text-md  leading-relaxed my-5">
+                        <p className="text-gray-600 text-md leading-relaxed my-5">
                           have no time to learn technical skill
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="py-2 md:w-1/3 px-8">
-                    <div className="flex flex-wrap justify-center">
+                  <div className="py-2 md:w-1/3 px-4">
+                    <div className="flex flex-wrap mx-auto justify-center">
                       <div>
                         <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100">
                           <i className="fas fa-clock"></i>
@@ -666,17 +856,18 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     </div>
                   </div>
                 </div>
-                <h4 className="text-xl text-center mt-4 italic font-semibold leading-normal  text-gray-700">
-                  How Might We
-                </h4>
+
                 <div className="md:w-3/5 mx-auto">
-                  <div className="text-center bg-white rounded-xl py-8 px-8 m-8">
+                  <div className="text-center bg-white rounded-xl py-4 px-8 mt-8 border-2 shadow-lg ">
+                    <h4 className="text-xl text-center my-4 font-semibold leading-normal  text-gray-800">
+                      How Might We
+                    </h4>
                     <p className="text-lg leading-relaxed text-gray-700">
                       Getting home service by just find a satisfied technician
                       in one source and able to get advices or technical
                       knowledge from an expert
                     </p>
-                    <p className="text-xl">?</p>
+                    <p className="text-4xl">?</p>
                   </div>
                 </div>
               </div>
@@ -685,51 +876,54 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         {/* Ideate */}
-        <div className="relative flex flex-wrap w-full mx-auto justify-center pt-12 px-4">
-          {' '}
-          <TitleWithIcon title="Get into Solution" icon="fas fa-lightbulb" />
-        </div>
+
         <section>
-          <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-100 py-12">
+          <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-50">
+            <div className="relative flex flex-wrap w-full mx-auto justify-center pt-12 px-4">
+              {' '}
+              <TitleWithIcon
+                title="Get into Solution"
+                icon="fas fa-lightbulb"
+              />
+            </div>
             <div className="px-4 md:w-4/5 mx-auto">
-              <div className="md:w-3/5 mx-auto mb-4">
-                <CardArticleWithObject
-                  subtitle="HMW will come up with Solution"
-                  description={
-                    <div>
-                      With all problem defination and how might we I got, I
-                      started to generate several solutions and pick the most
-                      impact solution by concidering their pros and cons.
-                    </div>
-                  }
-                  textalign="center"
-                />
+              <div className="md:w-3/5 mx-auto mb-4 text-center">
+                <h2 className=" text-2xl font-semibold text-blue-600">
+                  HMW will come up with Solution
+                </h2>
+
+                <p className="mt-8 text-lg leading-relaxed text-gray-600 text-left">
+                  With all problem defination and how might we I got, I started
+                  to generate several solutions and pick the most impact
+                  solution by concidering their pros and cons
+                </p>
               </div>
+
               <div className="w-full md:px-12 mx-auto ">
                 <ImageWithCaption
                   imageUrl={require('assets/img/IdeateSolution.jpg').default}
                   caption="Ideation Solution Process"
                 />
               </div>
-              <div className="w-full ">
-                <h4 className="text-xl text-center mt-12 italic font-semibold leading-normal  text-gray-700">
-                  Solution
-                </h4>
-                <div className="md:w-3/5 mx-auto">
-                  <div className="text-center bg-white rounded-xl py-8 px-8 m-8">
-                    <p className="text-lg leading-relaxed text-gray-700">
-                      Get home service by using online platform which a huge of
-                      technician information to find a satisfied technician and
-                      get technical advice from an expert
-                    </p>
-                  </div>
+
+              <div className="md:w-3/5 mx-auto">
+                <div className="text-center bg-white rounded-xl py-4 px-8 mt-8 border-2 shadow-lg ">
+                  <h4 className="text-xl text-center my-4 font-semibold leading-normal  text-gray-800">
+                    Solution
+                  </h4>
+                  <p className="text-lg leading-relaxed text-gray-700">
+                    Get home service by using online platform which a huge of
+                    technician information to find a satisfied technician and
+                    get technical advice from an expert
+                  </p>
+                  <p className="text-4xl">?</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="relative py-12 px-4">
+        <section className="relative py-16 px-4 bg-gray-50">
           <div className="container mx-auto">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
               <div className="w-full md:w-6/12 mx-auto md:pr-10">
@@ -801,7 +995,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         {/* { Prototype} */}
-        <section className="relative py-12 bg-gray-100">
+        <section className="relative py-12 bg-white">
           <div className="container mx-auto ">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
               <div className="relative flex flex-wrap w-full mx-auto justify-center">
@@ -811,7 +1005,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   icon="fas fa-pencil-ruler"
                 />
               </div>
-              <div className="md:w-4/5 mx-auto mb-4">
+              <div className="md:w-3/5 mx-auto mb-4">
                 <CardArticleWithObject
                   description={
                     <div>
@@ -928,18 +1122,18 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         {/* Testing */}
-        <section className="relative py-12 px-4 bg-gray-100">
+        <section className="relative py-12 px-4 bg-gray-50">
           <div className="container mx-auto">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
               <div className="relative flex flex-wrap w-full mx-auto justify-center">
                 {' '}
                 <TitleWithIcon
-                  title="Testing prototype
-                  to uncover improvement opportunities "
+                  title="Testing Prototype
+                  "
                   icon="fas fa-pencil-ruler"
                 />
               </div>
-              <div className="md:w-4/5 mx-auto mb-4">
+              <div className="md:w-3/5 mx-auto mb-4">
                 <CardArticleWithObject
                   description={
                     <div>
@@ -979,192 +1173,6 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   subtitle="Confusing Button Position"
                   description="Service selecting button made them confused because this button contains the smaller one text button in there, which means they will get an unexpected response after tap the bigger button"
                 />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Brand and UI */}
-
-        <section className="relative pt-16 px-4">
-          <div className="container mx-auto">
-            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
-              <div className="relative flex flex-wrap w-full mx-auto justify-center">
-                {' '}
-                <TitleWithIcon
-                  title="Brand identity and Handover Preparation"
-                  icon="fas fa-pencil-ruler"
-                />
-              </div>
-              <img imageUrl={require('assets/img/affinity_map.jpg').default} />
-              <div className="relative flex flex-wrap w-full mx-auto justify-center"></div>
-            </div>
-          </div>
-        </section>
-
-        <section className="pb-8">
-          <div className="container mx-auto px-4">
-            <div className="relative flex flex-wrap md:w-4/5 mx-auto items-center justify-center">
-              <div className="md:w-6/12 mx-auto md:pr-2 mb-4">
-                <CardContentPrototype
-                  title="Brand Identity"
-                  subtitle="Defining brand identity with a logo and color"
-                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
-                />
-              </div>
-              <div className="md:w-4/12 mx-auto mb-4 ">
-                <ImageWithCaption
-                  imageUrl={require('assets/img/logo.svg').default}
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-wrap pb-16 md:w-4/5 mx-auto items-center justify-center">
-              <div className="w-full lg:w-5/12 mb-4 px-4">
-                <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
-                  The Idea
-                </h2>
-                <div className="flex flex-wrap justify-center items-center">
-                  <div className="md:w-6/12 px-6">
-                    <img
-                      alt="..."
-                      src={require('assets/img/green-house.png').default}
-                      className="shadow-lg max-w-full mx-auto"
-                      style={{ maxWidth: '120px' }}
-                    />
-                    <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500  ">
-                        Home <br /> Living Place
-                      </p>
-                    </div>
-                  </div>
-                  <div className="md:w-6/12 px-6">
-                    <img
-                      alt="..."
-                      src={require('assets/img/two-businessmen.png').default}
-                      className="shadow-lg max-w-full mx-auto"
-                      style={{ maxWidth: '120px' }}
-                    />
-                    <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500  ">
-                        Freindly <br /> Buddy
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full lg:w-2/12 mb-12"></div>
-
-              <div className="w-full lg:w-5/12 mb-4 mx-auto px-4">
-                <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
-                  The Color
-                </h2>
-                <div className="flex flex-wrap justify-center items-center">
-                  <div className="md:w-6/12 px-6">
-                    <img
-                      alt="..."
-                      src={require('assets/img/blue.png').default}
-                      className="shadow-lg  max-w-full mx-auto rounded-full"
-                      style={{ maxWidth: '120px' }}
-                    />
-                    <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500  ">
-                        Trustworthly <br /> Reliable
-                      </p>
-                    </div>
-                  </div>
-                  <div className="md:w-6/12 px-6">
-                    <img
-                      alt="..."
-                      src={require('assets/img/orange.png').default}
-                      className="shadow-lg max-w-full mx-auto rounded-full"
-                      style={{ maxWidth: '120px' }}
-                    />
-                    <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500 ">
-                        Communication <br />
-                        Encouragement
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
-              <div className="md:w-4/12 mx-auto md:pr-2 mb-4">
-                <CardContentPrototype
-                  title="Style Guide"
-                  subtitle="Create UI style guide to 
-                  maintain design’s consistancy"
-                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
-                />
-              </div>
-
-              <div className="md:w-6/12 mx-auto mb-4 ">
-                <ImageWithCaption
-                  imageUrl={require('assets/img/StyleGuide.png').default}
-                />
-              </div>
-            </div>
-            <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
-              <div className="md:w-6/12 mx-auto mb-4">
-                <ImageWithCaption
-                  imageUrl={require('assets/img/Components_1.png').default}
-                />
-              </div>
-              <div className="md:w-4/12 mx-auto mb-4">
-                <CardContentPrototype
-                  title="Component Library"
-                  subtitle="Create a component library to save time in the development"
-                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Brand and UI */}
-        <section className="pb-32">
-          <div className="container mx-auto">
-            <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
-              <div className="relative flex flex-wrap w-full mx-auto justify-center">
-                {' '}
-                <TitleWithIcon title="My Learning" icon="fas fa-pencil-ruler" />
-              </div>
-
-              <div className="relative flex flex-wrap w-full mx-auto justify-center">
-                <div className="md:w-1/4 px-5 py-5">
-                  <div className="bg-gray-100 rounded-xl shadow-md px-5 py-5 text-xl text-blue-500">
-                    <h2>
-                      Educate the user about the functions and benefits of the
-                      app and encourage them to learn through exploring the app.
-                    </h2>
-                  </div>
-                </div>
-                <div className="md:w-1/4 px-5 py-5">
-                  <div className="bg-gray-100 rounded-xl shadow-md px-5 py-5 text-xl text-blue-500">
-                    <h2>
-                      Educate the user about the functions and benefits of the
-                      app and encourage them to learn through exploring the app.
-                    </h2>
-                  </div>
-                </div>
-                <div className="md:w-1/4 px-5 py-5">
-                  <div className="bg-gray-100 rounded-xl shadow-md px-5 py-5 text-xl text-blue-500">
-                    <h2>
-                      Educate the user about the functions and benefits of the
-                      app and encourage them to learn through exploring the app.
-                    </h2>
-                  </div>
-                </div>
-                <div className="md:w-1/4 px-5 py-5">
-                  <div className="bg-gray-100 rounded-xl shadow-md px-5 py-5 text-xl text-blue-500">
-                    <h2>
-                      Educate the user about the functions and benefits of the
-                      app and encourage them to learn through exploring the app.
-                    </h2>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

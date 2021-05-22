@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HomeTopic({ caption, title, className = 'container' }) {
   return (
-    <div className="flex flex-wrap md:w-3/5 mx-auto justify-center items-center mb-8 mt-16 text-center">
+    <div className="flex flex-col md:w-3/5 mx-auto justify-center items-center mb-8 mt-16 text-center">
       <div>
         {' '}
         <p className="text-xl font-light text-gray-400 ">{caption}</p>
