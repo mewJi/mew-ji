@@ -11,7 +11,7 @@ export default function SubtitleWithIcon({
       {/* <i className="fas fa-grip-lines-vertical  mr-4 text-3xl text-blue-400"></i> */}
       <i className="fas fa-play mr-4 text-3xl text-blue-400"></i>
 
-      <h3 className="text-3xl font-semibold ">{title}</h3>
+      <h3 className="text-3xl font-semibold text-gray-800 ">{title}</h3>
     </div>
   );
 }
