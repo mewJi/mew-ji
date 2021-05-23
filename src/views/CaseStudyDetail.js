@@ -54,7 +54,7 @@ when home maintenance time is coming?"
             ></HomeTopic>
 
             <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/3 px-8">
+              <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/logo.svg').default}
                   title="Lack of Skill"
@@ -62,14 +62,14 @@ when home maintenance time is coming?"
 is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 ></CardArticleWithTopImg>
               </div>
-              <div className="md:w-1/3 px-8">
+              <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/logo.svg').default}
                   title="Distrust Technician "
                   description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
                 ></CardArticleWithTopImg>
               </div>
-              <div className="md:w-1/3 px-8">
+              <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/logo.svg').default}
                   title="Time-Consuming
@@ -98,7 +98,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   style={{}}
                 />
               </div>
-              <div className="md:w-2/3 px-16 py-8">
+              <div className="md:w-2/3 md:px-16 py-8">
                 <div className="flex flex-wrap">
                   <p className="text-xl font-light text-gray-400 text-left mb-4">
                     solution
@@ -127,7 +127,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <div className="flex flex-wrap justify-center">
                   <div className="w-2/4 md:w-1/4 text-center md:text-left">
                     <div>
-                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase text-blue-500  ">
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase text-blue-400  ">
                         <i className="fas fa-search"></i>
                       </span>
                     </div>
@@ -139,7 +139,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                   <div className="w-2/4 md:w-1/4 text-center md:text-left">
                     <div>
-                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase text-blue-500 ">
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase text-blue-400 ">
                         <i className="fas fa-calendar-alt"></i>
                       </span>
                     </div>
@@ -151,7 +151,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                   <div className="w-2/4 md:w-1/4 text-center md:text-left">
                     <div>
-                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase  text-blue-500  ">
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase  text-blue-400  ">
                         <i className="fas fa-video"></i>
                       </span>
                     </div>
@@ -163,7 +163,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                   <div className="w-2/4 md:w-1/4 text-center md:text-left">
                     <div>
-                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase  text-blue-500 ">
+                      <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase  text-blue-400 ">
                         <i className="fas fa-star"></i>
                       </span>
                     </div>
@@ -174,19 +174,12 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-wrap md:mt-8 justify-center md:justify-start">
+                <div className="flex flex-wrap mt-8 md:mt-16 justify-center md:justify-start">
                   <div className="md:text-left">
                     <Button
                       buttonText="Try prototype"
                       targetUrl="http://localhost:3000/CaseStudyDetail"
                       buttontype="primary"
-                    />
-                  </div>
-                  <div className="md:text-left md:ml-10">
-                    <Button
-                      buttonText="Prototype Demo"
-                      targetUrl="http://localhost:3000/CaseStudyDetail"
-                      buttontype="secondary"
                     />
                   </div>
                 </div>
@@ -220,7 +213,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
           <div className="flex flex-wrap items-stretch items-center md:w-3/5 my-12 text-center mx-auto">
             <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
               <div className="mb-4">
-                <i className="fas fa-suitcase text-2xl text-blue-500"></i>
+                <i className="fas fa-suitcase text-2xl text-blue-400"></i>
               </div>
               <div className="mb-8">
                 <h1 className="text-xl font-semibold leading-normal text-gray-800">
@@ -254,7 +247,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
 
             <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
               <div className="mb-4">
-                <i className="fas fa-tools text-2xl text-blue-500"></i>
+                <i className="fas fa-tools text-2xl text-blue-400"></i>
               </div>
               <div className="mb-8">
                 <h1 className="text-xl font-semibold leading-normal text-gray-800">
@@ -283,7 +276,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
             <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
               <div className="mb-4">
-                <i className="fas fa-mobile text-2xl text-blue-500"></i>
+                <i className="fas fa-mobile text-2xl text-blue-400"></i>
               </div>
               <div className="mb-8">
                 <h1 className="text-xl font-semibold leading-normal text-gray-800">
@@ -298,7 +291,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
             <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
               <div className="mb-4">
-                <i className="fas fa-clock text-2xl text-blue-500"></i>
+                <i className="fas fa-clock text-2xl text-blue-400"></i>
               </div>
               <div className="mb-8">
                 <h1 className="text-xl font-semibold leading-normal text-gray-800">
@@ -378,14 +371,14 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             ></HomeTopic>
 
             <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/3 px-8">
+              <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/logo.svg').default}
                   title="Business Growth"
                   description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
                 ></CardArticleWithTopImg>
               </div>
-              <div className="md:w-1/3 px-8">
+              <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/logo.svg').default}
                   title="Techinician Opportunity"
@@ -408,84 +401,87 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 Defining brand identity with a logo and color
               </p>
             </div>
-            <div className="flex flex-wrap justify-center mx-auto w-full">
-              <div className="flex flex-wrap w-full">
-                <h2 className="text-xl font-semibold text-gray-800 text-center w-full">
-                  Logo
-                </h2>
-              </div>
-              <img
-                alt="..."
-                src={require('assets/img/logo.svg').default}
-                className=" max-w-full mx-auto"
-                style={{}}
-              />
-            </div>
 
-            <div className="flex flex-wrap justify-center mx-auto md:mb-10">
-              <div className="w-full md:w-1/2 ">
-                <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
-                  Idea
-                </h2>
-                <div className="flex flex-wrap justify-center items-center">
-                  <div className="w-full sm:w-1/2 px-6 mb-4">
-                    <img
-                      alt="..."
-                      src={require('assets/img/green-house.png').default}
-                      className="shadow-lg max-w-full mx-auto"
-                      style={{ maxWidth: '120px' }}
-                    />
-                    <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500  ">
-                        Home <br /> Living Place
-                      </p>
+            <div className="flex flex-wrap justify-center mx-auto md:mb-10 w-full">
+              <div className="flex flex-wrap justify-center mx-auto md:w-1/3">
+                <div className="flex flex-wrap w-full">
+                  <h2 className="text-xl font-semibold text-gray-800 text-center w-full">
+                    Logo
+                  </h2>
+                </div>
+                <img
+                  alt="..."
+                  src={require('assets/img/logo.svg').default}
+                  className=" max-w-full mx-auto"
+                  style={{}}
+                />
+              </div>
+
+              <div className="flex flex-wrap justify-center mx-auto md:mb-10 md:w-2/3">
+                <div className="md:w-1/2 ">
+                  <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
+                    Idea
+                  </h2>
+                  <div className="flex flex-wrap justify-center items-center">
+                    <div className="w-full sm:w-1/2 px-6 mb-4">
+                      <img
+                        alt="..."
+                        src={require('assets/img/green-house.png').default}
+                        className="shadow-lg max-w-full mx-auto"
+                        style={{ maxWidth: '120px' }}
+                      />
+                      <div className="pt-4 text-center">
+                        <p className="mt-1 text-sm text-gray-500  ">
+                          Home <br /> Living Place
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="w-1/2 px-6 mb-4">
-                    <img
-                      alt="..."
-                      src={require('assets/img/two-businessmen.png').default}
-                      className="shadow-lg max-w-full mx-auto"
-                      style={{ maxWidth: '120px' }}
-                    />
-                    <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500  ">
-                        Freindly <br /> Buddy
-                      </p>
+                    <div className="md:w-1/2 px-6 mb-4">
+                      <img
+                        alt="..."
+                        src={require('assets/img/two-businessmen.png').default}
+                        className="shadow-lg max-w-full mx-auto"
+                        style={{ maxWidth: '120px' }}
+                      />
+                      <div className="pt-4 text-center">
+                        <p className="mt-1 text-sm text-gray-500  ">
+                          Freindly <br /> Buddy
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="w-full md:w-1/2 ">
-                <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
-                  Color
-                </h2>
-                <div className="flex flex-wrap justify-center items-center">
-                  <div className="w-full sm:w-1/2 px-6 mb-4">
-                    <img
-                      alt="..."
-                      src={require('assets/img/blue.png').default}
-                      className="shadow-lg max-w-full mx-auto"
-                      style={{ maxWidth: '120px' }}
-                    />
-                    <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500  ">
-                        Trustworthly <br /> Reliable
-                      </p>
+                <div className="w-full md:w-1/2 ">
+                  <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
+                    Color
+                  </h2>
+                  <div className="flex flex-wrap justify-center items-center">
+                    <div className="w-full sm:w-1/2 px-6 mb-4">
+                      <img
+                        alt="..."
+                        src={require('assets/img/blue.png').default}
+                        className="shadow-lg max-w-full mx-auto"
+                        style={{ maxWidth: '120px' }}
+                      />
+                      <div className="pt-4 text-center">
+                        <p className="mt-1 text-sm text-gray-500  ">
+                          Trustworthly <br /> Reliable
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="w-1/2 px-6 mb-4">
-                    <img
-                      alt="..."
-                      src={require('assets/img/orange.png').default}
-                      className="shadow-lg max-w-full mx-auto"
-                      style={{ maxWidth: '120px' }}
-                    />
-                    <div className="pt-4 text-center">
-                      <p className="mt-1 text-sm text-gray-500  ">
-                        Communication <br />
-                        Encouragement
-                      </p>
+                    <div className="w-1/2 px-6 mb-4">
+                      <img
+                        alt="..."
+                        src={require('assets/img/orange.png').default}
+                        className="shadow-lg max-w-full mx-auto"
+                        style={{ maxWidth: '120px' }}
+                      />
+                      <div className="pt-4 text-center">
+                        <p className="mt-1 text-sm text-gray-500  ">
+                          Communication <br />
+                          Encouragement
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -495,44 +491,50 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         {/* {show case section 7} */}
-        <section className="px-4 bg-white pb-16">
+        <section className="px-4 bg-white ">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic
               caption="visual Design"
               title="How visual design impact people?"
             ></HomeTopic>
-            <div className="flex flex-wrap justify-center mx-auto">
-              <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
-                <div className="md:w-4/12 mx-auto md:pr-2 mb-4">
-                  <CardContentPrototype
-                    title="Style Guide"
-                    subtitle="Create UI style guide to 
+          </div>
+          <div className="flex flex-wrap justify-center mx-auto">
+            <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
+              <div className="md:w-4/12 mx-auto md:pr-2 mb-4">
+                <CardContentPrototype
+                  title="Style Guide"
+                  subtitle="Create UI style guide to 
                   maintain design’s consistancy"
-                    description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
-                  />
-                </div>
-
-                <div className="md:w-6/12 mx-auto mb-4 ">
-                  <ImageWithCaption
-                    imageUrl={require('assets/img/StyleGuide.png').default}
-                    caption="UI Style Guide"
-                  />
-                </div>
+                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                />
               </div>
-              <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
-                <div className="md:w-6/12 mx-auto mb-4">
-                  <ImageWithCaption
-                    imageUrl={require('assets/img/Components_1.png').default}
-                    caption="Components"
-                  />
-                </div>
-                <div className="md:w-4/12 mx-auto mb-4">
-                  <CardContentPrototype
-                    title="Component Library"
-                    subtitle="Create a component library to save time in the development"
-                    description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
-                  />
-                </div>
+
+              <div className="md:w-7/12 mx-auto mb-4 ">
+                <ImageWithCaption
+                  imageUrl={require('assets/img/StyleGuide.png').default}
+                  caption="UI Style Guide"
+                />
+              </div>
+            </div>
+            <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
+              <div className="md:w-7/12 mx-auto mb-4">
+                <Carousel
+                  imageUrls={[
+                    require('assets/img/Components_1.png').default,
+                    require('assets/img/Components_2.png').default,
+                    require('assets/img/Components_3.png').default,
+                  ]}
+                />
+                <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
+                  Components
+                </p>
+              </div>
+              <div className="md:w-4/12 mx-auto mb-4">
+                <CardContentPrototype
+                  title="Component Library"
+                  subtitle="Create a component library to save time in the development"
+                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                />
               </div>
             </div>
           </div>
@@ -543,14 +545,14 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic caption="learning" title="What I learning?"></HomeTopic>
             <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/3 px-8">
+              <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/logo.svg').default}
                   title="Business Growth"
                   description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
                 ></CardArticleWithTopImg>
               </div>
-              <div className="md:w-1/3 px-8">
+              <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/logo.svg').default}
                   title="Time-Consuming
@@ -563,18 +565,21 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         {/* All Design Process*/}
+        <div className="bg-gray-800 py-16 text-white">
+          <h1 className="text-xl text-center"> step by step </h1>
+          <h3 className="text-4xl text-center"> Design Process </h3>
+        </div>
         {/* Empathy */}
+
         <section className="relative py-16 bg-gray-50 px-4">
-          <HomeTopic title="Design Process Indeep"></HomeTopic>
+          <div className="flex flex-wrap w-full items-center justify-center">
+            <TitleWithIcon
+              title="Discovering design opportunities"
+              icon="fas fa-search"
+            />
+          </div>
           <div className="container mx-auto ">
             <div className="flex flex-wrap md:w-4/5 mx-auto ">
-              <div className="flex flex-wrap w-full items-center justify-center">
-                <TitleWithIcon
-                  title="Discovering design opportunities"
-                  icon="fas fa-search"
-                />
-              </div>
-
               <div className="flex flex-wrap w-full mx-auto items-center ">
                 <div className="w-full md:w-6/12 mx-auto">
                   <div className="flex flex-wrap w-full items-center justify-center">
@@ -602,7 +607,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       }
                     />
 
-                    <div className="mt-8">
+                    <div className="mt-16">
                       <CardArticleWithObject
                         subtitle="Organize research study with Affinity Mapping"
                         description={
@@ -632,7 +637,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   <div className="py-2 md:w-1/4 px-5">
                     <div className="flex flex-wrap justify-center px-5">
                       <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
+                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 ">
                           <i className="fas fa-clock"></i>
                         </span>
                       </div>
@@ -647,7 +652,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   <div className="py-2 md:w-1/4 px-5">
                     <div className="flex flex-wrap justify-center">
                       <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100">
+                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500">
                           <i className="fas fa-book"></i>
                         </span>
                       </div>
@@ -663,7 +668,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   <div className="py-2 md:w-1/4 px-5">
                     <div className="flex flex-wrap justify-center">
                       <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
+                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 ">
                           <i className="fas fa-search-dollar"></i>
                         </span>
                       </div>
@@ -678,7 +683,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   <div className="py-2 md:w-1/4 px-5">
                     <div className="flex flex-wrap justify-center">
                       <div>
-                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 bg-blue-100 ">
+                        <span className="text-3xl font-semibold inline-block py-2 px-3 uppercase rounded-full text-blue-500 ">
                           <i className="fas fa-wrench"></i>
                         </span>
                       </div>
@@ -697,160 +702,148 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         {/* Define */}
-
-        <section className="relative py-12 px-4">
-          <div className="container mx-auto">
-            <div className="flex flex-wrap md:w-4/5 mx-auto">
-              <div className="flex flex-wrap w-full items-center justify-center">
-                <TitleWithIcon
-                  title="Define the right problem"
-                  icon="fas fa-crosshairs"
-                />
-              </div>
-              <div className="flex flex-wrap w-full items-center justify-center md:mb-12">
-                <div className="w-full md:w-2/5">
-                  <div className="flex flex-wrap w-full items-center justify-center">
-                    <SubtitleWithIcon title="Know users, then know problems" />
-                  </div>
-                  {/* Empathy Map */}
-                  <div className="my-5">
-                    <CardArticleWithObject
-                      subtitle="Learn more about users"
-                      description={
-                        <div>
-                          {' '}
-                          According to my research study, I have two differences
-                          type of users seperated by service that they got. So
-                          that I created two empathy map to understand user
-                          attitudes and behaviors of each user type.
-                        </div>
-                      }
-                      textalign={'left'}
-                    />
-                  </div>
-                </div>
-
-                <div className="w-full md:w-3/5">
-                  <div className="w-full md:px-16">
-                    <Carousel
-                      imageUrls={[
-                        require('assets/img/EmpathyMap_no1.png').default,
-                        require('assets/img/EmpathyMap_no2.png').default,
-                      ]}
-                    />
-                    <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
-                      Empathy Map
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Personas */}
-              <div className="flex flex-wrap w-full items-center justify-center mt-5 mb-16">
-                <div className="w-full md:w-2/5">
-                  <div className="my-5">
-                    <CardArticleWithObject
-                      subtitle="Define target users"
-                      description={
-                        <div>
-                          {' '}
-                          To follow user-centered design(UCD), I used personas
-                          to help me indentify who are my target users, so that
-                          I can design the right things to the right person.
-                        </div>
-                      }
-                      textalign={'left'}
-                    />
-                  </div>
-                </div>
-                <div className="w-full md:w-3/5 md:px-16">
-                  <img
-                    alt="..."
-                    src={require('assets/img/Persona_1.png').default}
-                    className="max-w-full mx-auto mb-3"
-                    style={{}}
-                  />
-                  <div className="w-full md:px-16">
-                    <Carousel
-                      imageUrls={[
-                        require('assets/img/EmpathyMap_no1.png').default,
-                        require('assets/img/EmpathyMap_no2.png').default,
-                      ]}
-                    />
-                    <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
-                      Empathy Map
-                    </p>
-                  </div>
-
-                  <p className="italic text-xs font-light text-gray-400 mt-2 text-center">
-                    Personas
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap w-full items-center justify-center">
-                <div className="flex flex-wrap w-full items-center justify-center">
-                  <SubtitleWithIcon title="Addressing problems and needs"></SubtitleWithIcon>
-                </div>
-                <div className="flex flex-wrap w-full justify-center">
-                  <div className="md:w-6/12 md:pr-8">
+        <section>
+          <div className="flex flex-wrap w-full items-center justify-center ">
+            <TitleWithIcon
+              title="Define the right problem"
+              icon="fas fa-crosshairs"
+            />
+          </div>
+          <section className="relative py-12 px-4">
+            <div className="container mx-auto">
+              <div className="flex flex-wrap md:w-4/5 mx-auto">
+                <div className="flex flex-wrap w-full items-center justify-center md:mb-12">
+                  <div className="w-full md:w-2/5">
+                    <div className="flex flex-wrap w-full items-center justify-center">
+                      <SubtitleWithIcon title="Know users, then know problems" />
+                    </div>
+                    {/* Empathy Map */}
                     <div className="my-5">
                       <CardArticleWithObject
-                        subtitle="See the whole story and capture the problems
-                      "
+                        subtitle="Learn more about users"
                         description={
                           <div>
                             {' '}
-                            I created storyboard to understand a sequence and
-                            capture at attention point of user’s story. It’s
-                            good way to understand whole story by seeing image.
+                            According to my research study, I have two
+                            differences type of users seperated by service that
+                            they got. So that I created two empathy map to
+                            understand user attitudes and behaviors of each user
+                            type.
                           </div>
                         }
                         textalign={'left'}
-                        object={
-                          <ImageWithCaption
-                            imageUrl={
-                              require('assets/img/Storyboard.jpg').default
-                            }
-                            caption="Storyboard"
-                          />
-                        }
                       />
                     </div>
                   </div>
-                  <div className="md:w-6/12 md:pl-8">
+
+                  <div className="w-full md:w-3/5 md:px-10">
+                    <Carousel
+                      imageUrls={[
+                        require('assets/img/EmpathyMap_no1.png').default,
+                        require('assets/img/EmpathyMap_no2.png').default,
+                      ]}
+                    />
+                    <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
+                      Empathy Map
+                    </p>
+                  </div>
+                </div>
+
+                {/* Personas */}
+                <div className="flex flex-wrap w-full items-center justify-center mt-5 mb-16">
+                  <div className="w-full md:w-2/5">
                     <div className="my-5">
                       <CardArticleWithObject
-                        subtitle="Analyze User’s Journey
-                      "
+                        subtitle="Define target users"
                         description={
                           <div>
                             {' '}
-                            To understand user’s problems, I created user
-                            journey map to visualize the home service
-                            experience. This help me see what/where/when/why
-                            those problem occur in the user’s journey.
+                            To follow user-centered design(UCD), I used personas
+                            to help me indentify who are my target users, so
+                            that I can design the right things to the right
+                            person.
                           </div>
                         }
                         textalign={'left'}
-                        object={
-                          <ImageWithCaption
-                            imageUrl={
-                              require('assets/img/User_Journey1.png').default
-                            }
-                            caption="User’s Journey"
-                          />
-                        }
                       />
+                    </div>
+                  </div>
+                  <div className="w-full md:w-3/5 md:px-10">
+                    <Carousel
+                      imageUrls={[
+                        require('assets/img/Persona_1.png').default,
+                        require('assets/img/Persona_2.png').default,
+                      ]}
+                    />
+                    <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
+                      Empathy Map
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap w-full items-center justify-center">
+                  <div className="flex flex-wrap w-full items-center justify-center">
+                    <SubtitleWithIcon title="Addressing problems and needs"></SubtitleWithIcon>
+                  </div>
+                  <div className="flex flex-wrap w-full justify-center">
+                    <div className="md:w-6/12 md:pr-8">
+                      <div className="my-5">
+                        <CardArticleWithObject
+                          subtitle="See the whole story and capture the problems
+                      "
+                          description={
+                            <div>
+                              {' '}
+                              I created storyboard to understand a sequence and
+                              capture at attention point of user’s story. It’s
+                              good way to understand whole story by seeing
+                              image.
+                            </div>
+                          }
+                          textalign={'left'}
+                          object={
+                            <ImageWithCaption
+                              imageUrl={
+                                require('assets/img/Storyboard.jpg').default
+                              }
+                              caption="Storyboard"
+                            />
+                          }
+                        />
+                      </div>
+                    </div>
+                    <div className="md:w-6/12 md:pl-8">
+                      <div className="my-5">
+                        <CardArticleWithObject
+                          subtitle="Analyze User’s Journey
+                      "
+                          description={
+                            <div>
+                              {' '}
+                              To understand user’s problems, I created user
+                              journey map to visualize the home service
+                              experience. This help me see what/where/when/why
+                              those problem occur in the user’s journey.
+                            </div>
+                          }
+                          textalign={'left'}
+                          object={
+                            <ImageWithCaption
+                              imageUrl={
+                                require('assets/img/User_Journey1.png').default
+                              }
+                              caption="User’s Journey"
+                            />
+                          }
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section>
           <div className="relative flex flex-wrap lg:w-full mx-auto bg-white pt-9 pb-16">
             <div className="px-4 md:w-4/5 mx-auto">
               <div className="md:w-3/5 mx-auto mb-4 text-center">
@@ -938,49 +931,50 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
-
         {/* Ideate */}
 
         <section>
-          <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-50">
-            <div className="relative flex flex-wrap w-full mx-auto justify-center pt-12 px-4">
+          <div>
+            <div className="relative flex flex-wrap w-full mx-auto justify-center pt-12 px-4 ">
               {' '}
               <TitleWithIcon
                 title="Get into Solution"
                 icon="fas fa-lightbulb"
               />
             </div>
-            <div className="px-4 md:w-4/5 mx-auto">
-              <div className="md:w-3/5 mx-auto mb-4 text-center">
-                <h2 className=" text-2xl font-semibold text-blue-600">
-                  HMW will come up with Solution
-                </h2>
+            <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-50">
+              <div className="px-4 md:w-4/5 mx-auto">
+                <div className="md:w-3/5 mx-auto mb-4 text-center">
+                  <h2 className=" text-2xl font-semibold text-blue-600">
+                    HMW will come up with Solution
+                  </h2>
 
-                <p className="mt-8 text-lg leading-relaxed text-gray-600 text-left">
-                  With all problem defination and how might we I got, I started
-                  to generate several solutions and pick the most impact
-                  solution by concidering their pros and cons
-                </p>
-              </div>
-
-              <div className="w-full md:px-12 mx-auto ">
-                <ImageWithCaption
-                  imageUrl={require('assets/img/IdeateSolution.jpg').default}
-                  caption="Ideation Solution Process"
-                />
-              </div>
-
-              <div className="md:w-3/5 mx-auto">
-                <div className="text-center bg-white rounded-xl py-4 px-8 mt-8 border-2 shadow-lg ">
-                  <h4 className="text-xl text-center my-4 font-semibold leading-normal  text-gray-800">
-                    Solution
-                  </h4>
-                  <p className="text-lg leading-relaxed text-gray-700">
-                    Get home service by using online platform which a huge of
-                    technician information to find a satisfied technician and
-                    get technical advice from an expert
+                  <p className="mt-8 text-lg leading-relaxed text-gray-600 text-left">
+                    With all problem defination and how might we I got, I
+                    started to generate several solutions and pick the most
+                    impact solution by concidering their pros and cons
                   </p>
-                  <p className="text-4xl">?</p>
+                </div>
+
+                <div className="w-full md:px-12 mx-auto ">
+                  <ImageWithCaption
+                    imageUrl={require('assets/img/IdeateSolution.jpg').default}
+                    caption="Ideation Solution Process"
+                  />
+                </div>
+
+                <div className="md:w-3/5 mx-auto">
+                  <div className="text-center bg-white rounded-xl py-4 px-8 mt-8 border-2 shadow-lg ">
+                    <h4 className="text-xl text-center my-4 font-semibold leading-normal  text-gray-800">
+                      Solution
+                    </h4>
+                    <p className="text-lg leading-relaxed text-gray-700">
+                      Get home service by using online platform which a huge of
+                      technician information to find a satisfied technician and
+                      get technical advice from an expert
+                    </p>
+                    <p className="text-4xl">?</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1059,7 +1053,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         {/* { Prototype} */}
-        <section className="relative py-12 bg-white">
+        <section className="relative py-12 bg-white mx-4">
           <div className="container mx-auto ">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
               <div className="relative flex flex-wrap w-full mx-auto justify-center">
@@ -1117,7 +1111,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 Prototype
               </h2>
 
-              <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
+              <div className="relative flex flex-wrap w-full md:px-12 mx-auto justify-center items-center">
                 <div className="md:w-6/12 mx-auto mb-4">
                   <CardContentPrototype
                     title="Onboarding & Login"
@@ -1127,15 +1121,15 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   />
                 </div>
 
-                <div className="md:w-5/12 mx-auto mb-4 px-20">
+                <div className="md:w-5/12 mx-auto mb-4 md:px-20">
                   <ImageWithCaption
                     imageUrl={require('assets/img/OnboardAndLogin.gif').default}
                   />
                 </div>
               </div>
 
-              <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
-                <div className="md:w-5/12 mx-auto mb-4 px-20">
+              <div className="relative flex flex-wrap w-full md:px-12 mx-auto justify-center items-center">
+                <div className="md:w-5/12 mx-auto mb-4 md:px-20">
                   <ImageWithCaption
                     imageUrl={require('assets/img/SearchAndFilter.gif').default}
                   />
@@ -1150,7 +1144,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 </div>
               </div>
 
-              <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
+              <div className="relative flex flex-wrap w-full md:px-12 mx-auto justify-center items-center">
                 <div className="md:w-6/12 mx-auto mb-4">
                   <CardContentPrototype
                     title="Booking and Scheduling"
@@ -1159,7 +1153,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
                   />
                 </div>
-                <div className="md:w-5/12 mx-auto mb-4 px-20">
+                <div className="md:w-5/12 mx-auto mb-4 md:px-20">
                   <ImageWithCaption
                     imageUrl={
                       require('assets/img/BookingAndScheduling.gif').default
@@ -1168,8 +1162,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 </div>
               </div>
 
-              <div className="relative flex md:w-full md:px-12 mx-auto justify-center items-center">
-                <div className="md:w-5/12 mx-auto mb-4 px-20">
+              <div className="relative flex flex-wrap w-full md:px-12 mx-auto justify-center items-center">
+                <div className="md:w-5/12 mx-auto mb-4 md:px-20">
                   <ImageWithCaption
                     imageUrl={require('assets/img/Calling.gif').default}
                   />

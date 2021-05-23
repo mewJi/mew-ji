@@ -7,7 +7,7 @@ export default function CardSumaryWithBorder({
   imageUrl,
 }) {
   return (
-    <div className="text-left px-8 py-8 border-gray-200 border rounded-md my-4 mx-4 bg-white">
+    <div className="text-left px-8 py-10 border-gray-200 border rounded-md my-4 md:mx-4 bg-white">
       <div>
         <h2 className=" text-xl font-semibold text-yellow-500 mb-2">{title}</h2>
       </div>
