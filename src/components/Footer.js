@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gray-100 pt-8 pb-6">
+    <footer className="relative bg-green-500 pt-8 pb-6">
       {/* <div
         className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style={{ height: "80px" }}
@@ -25,16 +25,16 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-12/12 px-4">
-            <h4 className="text-2xl font-semibold text-center text-blue-500 py-4">
+            <h4 className="text-2xl font-semibold text-center text-white py-4">
               Nice to see you here :)
             </h4>
-            <h5 className="text-lg mt-0 mb-2 text-blue-500 text-center">
+            <h5 className="text-lg mt-0 mb-2 text-white text-center">
               Let's connect!
             </h5>
             <div className="mt-6 text-center">
               <a href="https://www.facebook.com/imNichaphat" target="_blank">
                 <button
-                  className="bg-white text-blue-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  className="text-4xl text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mx-4"
                   type="button"
                 >
                   <i className="flex fab fa-facebook"></i>
@@ -43,7 +43,7 @@ export default function Footer() {
 
               <a href="https://www.instagram.com/mew.nichaphat" target="_blank">
                 <button
-                  className="bg-white text-blue-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  className="text-4xl text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mx-4"
                   type="button"
                 >
                   <i className="flex fab fa-instagram"></i>
@@ -52,7 +52,7 @@ export default function Footer() {
 
               <a href="https://dribbble.com/mewji" target="_blank">
                 <button
-                  className="bg-white text-blue-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  className="text-4xl text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mx-4"
                   type="button"
                 >
                   <i className="flex fab fa-dribbble"></i>
@@ -61,7 +61,7 @@ export default function Footer() {
 
               <a href="https://line.me/ti/p/ujMym0Xec4" target="_blank">
                 <button
-                  className="bg-white text-blue-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  className="text-4xl text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
                   <i className="flex fab fa-line"></i>
@@ -130,13 +130,12 @@ export default function Footer() {
             </div>
           </div> */}
         </div>
-        <hr className="my-6 border-white" />
-        <div className="flex flex-wrap items-center md:justify-between justify-center">
+        <div className="flex flex-wrap items-center md:justify-between justify-center mt-8">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div className="text-sm text-blue-500 font-semibold py-1">
+            <div className="text-sm text-white font-semibold py-1">
               Made with <i className="fas fa-heart"></i> by Mewji
             </div>
-            <div className="text-sm text-blue-500 font-semibold py-1">
+            <div className="text-sm text-white font-semibold py-1">
               © {new Date().getFullYear()}
             </div>
           </div>

@@ -7,7 +7,7 @@ export default function Navbar(props) {
       className={
         (props.transparent
           ? 'top-0 absolute z-50 w-full'
-          : 'relative shadow-lg bg-red-400 shadow-lg') +
+          : 'relative shadow-lg bg-blue-600 shadow-lg') +
         ' flex flex-wrap items-center justify-between px-2 py-3 '
       }
     >
@@ -17,12 +17,13 @@ export default function Navbar(props) {
             className={
               (props.transparent
                 ? 'text-gray-800 lg:hover:text-gray-300'
-                : 'text-white lg:hover:text-red-300') +
-              ' text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase'
+                : 'text-white lg:hover:text-green-300') +
+              ' text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap '
             }
             href="http://localhost:3000/landing"
           >
             MEWJI
+            <p className="text-sm font-light">ux designer</p>
           </a>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -51,22 +52,7 @@ export default function Navbar(props) {
                   (props.transparent
                     ? 'lg:text-white lg:hover:text-gray-300 text-gray-800'
                     : 'text-white hover:text-gray-300') +
-                  ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
-                }
-                href="http://localhost:3000/landing"
-              >
-                {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
-                Case Studies
-              </a>
-            </li>
-
-            <li className="flex items-center">
-              <a
-                className={
-                  (props.transparent
-                    ? 'lg:text-white lg:hover:text-gray-300 text-gray-800'
-                    : 'text-white hover:text-gray-300') +
-                  ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
+                  ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold'
                 }
                 href="#pabo"
                 target="_blank"
@@ -82,7 +68,7 @@ export default function Navbar(props) {
                   (props.transparent
                     ? 'lg:text-white lg:hover:text-gray-300 text-gray-800'
                     : 'text-white hover:text-gray-300') +
-                  ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
+                  ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold'
                 }
                 href="#pabo"
                 target="_blank"

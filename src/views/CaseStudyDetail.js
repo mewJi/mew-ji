@@ -56,7 +56,7 @@ when home maintenance time is coming?"
             <div className="flex flex-wrap justify-center mx-auto">
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
+                  imageUrl={require('assets/img/lackofskill.png').default}
                   title="Lack of Skill"
                   description="Home maintenance skill
 is so wide, meanwhile, it is specific. Studying and practicing was a need"
@@ -64,14 +64,16 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               </div>
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
+                  imageUrl={
+                    require('assets/img/Distrust-Technician.png').default
+                  }
                   title="Distrust Technician "
                   description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
                 ></CardArticleWithTopImg>
               </div>
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
+                  imageUrl={require('assets/img/Time-Consuming.png').default}
                   title="Time-Consuming
                   Research"
                   description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
@@ -373,15 +375,22 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             <div className="flex flex-wrap justify-center mx-auto">
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
+                  imageUrl={require('assets/img/Customer.png').default}
+                  title="Customer"
+                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                ></CardArticleWithTopImg>
+              </div>
+              <div className="md:w-1/3 md:px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/Business.png').default}
                   title="Business Growth"
                   description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
                 ></CardArticleWithTopImg>
               </div>
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Techinician Opportunity"
+                  imageUrl={require('assets/img/Partner.png').default}
+                  title="Partner"
                   description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
                 ></CardArticleWithTopImg>
               </div>
