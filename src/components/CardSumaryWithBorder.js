@@ -19,7 +19,11 @@ export default function CardSumaryWithBorder({
       <p className="mt-4 text-lg leading-relaxed text-gray-500 mb-8">
         {description}
       </p>
-      <img alt="..." src={imageUrl} className="w-full rounded-sm " />
+      <img
+        alt="..."
+        src={imageUrl}
+        className="w-full rounded-sm px-8 py-4 align-left"
+      />
     </div>
   );
 }

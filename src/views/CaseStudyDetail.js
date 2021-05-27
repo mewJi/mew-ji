@@ -179,7 +179,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <div className="flex flex-wrap mt-8 md:mt-16 justify-center md:justify-start">
                   <div className="md:text-left">
                     <Button
-                      buttonText="Try prototype"
+                      buttonText="Let's try prototype"
                       targetUrl="http://localhost:3000/CaseStudyDetail"
                       buttontype="primary"
                     />
@@ -332,32 +332,33 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 opportunity
               </p>
             </div>
+
             <div className="relative flex flex-wrap items-stretch md:w-full lg:px-4 mx-auto ">
-              <div className="flex flex-wrap lg:w-full">
+              <div className="flex flex-wrap lg:w-1/3">
                 <CardSumaryWithBorder
                   title="Problem #1"
                   subtitle="Missing Information"
                   description="Users need to see the service detail such as service name and technician’s name during scheduling and additional information process "
-                  imageUrl={require('assets/img/Problem1-2.png').default}
+                  imageUrl={
+                    require('assets/img/o_Information_missing.png').default
+                  }
                 />
               </div>
-            </div>
-            <div className="relative flex flex-wrap items-stretch md:w-full lg:px-4 mx-auto ">
-              <div className="flex  flex-wrap lg:w-1/2">
+              <div className="flex  flex-wrap lg:w-1/3">
                 <CardSumaryWithBorder
                   title="Problem #2"
                   subtitle="Unclear Icon Meaning"
                   description="Users did not understand the meaning of the icon such as the calendar icon(following with date and time) on the order summary card. because they did not know if it's an order create date or an appointment date
                 "
-                  imageUrl={require('assets/img/Icon_Meaning.png').default}
+                  imageUrl={require('assets/img/o_confusing_icon.png').default}
                 />
               </div>
-              <div className="flex lg:w-1/2">
+              <div className="flex flex-wrap lg:w-1/3">
                 <CardSumaryWithBorder
                   title="Problem #3"
                   subtitle="Confused Button Position"
                   description="Service selecting button made them confused because this button contains the smaller one text button in there, which means they will get an unexpected response after tap the bigger button"
-                  imageUrl={require('assets/img/Button_Position.png').default}
+                  imageUrl={require('assets/img/o_button_position.png').default}
                 />
               </div>
             </div>
@@ -382,16 +383,16 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               </div>
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/Business.png').default}
-                  title="Business Growth"
-                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                  imageUrl={require('assets/img/Partner.png').default}
+                  title="Partner"
+                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
                 ></CardArticleWithTopImg>
               </div>
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/Partner.png').default}
-                  title="Partner"
-                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                  imageUrl={require('assets/img/Business.png').default}
+                  title="Business Growth"
+                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
                 ></CardArticleWithTopImg>
               </div>
             </div>
@@ -552,20 +553,26 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         {/* {Learning} */}
         <section className="px-4 bg-blue-50 pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
-            <HomeTopic caption="learning" title="What I learning?"></HomeTopic>
+            <HomeTopic caption="learning" title="What I learned?"></HomeTopic>
             <div className="flex flex-wrap justify-center mx-auto">
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Business Growth"
+                  imageUrl={require('assets/img/empathy.png').default}
+                  title="Partner side is important"
                   description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
                 ></CardArticleWithTopImg>
               </div>
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
-                  imageUrl={require('assets/img/logo.svg').default}
-                  title="Time-Consuming
-                  Research"
+                  imageUrl={require('assets/img/question.png').default}
+                  title="Apply Accessibility to the design"
+                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                ></CardArticleWithTopImg>
+              </div>
+              <div className="md:w-1/3 md:px-8">
+                <CardArticleWithTopImg
+                  imageUrl={require('assets/img/team.png').default}
+                  title="Apply Accessibility to the design"
                   description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
                 ></CardArticleWithTopImg>
               </div>

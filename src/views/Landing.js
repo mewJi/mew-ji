@@ -18,7 +18,7 @@ export default function Landing() {
         >
           <div className="container relative mx-auto px-4">
             <div className="items-center justify-center mx-auto flex flex-wrap md:w-4/5">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
                 <h1 className="text-white font-semibold text-5xl lg:hover:text-green-300">
                   Hi, I am Mewji
                 </h1>
@@ -28,12 +28,12 @@ export default function Landing() {
                   why I am passionate about UX
                 </p>
               </div>
-              <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-4 ">
                 <div className="md:w-full">
                   <img
                     alt="..."
-                    src={require('assets/img/charactor.png').default}
-                    className="max-w-full "
+                    src={require('assets/img/gift.png').default}
+                    className="max-w-full pl-4 "
                     style={{}}
                   />
                 </div>
