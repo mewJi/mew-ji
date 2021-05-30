@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-scroll';
 
 import Navbar from 'components/Navbar.js';
 import Footer from 'components/Footer.js';
@@ -319,11 +320,19 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
           <div className="flex flex-wrap justify-center my-4 md:my-8">
-            <Button
-              buttonText="See all process"
-              targetUrl="http://localhost:3000/CaseStudyDetail"
-              buttontype="primary"
-            />
+            <Link
+              className="test1"
+              to="design-processes"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Button
+                buttonText="See all process"
+                targetUrl="http://localhost:3000/CaseStudyDetail"
+                buttontype="primary"
+              />
+            </Link>
           </div>
         </section>
 
@@ -592,7 +601,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
 
         {/* All Design Process*/}
-        <div className="bg-gray-800 py-16 text-white">
+        <div name="design-processes" className="bg-gray-800 py-16 text-white">
           <h1 className="text-xl text-center"> step by step </h1>
           <h3 className="text-4xl text-center"> Design Process </h3>
         </div>
