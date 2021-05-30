@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import Navbar from 'components/Navbar.js';
 import Footer from 'components/Footer.js';
@@ -17,8 +17,16 @@ import CardSumaryWithBorder from 'components/CardSumaryWithBorder';
 import HomeTopic from 'components/HomeTopic';
 import CardArticleWithTopImg from 'components/CardArticleWithTopImg';
 import CaseStudyTextBanner from 'components/caseStudyDetail/CaseStudyTextBanner';
+import { ImageLightboxContext } from 'contexts/ImageLightboxContext';
 
 export default function CaseStudyDetail() {
+  const {
+    actions: { setImages },
+  } = useContext(ImageLightboxContext);
+
+  const pushImageLackOfSkillOnLightBox = () =>
+    setImages([require('assets/img/lackofskill.png').default]);
+
   return (
     <>
       {' '}
@@ -54,7 +62,10 @@ when home maintenance time is coming?"
             ></HomeTopic>
 
             <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/3 md:px-8">
+              <div
+                className="md:w-1/3 md:px-8"
+                onClick={pushImageLackOfSkillOnLightBox}
+              >
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/lackofskill.png').default}
                   title="Lack of Skill"
