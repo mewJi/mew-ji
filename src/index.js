@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'react-image-lightbox/style.css';
@@ -24,6 +25,7 @@ ReactDOM.render(
           <Redirect from="/" to="/landing" />
         </Switch>
       </BrowserRouter>
+      <ScrollToTop smooth color="#6f00ff" />
     </ImageLightboxConsumer>
   </ImageLightboxProvider>,
   document.getElementById('root'),
