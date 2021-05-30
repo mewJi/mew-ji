@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Button({
+export default function ButtonSmall({
   iconClassName,
   buttonText,
   targetUrl,
@@ -21,7 +21,7 @@ export default function Button({
     <div className="text-left">
       <a href={targetUrl}>
         <button
-          className={`active:bg-orange-500 text-xl font-medium px-10 py-3 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 my-4 ${btnClassName}`}
+          className={`active:bg-orange-500 text-sm font-medium px-4 py-2 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 mt-6  ${btnClassName}`}
           type="button"
           style={{ transition: 'all .15s ease' }}
         >

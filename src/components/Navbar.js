@@ -7,7 +7,7 @@ export default function Navbar(props) {
       className={
         (props.transparent
           ? 'top-0 absolute z-50 w-full'
-          : 'relative shadow-lg bg-blue-600 shadow-lg') +
+          : 'relative shadow-lg bg-gray-700 shadow-lg') +
         ' flex flex-wrap items-center justify-between px-2 py-3 '
       }
     >
@@ -17,7 +17,7 @@ export default function Navbar(props) {
             className={
               (props.transparent
                 ? 'text-gray-800 lg:hover:text-gray-300'
-                : 'text-white lg:hover:text-green-300') +
+                : 'text-white lg:hover:text-red-300') +
               ' text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap '
             }
             href="http://localhost:3000/landing"
@@ -54,8 +54,8 @@ export default function Navbar(props) {
                     : 'text-white hover:text-gray-300') +
                   ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold'
                 }
-                href="#pabo"
-                target="_blank"
+                href="http://localhost:3000/AboutMe"
+                // target="_blank"
               >
                 {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
                 About Me
@@ -74,7 +74,7 @@ export default function Navbar(props) {
                 target="_blank"
               >
                 {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
-                Contact
+                Resume
               </a>
             </li>
           </ul>
