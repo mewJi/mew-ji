@@ -1,12 +1,15 @@
 import React from 'react';
+const pushImageStoryBoardOnLightBox = () =>
+  setImages([require('assets/img/Storyboard.jpg').default]);
 
 export default function ImageWithCaption({
   imageUrl,
   caption,
   className = 'container',
+  jvscript,
 }) {
   return (
-    <div className="text-center my-4">
+    <div className="text-center my-4" onClick={jvscript}>
       <img
         alt="..."
         src={imageUrl}

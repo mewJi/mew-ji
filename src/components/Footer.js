@@ -29,7 +29,7 @@ export default function Footer() {
               Nice to see you here :)
             </h4>
             <h5 className="text-lg mt-0 mb-2 text-white text-center">
-              Let's connect!
+              Please feel free to connect me!
             </h5>
             <div className="mt-6 text-center">
               <a href="https://www.facebook.com/imNichaphat" target="_blank">

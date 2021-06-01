@@ -8,7 +8,7 @@ export default function HomeTopic({ caption, title, className = 'container' }) {
         <p className="text-xl font-light text-gray-400 ">{caption}</p>
       </div>
       <div>
-        <h3 className="text-3xl font-normal text-gray-800">{title}</h3>
+        <h3 className="text-4xl font-normal text-gray-800">{title}</h3>
       </div>
     </div>
   );

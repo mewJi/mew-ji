@@ -25,7 +25,7 @@ ReactDOM.render(
           <Redirect from="/" to="/landing" />
         </Switch>
       </BrowserRouter>
-      <ScrollToTop smooth color="#6f00ff" />
+      <ScrollToTop smooth color="#176CAA" />
     </ImageLightboxConsumer>
   </ImageLightboxProvider>,
   document.getElementById('root'),

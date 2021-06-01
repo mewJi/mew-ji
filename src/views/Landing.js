@@ -51,7 +51,7 @@ export default function Landing() {
                 className="md:w-3/5"
                 title="HOME HERO"
                 subtitle="UX Case Study | Mobile App Design"
-                description="Technicians hub for better home maintenance experience."
+                description="Easily find the technician in one app, Your home fixed with the best technician"
                 imageUrl={require('assets/img/cover_case1.png').default}
                 targetUrl="http://localhost:3000/CaseStudyDetail"
                 buttonText="View Project"

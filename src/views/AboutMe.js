@@ -28,21 +28,23 @@ export default function AboutMe() {
               </div>
               <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
                 <h3 className="font-semibold text-5xl text-gray-800">
-                  Hi, I am Mew
+                  Hi, I am Mewji
                 </h3>
                 <p className="mt-8 text-lg text-gray-800">
-                  Eget enim neque, risus, nibh sagittis placerat est. Aliquam
-                  pellentesque eget erat sed quis malesuada vitae posuere
-                  mauris. Placerat sit sem libero risus, faucibus facilisi.
+                  Eight years of experience in supporting clients in an IT
+                  consulting company gave me a very big and long chance to
+                  understand people and client’s core business. This makes me
+                  realize that empathy can improve people’s lives and bring
+                  success to the business.
                   <br></br>
                   <br></br>
-                  Scelerisque a pellentesque mattis mi. Elementum leo ultricies
-                  dolor commodo, dui, nam cursus montes. A aliquam ullamcorper
-                  gravida amet, quis nulla semper tortor. Tincidunt elit at
+                  This is why I intend to learn about UX and willing to be a
+                  part of the big success.
                   <br></br>
                   <br></br>
-                  scelerisque nunc nullam in ultrices. Elementum sed cursus
-                  ipsum vel
+                  Seeing people’s lives better while the business meets their
+                  goals is the reason why I am passionate to come into the User
+                  Experience Design career.
                 </p>
               </div>
             </div>

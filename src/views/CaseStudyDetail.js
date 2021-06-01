@@ -25,8 +25,43 @@ export default function CaseStudyDetail() {
     actions: { setImages },
   } = useContext(ImageLightboxContext);
 
-  const pushImageLackOfSkillOnLightBox = () =>
-    setImages([require('assets/img/lackofskill.png').default]);
+  const pushImageMainPrototypeOnLightBox = () =>
+    setImages([require('assets/img/SearchAndFilter.gif').default]);
+
+  const pushImageStyleGuideOnLightBox = () =>
+    setImages([require('assets/img/StyleGuide.png').default]);
+
+  const pushImageComponentsOnLightBox = () =>
+    setImages(
+      [require('assets/img/Components_1.png').default],
+      [require('assets/img/Components_2.png').default],
+      [require('assets/img/Components_3.png').default],
+    );
+
+  const pushImageAffinityMapOnLightBox = () =>
+    setImages([require('assets/img/affinity_map.jpg').default]);
+  const pushImageStoryBoardOnLightBox = () =>
+    setImages([require('assets/img/Storyboard.jpg').default]);
+  const pushImageUserJourneyOnLightBox = () =>
+    setImages([require('assets/img/User_Journey1.png').default]);
+  const pushImageDefineProblemOnLightBox = () =>
+    setImages([require('assets/img/Define_Problem.jpg').default]);
+  const pushImageIdeateSolutionOnLightBox = () =>
+    setImages([require('assets/img/IdeateSolution.jpg').default]);
+  const pushImageUserStoryMappingOnLightBox = () =>
+    setImages([require('assets/img/userstory_map.jpg').default]);
+  const pushImageSiteMapOnLightBox = () =>
+    setImages([require('assets/img/sitemap.jpg').default]);
+  const pushImageLowFiWireOnLightBox = () =>
+    setImages([require('assets/img/Low-Fidelity-Wireframe.jpg').default]);
+  const pushImageHighFiWireOnLightBox = () =>
+    setImages([require('assets/img/High-Fidelity-Wireframe.png').default]);
+  const pushImageProblem1OnLightBox = () =>
+    setImages([require('assets/img/Problem1-2.png').default]);
+  const pushImageProblem2OnLightBox = () =>
+    setImages([require('assets/img/Icon_Meaning.png').default]);
+  const pushImageProblem3OnLightBox = () =>
+    setImages([require('assets/img/Button_Position.png').default]);
 
   return (
     <>
@@ -43,16 +78,14 @@ export default function CaseStudyDetail() {
             style={{}}
           />
           <CaseStudyTextBanner
-            className="w-full h-full absolute top-0 hidden md:flex"
+            className="w-full h-full absolute top-0 hidden md:flex  "
             textCss="items-start"
             isAbsolute
           />
         </div>
-
         <section className="block sm:hidden pt-4">
           <CaseStudyTextBanner className="flex w-full" textCss="items-center" />
         </section>
-
         {/* {show case section 1} */}
         <section className="px-4 bg-white pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
@@ -63,10 +96,7 @@ when home maintenance time is coming?"
             ></HomeTopic>
 
             <div className="flex flex-wrap justify-center mx-auto">
-              <div
-                className="md:w-1/3 md:px-8"
-                onClick={pushImageLackOfSkillOnLightBox}
-              >
+              <div className="md:w-1/3 md:px-8 lg:px-12">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/lackofskill.png').default}
                   title="Lack of Skill"
@@ -74,7 +104,7 @@ when home maintenance time is coming?"
 is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 ></CardArticleWithTopImg>
               </div>
-              <div className="md:w-1/3 md:px-8">
+              <div className="md:w-1/3 md:px-8 lg:px-12">
                 <CardArticleWithTopImg
                   imageUrl={
                     require('assets/img/Distrust-Technician.png').default
@@ -83,7 +113,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
                 ></CardArticleWithTopImg>
               </div>
-              <div className="md:w-1/3 md:px-8">
+              <div className="md:w-1/3 md:px-8 lg:px-12">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/Time-Consuming.png').default}
                   title="Time-Consuming
@@ -94,7 +124,6 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
-
         {/* {show case section 2} */}
         <section className="px-4 bg-blue-50 pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
@@ -104,11 +133,12 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               this trouble?   "
             ></HomeTopic>
             <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/3">
+              <div className="md:w-1/3 md:px-8">
                 <img
                   alt="..."
                   src={require('assets/img/SearchAndFilter.gif').default}
-                  className="max-w-full rounded-xl"
+                  className="max-w-full rounded-3xl "
+                  onClick={pushImageMainPrototypeOnLightBox}
                   style={{}}
                 />
               </div>
@@ -126,7 +156,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 </div>
                 <div className="flex flex-wrap">
                   <h3 className="text-lg leading-relaxed text-gray-600 mb-4 md:mb-1">
-                    Home Hero is a mobile application that help people easily
+                    Home Hero is a mobile application that helps people easily
                     find a trustworthy home service technician and easily find
                     an expert to get consulting about the home solution they
                     need
@@ -188,11 +218,11 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-wrap mt-8 md:mt-16 justify-center md:justify-start">
+                <div className="flex flex-wrap mt-4 md:mt-10 justify-center md:justify-start">
                   <div className="md:text-left">
                     <Button
-                      buttonText="Let's try prototype"
-                      targetUrl="http://localhost:3000/CaseStudyDetail"
+                      buttonText="Try prototype"
+                      targetUrl="https://www.figma.com/proto/rsSk8Ny8Hv4x1oQuXjjlKJ/Case-Study-Home-Buddy?node-id=416%3A2625&scaling=scale-down&page-id=148%3A13"
                       buttontype="primary"
                     />
                   </div>
@@ -201,21 +231,14 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
-
         <section className="px-4 bg-white pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic
               caption="design process"
               title="How does Home Hero comes?"
             ></HomeTopic>
-            <div className="flex flex-wrap justify-center mx-auto mb-4 md:mb-10 md:w-3/5">
-              <p className="text-lg leading-relaxed my-4">
-                <b>Design Think Process</b> lead me to discover several
-                solutions to the above problem and this is how the prototype
-                comes
-              </p>
-            </div>
-            <div className="flex flex-wrap md:w-2/3">
+
+            <div className="flex flex-wrap md:w-2/3 md:px-8">
               <img
                 alt="..."
                 src={require('assets/img/DesignProcess.png').default}
@@ -223,103 +246,16 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 style={{}}
               />
             </div>
-          </div>
-          <div className="flex flex-wrap items-stretch items-center md:w-3/5 my-12 text-center mx-auto">
-            <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
-              <div className="mb-4">
-                <i className="fas fa-suitcase text-2xl text-blue-400"></i>
-              </div>
-              <div className="mb-8">
-                <h1 className="text-xl font-semibold leading-normal text-gray-800">
-                  My Role
-                </h1>
-              </div>
-              <div>
-                <div>
-                  <ul className="list-none mt-6 text-gray-600">
-                    <li className="py-1">
-                      <p className="text- leading-normal">User Research</p>
-                    </li>
-                    <li className="py-1">
-                      <p className="text- leading-normal">
-                        Information Architecture
-                      </p>
-                    </li>
-                    <li className="py-1">
-                      <p className="text- leading-normal">Wireframing</p>
-                    </li>
-                    <li className="py-1">
-                      <p className="text- leading-normal">Prototyping</p>
-                    </li>
-                    <li className="py-1">
-                      <p className="text- leading-normal">Visual Design</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
-              <div className="mb-4">
-                <i className="fas fa-tools text-2xl text-blue-400"></i>
-              </div>
-              <div className="mb-8">
-                <h1 className="text-xl font-semibold leading-normal text-gray-800">
-                  Tools
-                </h1>
-              </div>
-              <div>
-                <ul className="list-none mt-6 text-gray-600">
-                  <li className="py-1">
-                    <p className="text- leading-normal">Figma</p>
-                  </li>
-                  <li className="py-1">
-                    <p className="text- leading-normal">Draw.io</p>
-                  </li>
-                  <li className="py-1">
-                    <p className="text- leading-normal">Miro</p>
-                  </li>
-                  <li className="py-1">
-                    <p className="text- leading-normal">Zoom</p>
-                  </li>
-                  <li className="py-1">
-                    <p className="text- leading-normal">Adobe Illustrator</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
-              <div className="mb-4">
-                <i className="fas fa-mobile text-2xl text-blue-400"></i>
-              </div>
-              <div className="mb-8">
-                <h1 className="text-xl font-semibold leading-normal text-gray-800">
-                  Platform
-                </h1>
-              </div>
-              <div>
-                <p className="text- leading-normal text-gray-600">
-                  Mobile Application
-                </p>
-              </div>
-            </div>
-            <div className="w-full md:w-1/4 mx-auto py-2 bg-white">
-              <div className="mb-4">
-                <i className="fas fa-clock text-2xl text-blue-400"></i>
-              </div>
-              <div className="mb-8">
-                <h1 className="text-xl font-semibold leading-normal text-gray-800">
-                  Duration
-                </h1>
-              </div>
-              <div>
-                <p className="text- leading-normal text-gray-600">
-                  March 2021 - April 2021
-                </p>
-              </div>
+            <div className="flex flex-wrap justify-center mx-auto mb-2 md:mb-4 md:w-3/5">
+              <p className="text-lg leading-relaxed my-4">
+                <b>Design Thinking</b> is a user-centered approach that helps me
+                discover the user's problem and create solutions. Online User
+                Interview, Define the user's problem, ideate several solutions,
+                wireframing and testing prototype with users was conducted
+              </p>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center my-4 md:my-8">
+          <div className="flex flex-wrap justify-center">
             <Link
               className="test1"
               to="design-processes"
@@ -328,126 +264,170 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               duration={500}
             >
               <Button
-                buttonText="See all process"
+                buttonText="See All Process"
                 targetUrl="http://localhost:3000/CaseStudyDetail"
                 buttontype="primary"
               />
             </Link>
           </div>
         </section>
-
         {/* {show case section 4} */}
         <section className="px-4 bg-blue-50 pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic
               caption="feedback"
-              title="Does it actually work for user?, 
-              Any Problem were found?"
+              title="Does it work for the user?
+              "
             ></HomeTopic>
-            <div className="flex flex-wrap justify-center mx-auto mb-4 md:mb-10 md:w-3/5">
+            <div className="flex flex-wrap justify-center mx-auto mb-4 md:mb-4 md:w-3/5">
               <p className="text-lg leading-relaxed my-4">
                 The <b>usability testing</b> result told me several problems
-                need to be fixed in the next itinerary, but on my honest, it
-                still needs more test with more users to uncover improvement
+                need to be fixed in the <b> next itinerary</b>, but it still
+                needs more test with more users to uncover more improvement
                 opportunity
               </p>
             </div>
 
-            <div className="relative flex flex-wrap items-stretch md:w-full lg:px-4 mx-auto ">
-              <div className="flex flex-wrap lg:w-1/3">
-                <CardSumaryWithBorder
-                  title="Problem #1"
-                  subtitle="Missing Information"
-                  description="Users need to see the service detail such as service name and technician’s name during scheduling and additional information process "
+            <div className="relative flex flex-wrap items-stretch justify-center md:w-full lg:px-4 mx-auto ">
+              <div className="flex flex-wrap lg:w-1/3 justify-center">
+                <CardArticleWithTopImg
                   imageUrl={
                     require('assets/img/o_Information_missing.png').default
                   }
-                />
+                  title="Missing Information"
+                  titleAlign="text-center"
+                ></CardArticleWithTopImg>
               </div>
-              <div className="flex  flex-wrap lg:w-1/3">
-                <CardSumaryWithBorder
-                  title="Problem #2"
-                  subtitle="Unclear Icon Meaning"
-                  description="Users did not understand the meaning of the icon such as the calendar icon(following with date and time) on the order summary card. because they did not know if it's an order create date or an appointment date
-                "
+              <div className="flex  flex-wrap lg:w-1/3 justify-center">
+                <CardArticleWithTopImg
                   imageUrl={require('assets/img/o_confusing_icon.png').default}
-                />
+                  title="Unclear Icon Meaning"
+                  titleAlign="text-center"
+                ></CardArticleWithTopImg>
               </div>
-              <div className="flex flex-wrap lg:w-1/3">
-                <CardSumaryWithBorder
-                  title="Problem #3"
-                  subtitle="Confused Button Position"
-                  description="Service selecting button made them confused because this button contains the smaller one text button in there, which means they will get an unexpected response after tap the bigger button"
+              <div className="flex flex-wrap lg:w-1/3 justify-center">
+                <CardArticleWithTopImg
                   imageUrl={require('assets/img/o_button_position.png').default}
-                />
+                  title="Confusing Button Position"
+                  titleAlign="text-center"
+                ></CardArticleWithTopImg>
               </div>
+            </div>
+            <div className="flex flex-wrap justify-center pt-2">
+              <Link
+                className="test1"
+                to="testing-phase"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Button
+                  buttonText="See Testing Result"
+                  targetUrl="http://localhost:3000/CaseStudyDetail"
+                  buttontype="primary"
+                />
+              </Link>
             </div>
           </div>
         </section>
-
         {/* {show case section 5} */}
         <section className="px-4 bg-white pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic
               caption="strategy"
-              title="It’s not only about user experience, but ?"
+              title="It’s not only about user experience, but business goal?"
             ></HomeTopic>
 
             <div className="flex flex-wrap justify-center mx-auto">
-              <div className="md:w-1/3 md:px-8">
+              <div className="md:w-1/3 md:px-8 lg:px-12">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/Customer.png').default}
-                  title="Customer"
-                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                  title="For Customer"
                 ></CardArticleWithTopImg>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  <i className="fas fa-check text-green-500"></i> To refine the
+                  customer's mindset against ​​the technician that the
+                  technician is approachable, so that they feel more comfortable
+                  to contact the technician
+                </p>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  <i className="fas fa-check text-green-500"></i> To saves their
+                  time and able to solve their home issue easier
+                </p>
               </div>
-              <div className="md:w-1/3 md:px-8">
+              <div className="md:w-1/3 md:px-8 lg:px-12">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/Partner.png').default}
-                  title="Partner"
-                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                  title="For Partner"
                 ></CardArticleWithTopImg>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  <i className="fas fa-check text-green-500"></i> To increase
+                  technician’s opportunity to get more job and get more money
+                </p>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  <i className="fas fa-check text-green-500"></i> To change
+                  nobody technician into somebody technician in technician
+                  market
+                </p>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  <i className="fas fa-check text-green-500"></i> To build the
+                  competition among the technician and increase the technician’s
+                  quality and gain customer trust
+                </p>
               </div>
-              <div className="md:w-1/3 md:px-8">
+              <div className="md:w-1/3 md:px-8 lg:px-12">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/Business.png').default}
-                  title="Business Growth"
-                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                  title="For Company"
                 ></CardArticleWithTopImg>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  <i className="fas fa-check text-green-500"></i> To build a
+                  relation between brand and customer
+                </p>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  <i className="fas fa-check text-green-500"></i> To gain more
+                  trust by providing the channel that people can solve their
+                  home issue easily and get their life better
+                </p>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  <i className="fas fa-check text-green-500"></i> To create a
+                  hub of technicians
+                </p>
               </div>
             </div>
           </div>
         </section>
-
         {/* {show case section 6} */}
         <section className="px-4 bg-blue-50 pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic
-              caption="Brand Identity"
-              title="What make Home Hero memorable?"
+              caption="brand identity"
+              title="What makes Home Hero memorable?"
             ></HomeTopic>
-            <div className="flex flex-wrap justify-center mx-auto mb-4 md:mb-10 md:w-3/4">
-              <p className="text-lg leading-relaxed my-4">
-                Defining brand identity with a logo and color
-              </p>
-            </div>
 
-            <div className="flex flex-wrap justify-center mx-auto md:mb-10 w-full">
-              <div className="flex flex-wrap justify-center mx-auto md:w-1/3">
+            <div className="flex flex-wrap justify-center mx-auto  w-full">
+              <div className="flex flex-wrap justify-center mx-auto md:w-full pb-4">
                 <div className="flex flex-wrap w-full">
                   <h2 className="text-xl font-semibold text-gray-800 text-center w-full">
                     Logo
                   </h2>
                 </div>
-                <img
-                  alt="..."
-                  src={require('assets/img/logo.svg').default}
-                  className=" max-w-full mx-auto"
-                  style={{}}
-                />
+                <div className="flex flex-wrap w-full">
+                  <img
+                    alt="..."
+                    src={require('assets/img/logo.svg').default}
+                    className=" max-w-full mx-auto"
+                    style={{ maxWidth: '200px' }}
+                  />
+                </div>
+                <div className="text-center">
+                  <p className="mt-1 text-sm text-gray-500  ">
+                    Two-Dimentional | Geometric Shape (hexagon) | Alphabet (H)
+                  </p>
+                </div>
               </div>
 
-              <div className="flex flex-wrap justify-center mx-auto md:mb-10 md:w-2/3">
+              <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
                 <div className="md:w-1/2 ">
                   <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
                     Idea
@@ -461,7 +441,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         style={{ maxWidth: '120px' }}
                       />
                       <div className="pt-4 text-center">
-                        <p className="mt-1 text-sm text-gray-500  ">
+                        <p className="mt-1 text-sm text-gray-500 text-left ">
                           Home <br /> Living Place
                         </p>
                       </div>
@@ -474,7 +454,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         style={{ maxWidth: '120px' }}
                       />
                       <div className="pt-4 text-center">
-                        <p className="mt-1 text-sm text-gray-500  ">
+                        <p className="mt-1 text-sm text-gray-500  text-left  ">
                           Freindly <br /> Buddy
                         </p>
                       </div>
@@ -494,7 +474,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         style={{ maxWidth: '120px' }}
                       />
                       <div className="pt-4 text-center">
-                        <p className="mt-1 text-sm text-gray-500  ">
+                        <p className="mt-1 text-sm text-gray-500  text-left  ">
                           Trustworthly <br /> Reliable
                         </p>
                       </div>
@@ -507,7 +487,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         style={{ maxWidth: '120px' }}
                       />
                       <div className="pt-4 text-center">
-                        <p className="mt-1 text-sm text-gray-500  ">
+                        <p className="mt-1 text-sm text-gray-500  text-left  ">
                           Communication <br />
                           Encouragement
                         </p>
@@ -519,12 +499,11 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
-
         {/* {show case section 7} */}
-        <section className="px-4 bg-white ">
+        <section className="px-4 bg-white pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic
-              caption="visual Design"
+              caption="visual design"
               title="How visual design impact people?"
             ></HomeTopic>
           </div>
@@ -533,21 +512,28 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               <div className="md:w-4/12 mx-auto md:pr-2 mb-4">
                 <CardContentPrototype
                   title="Style Guide"
-                  subtitle="Create UI style guide to 
-                  maintain design’s consistancy"
-                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                  subtitle="Design’s consistency and Efficient communication
+                  "
+                  description="Design guideline can keep design's consistency and makes communication between team more efficient because everyone can see the same product's visualization"
                 />
               </div>
 
-              <div className="md:w-7/12 mx-auto mb-4 ">
+              <div
+                className="md:w-7/12 mx-auto mb-4 "
+                onClick={pushImageStyleGuideOnLightBox}
+              >
                 <ImageWithCaption
                   imageUrl={require('assets/img/StyleGuide.png').default}
                   caption="UI Style Guide"
                 />
               </div>
             </div>
-            <div className="relative flex flex-wrap md:w-4/5 mx-auto md:mb-20 justify-center items-center">
-              <div className="md:w-7/12 mx-auto mb-4">
+
+            <div className="relative flex flex-wrap w-full md:w-4/5 mx-auto justify-center items-center">
+              <div
+                className="w-full md:w-3/5 mx-auto mb-4"
+                onClick={pushImageComponentsOnLightBox}
+              >
                 <Carousel
                   imageUrls={[
                     require('assets/img/Components_1.png').default,
@@ -555,22 +541,23 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     require('assets/img/Components_3.png').default,
                   ]}
                 />
+
                 <p className="italic text-xs font-light text-gray-400 mt-2 text-center ">
                   Components
                 </p>
               </div>
-              <div className="md:w-4/12 mx-auto mb-4">
+              <div className="w-full md:w-2/5 mx-auto mb-4 md:pl-16">
                 <CardContentPrototype
                   title="Component Library"
-                  subtitle="Create a component library to save time in the development"
-                  description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                  subtitle="Speed up development process"
+                  description="Besides maintaining design's consistency, Component library also reduced decision making effort for developer"
                 />
               </div>
             </div>
           </div>
         </section>
 
-        {/* {Learning} */}
+        {/* {Reflection} */}
         <section className="px-4 bg-blue-50 pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
             <HomeTopic caption="learning" title="What I learned?"></HomeTopic>
@@ -578,22 +565,22 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/empathy.png').default}
-                  title="Partner side is important"
-                  description="Not every technician have a strong skill, they could be wrong at diagnosis and sometimes they take advantage of a customer"
+                  title="More Research, More Success"
+                  description="To avoiding bias, the research is a key to find the right problems and its result can be different from our initial assumption, that is why we need to do more research to define the right problem and find the right solution for user"
                 ></CardArticleWithTopImg>
               </div>
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/question.png').default}
-                  title="Apply Accessibility to the design"
-                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                  title="Constraints is challenge "
+                  description="There are some constraints in the project such as being a first-time solo player in doing UX or limited access to users I contacted. This challenge is forced me to figure out how to deal with myself and others"
                 ></CardArticleWithTopImg>
               </div>
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/team.png').default}
-                  title="Apply Accessibility to the design"
-                  description="People spend a lot of time looking a lot of technician from several sources to find the trustworthy technician"
+                  title="Collaboration boost creativity"
+                  description="The diversity of people can bring us many opinions and perspectives, I think collaboration is an effective way to boost our creativity"
                 ></CardArticleWithTopImg>
               </div>
             </div>
@@ -606,7 +593,6 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
           <h3 className="text-4xl text-center"> Design Process </h3>
         </div>
         {/* Empathy */}
-
         <section className="relative py-16 bg-gray-50 px-4">
           <div className="flex flex-wrap w-full bg-gray-50 items-center justify-center sticky top-0">
             <TitleWithCaption
@@ -636,7 +622,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       object={
                         <Button
                           iconClassName="far fa-eye"
-                          targetUrl="http://localhost:3000/CaseStudyDetail"
+                          targetUrl={
+                            require('assets/file/Interview_Questions.pdf')
+                              .default
+                          }
                           buttonText="SEE QUESTIONS"
                           buttontype="secondary"
                         />
@@ -736,7 +725,6 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
-
         {/* Define */}
         <section>
           <div className="flex flex-wrap w-full bg-white items-center justify-center sticky top-0 z-50">
@@ -840,10 +828,12 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                             textalign={'left'}
                             object={
                               <ImageWithCaption
+                                onClick={pushImageStoryBoardOnLightBox}
                                 imageUrl={
                                   require('assets/img/Storyboard.jpg').default
                                 }
                                 caption="Storyboard"
+                                jvscript="pushImageStoryBoardOnLightBox"
                               />
                             }
                           />
@@ -896,7 +886,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </p>
                 </div>
 
-                <div className="w-full md:px-12 mx-auto">
+                <div
+                  className="w-full md:px-12 mx-auto"
+                  onClick={pushImageDefineProblemOnLightBox}
+                >
                   <ImageWithCaption
                     imageUrl={require('assets/img/Define_Problem.jpg').default}
                     caption="Define Problem Process"
@@ -971,10 +964,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
           </div>
         </section>
         {/* Ideate */}
-
         <section>
-          <div className="relative flex flex-wrap w-full mx-auto justify-center pt-12 px-4 bg-gray-50 sticky top-0 z-50">
-            {' '}
+          <div className="relative flex flex-wrap w-full mx-auto justify-center px-4 bg-gray-50 sticky top-0 z-50">
             <TitleWithCaption title="Get into Solution" caption="Ideate" />
           </div>
           <div className="relative flex flex-wrap lg:w-full mx-auto bg-gray-50">
@@ -991,10 +982,13 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 </p>
               </div>
 
-              <div className="w-full md:px-12 mx-auto ">
+              <div
+                className="w-full md:px-12 mx-auto "
+                onClick={pushImageIdeateSolutionOnLightBox}
+              >
                 <ImageWithCaption
                   imageUrl={require('assets/img/IdeateSolution.jpg').default}
-                  caption="Ideation Solution Process"
+                  caption="Ideated Solution Process"
                 />
               </div>
 
@@ -1014,7 +1008,6 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
-
         <section className="relative py-16 px-4 bg-gray-50">
           <div className="container mx-auto">
             <div className="relative flex flex-wrap lg:w-4/5 mx-auto justify-center items-center">
@@ -1049,7 +1042,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 </div>
               </div>
 
-              <div className="w-full md:w-8/12 md:px-4 mx-auto ">
+              <div
+                className="w-full md:w-8/12 md:px-4 mx-auto "
+                onClick={pushImageUserStoryMappingOnLightBox}
+              >
                 <ImageWithCaption
                   imageUrl={require('assets/img/userstory_map.jpg').default}
                   caption="User Story Mapping"
@@ -1076,7 +1072,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   />
                 </div>
               </div>
-              <div className="w-full md:w-6/12 md:px-8 mx-auto md:pt-5">
+              <div
+                className="w-full md:w-6/12 md:px-8 mx-auto md:pt-5"
+                onClick={pushImageSiteMapOnLightBox}
+              >
                 <ImageWithCaption
                   imageUrl={require('assets/img/sitemap.jpg').default}
                   caption="Sitemap"
@@ -1085,7 +1084,6 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
-
         {/* { Prototype} */}
         <section>
           <div className="relative flex flex-wrap w-full mx-auto  bg-white justify-center sticky top-0 z-50">
@@ -1116,7 +1114,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     <h2 className=" text-xl font-semibold text-gray-800 my-8 text-center">
                       Low Fidelity Wideframe
                     </h2>
-                    <div className="text-center">
+                    <div
+                      className="text-center"
+                      onClick={pushImageLowFiWireOnLightBox}
+                    >
                       <ImageWithCaption
                         imageUrl={
                           require('assets/img/Low-Fidelity-Wireframe.jpg')
@@ -1129,12 +1130,17 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     <h2 className=" text-xl font-semibold text-gray-800 my-8 text-center">
                       High Fidelity Wideframe
                     </h2>
-                    <ImageWithCaption
-                      imageUrl={
-                        require('assets/img/High-Fidelity-Wireframe.png')
-                          .default
-                      }
-                    />
+                    <div
+                      className="text-center"
+                      onClick={pushImageHighFiWireOnLightBox}
+                    >
+                      <ImageWithCaption
+                        imageUrl={
+                          require('assets/img/High-Fidelity-Wireframe.png')
+                            .default
+                        }
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1151,10 +1157,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   <div className="relative flex flex-wrap w-full md:px-12 mx-auto justify-center items-center">
                     <div className="md:w-6/12 mx-auto mb-4">
                       <CardContentPrototype
-                        title="Onboarding & Login"
-                        subtitle="Provide user a key feature and 
-                  alternative social media login method"
-                        description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                        subtitle="Start first Impression with engegement and alternative login method"
+                        description="Engage users to explore entire apps by providing the benefits they can get on onboarding screen and give users alternative login method to save their time"
                       />
                     </div>
 
@@ -1163,6 +1167,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         imageUrl={
                           require('assets/img/OnboardAndLogin.gif').default
                         }
+                        caption="Onboarding & Login"
                       />
                     </div>
                   </div>
@@ -1173,14 +1178,13 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         imageUrl={
                           require('assets/img/SearchAndFilter.gif').default
                         }
+                        caption="Home Screen & Technician Explorer                        "
                       />
                     </div>
                     <div className="md:w-6/12 mx-auto mb-4">
                       <CardContentPrototype
-                        title="Searching & Filtering"
-                        subtitle="Provide user a key feature and 
-                  alternative social media login method"
-                        description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                        subtitle="Fast and easy to explore technicians"
+                        description="To reduce the learning time of users, I decide to design a user experience like they are using an online shopping platform. And hook people who have no idea which service they need by providing Tell me your problem? Searching feature"
                       />
                     </div>
                   </div>
@@ -1188,10 +1192,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   <div className="relative flex flex-wrap w-full md:px-12 mx-auto justify-center items-center">
                     <div className="md:w-6/12 mx-auto mb-4">
                       <CardContentPrototype
-                        title="Booking and Scheduling"
-                        subtitle="Provide user a key feature and 
-                  alternative social media login method"
-                        description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                        subtitle="Better decision for choosing technician and concise booking process"
+                        description="Help people to have a better decision for choosing a technician by providing a review section, rating section, and criteria filter. And provide an understandable booking process with 4 steps"
                       />
                     </div>
                     <div className="md:w-5/12 mx-auto mb-4 md:px-20">
@@ -1199,6 +1201,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         imageUrl={
                           require('assets/img/BookingAndScheduling.gif').default
                         }
+                        caption="Technicians Details & Booking Process"
                       />
                     </div>
                   </div>
@@ -1207,14 +1210,13 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     <div className="md:w-5/12 mx-auto mb-4 md:px-20">
                       <ImageWithCaption
                         imageUrl={require('assets/img/Calling.gif').default}
+                        caption="Video Call"
                       />
                     </div>
                     <div className="md:w-6/12 mx-auto mb-4">
                       <CardContentPrototype
-                        title="Video Calling"
-                        subtitle="Provide user a key feature and 
-                  alternative social media login method"
-                        description="Educate the user about the functions and benefits of the app and encourage them to learn through exploring the app."
+                        subtitle="Fix From Home Experience"
+                        description="To help people who need the consulting such as How to fix water supply by herself/himself or What they should do before renovating their home without visiting of the technician "
                       />
                     </div>
                   </div>
@@ -1223,10 +1225,12 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </section>
           </div>
         </section>
-
         {/* Testing */}
         <section className="relative py-12 px-4 bg-gray-50">
-          <div className="relative flex flex-wrap w-full mx-auto justify-center bg-gray-50 sticky top-0 z-50">
+          <div
+            name="testing-phase"
+            className="relative flex flex-wrap w-full mx-auto justify-center bg-gray-50 sticky top-0 z-50"
+          >
             {' '}
             <TitleWithCaption title="Prototype Testing" caption="Test" />
           </div>
@@ -1269,11 +1273,14 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     imageUrl={require('assets/img/Icon_Meaning.png').default}
                   />
                 </div>
-                <div className="flex lg:w-1/2">
+                <div
+                  className="flex lg:w-1/2"
+                  onClick={pushImageProblem3OnLightBox}
+                >
                   <CardSumaryWithBorder
                     title="Problem #3"
-                    subtitle="Confused Button Position"
-                    description="Service selecting button made them confused because this button contains the smaller one text button in there, which means they will get an unexpected response after tap the bigger button"
+                    subtitle="Overlapping Button"
+                    description="They are some button overlapping, which means this design doesn't work in real usage"
                     imageUrl={require('assets/img/Button_Position.png').default}
                   />
                 </div>
@@ -1281,6 +1288,123 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             </div>
           </div>
         </section>
+
+        <section>
+          <div className="relative flex flex-wrap w-full mx-auto justify-center bg-white sticky top-0 z-50 ">
+            {' '}
+            <TitleWithCaption
+              title="Role | Tools | Platform | Duration"
+              caption="About"
+            />
+          </div>
+          <div className="flex flex-wrap items-stretch items-center md:w-3/5 my-12 text-center mx-auto bg-white  border rounded-2xl py-8">
+            <div className="w-full md:w-1/4 mx-auto py-2">
+              <div className="mb-4">
+                <i className="fas fa-suitcase text-2xl text-blue-400"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-xl font-semibold leading-normal text-gray-800">
+                  My Role
+                </h1>
+              </div>
+              <div>
+                <div>
+                  <ul className="list-none mt-6 text-gray-600">
+                    <li className="py-1">
+                      <p className="text- leading-normal">User Research</p>
+                    </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">
+                        Information Architecture
+                      </p>
+                    </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">Wireframing</p>
+                    </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">Prototyping</p>
+                    </li>
+                    <li className="py-1">
+                      <p className="text- leading-normal">Visual Design</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full md:w-1/4 mx-auto py-2 ">
+              <div className="mb-4">
+                <i className="fas fa-tools text-2xl text-blue-400"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-xl font-semibold leading-normal text-gray-800">
+                  Tools
+                </h1>
+              </div>
+              <div>
+                <ul className="list-none mt-6 text-gray-600">
+                  <li className="py-1">
+                    <p className="text- leading-normal">Figma</p>
+                  </li>
+                  <li className="py-1">
+                    <p className="text- leading-normal">Draw.io</p>
+                  </li>
+                  <li className="py-1">
+                    <p className="text- leading-normal">Miro</p>
+                  </li>
+                  <li className="py-1">
+                    <p className="text- leading-normal">Zoom</p>
+                  </li>
+                  <li className="py-1">
+                    <p className="text- leading-normal">Adobe Illustrator</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-full md:w-1/4 mx-auto py-2 ">
+              <div className="mb-4">
+                <i className="fas fa-mobile text-2xl text-blue-400"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-xl font-semibold leading-normal text-gray-800">
+                  Platform
+                </h1>
+              </div>
+              <div>
+                <p className="text- leading-normal text-gray-600">
+                  Mobile Application
+                </p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/4 mx-auto py-2 ">
+              <div className="mb-4">
+                <i className="fas fa-clock text-2xl text-blue-400"></i>
+              </div>
+              <div className="mb-8">
+                <h1 className="text-xl font-semibold leading-normal text-gray-800">
+                  Duration
+                </h1>
+              </div>
+              <div>
+                <p className="text- leading-normal text-gray-600">
+                  March 2021 - April 2021
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div className="text-center py-8 md:py-16">
+          <h2 className=" text-xl font-normal text-red-300 mb-8 ">
+            Please feel free to leave me feedback <br></br>I am willing to hear
+            every thought
+          </h2>
+          <a href="http://localhost:3000/landing">
+            <p text-xl font-normal text-gray-600 mb-8>
+              BACK TO HOME
+            </p>
+          </a>
+        </div>
       </main>
       <Footer />
     </>
