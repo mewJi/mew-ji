@@ -21,7 +21,7 @@ export default function Navbar(props) {
               (props.transparent
                 ? 'text-gray-800 lg:hover:text-gray-300'
                 : 'text-white lg:hover:text-red-300') +
-              ' text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap '
+              ' text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap cursor-pointer '
             }
             onClick={goto('/')}
           >
@@ -55,7 +55,7 @@ export default function Navbar(props) {
                   (props.transparent
                     ? 'lg:text-white lg:hover:text-gray-300 text-gray-800'
                     : 'text-white hover:text-gray-300') +
-                  ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold'
+                  ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold cursor-pointer'
                 }
                 onClick={goto('/AboutMe')}
                 // target="_blank"
@@ -77,7 +77,7 @@ export default function Navbar(props) {
                 target="_blank"
               >
                 {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
-                Resume
+                Download Resume
               </a>
             </li>
           </ul>
