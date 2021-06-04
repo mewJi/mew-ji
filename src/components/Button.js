@@ -5,6 +5,7 @@ export default function Button({
   buttonText,
   targetUrl,
   buttontype,
+  onClick,
   className = 'container',
 }) {
   const primaryClassButton = 'bg-blue-500 text-white';
@@ -19,7 +20,10 @@ export default function Button({
 
   return (
     <div className="text-left">
-      <a href={targetUrl}>
+      <a
+        {...(targetUrl ? { href: targetUrl } : {})}
+        {...(typeof onClick === 'function' ? { onClick } : {})}
+      >
         <button
           className={`active:bg-orange-500 text-xl font-medium px-10 py-3 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 my-4 ${btnClassName}`}
           type="button"

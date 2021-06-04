@@ -8,6 +8,7 @@ export default function CardTextContent({
   imageUrl,
   targetUrl,
   buttonText,
+  onLinkButtonClick,
   className = 'container',
 }) {
   return (
@@ -36,6 +37,7 @@ export default function CardTextContent({
                 iconClassName="far fa-eye"
                 buttonText={buttonText}
                 targetUrl={targetUrl}
+                onClick={onLinkButtonClick}
                 buttontype="primary"
               />
             </div>

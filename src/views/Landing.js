@@ -3,9 +3,12 @@ import React from 'react';
 import Navbar from 'components/Navbar.js';
 import Footer from 'components/Footer.js';
 import CardTextContent from 'components/CardTextContent';
-import Carousel from 'components/Carousel';
+import useGoto from 'hooks/useGoto';
+// import Carousel from 'components/Carousel';
 
 export default function Landing() {
+  const goto = useGoto();
+
   return (
     <>
       <Navbar />
@@ -53,7 +56,7 @@ export default function Landing() {
                 subtitle="UX Case Study | Mobile App Design"
                 description="Easily find the technician in one app, Your home fixed with the best technician"
                 imageUrl={require('assets/img/cover_case1.png').default}
-                targetUrl="http://localhost:3000/CaseStudyDetail"
+                onLinkButtonClick={goto('/CaseStudyDetail')}
                 buttonText="View Project"
               />
             </div>
