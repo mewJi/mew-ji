@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/views/CaseStudyDetail.css"],"names":[],"mappings":"AAAA,MACE,8BACF,CACA,YACE,oBACF","file":"main.0d5f760d.chunk.css","sourcesContent":[".grow {\n  transition: all 0.2s ease-in-out;\n}\n.grow:hover {\n  transform: scale(2.5);\n}\n"]}
