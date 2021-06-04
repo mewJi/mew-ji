@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import useGoto from 'hooks/useGoto';
 
 export default function Navbar(props) {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const goto = useGoto();
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
     <nav
       className={
@@ -20,7 +23,7 @@ export default function Navbar(props) {
                 : 'text-white lg:hover:text-red-300') +
               ' text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap '
             }
-            href="http://localhost:3000/landing"
+            onClick={goto('/')}
           >
             MEWJI
             <p className="text-sm font-light">ux designer</p>
@@ -54,7 +57,7 @@ export default function Navbar(props) {
                     : 'text-white hover:text-gray-300') +
                   ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold'
                 }
-                href="http://localhost:3000/AboutMe"
+                onClick={goto('/AboutMe')}
                 // target="_blank"
               >
                 {/* <span className="lg:hidden inline-block ml-2">Share</span> */}

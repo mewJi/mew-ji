@@ -19,11 +19,13 @@ import HomeTopic from 'components/HomeTopic';
 import CardArticleWithTopImg from 'components/CardArticleWithTopImg';
 import CaseStudyTextBanner from 'components/caseStudyDetail/CaseStudyTextBanner';
 import { ImageLightboxContext } from 'contexts/ImageLightboxContext';
+import useGoto from 'hooks/useGoto';
 
 export default function CaseStudyDetail() {
   const {
     actions: { setImages },
   } = useContext(ImageLightboxContext);
+  const goto = useGoto();
 
   const pushImageMainPrototypeOnLightBox = () =>
     setImages([require('assets/img/SearchAndFilter.gif').default]);
@@ -265,7 +267,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             >
               <Button
                 buttonText="See All Process"
-                targetUrl="http://localhost:3000/CaseStudyDetail"
+                onClick={goto('/CaseStudyDetail')}
                 buttontype="primary"
               />
             </Link>
@@ -323,7 +325,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               >
                 <Button
                   buttonText="See Testing Result"
-                  targetUrl="http://localhost:3000/CaseStudyDetail"
+                  onClick={goto('/CaseStudyDetail')}
                   buttontype="primary"
                 />
               </Link>
@@ -1388,7 +1390,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             Please feel free to give me some feedbacks <br></br>I am willing to
             hear every thought
           </h2>
-          <a href="http://localhost:3000/landing">
+          <a onClick={goto('/')}>
             <p text-xl font-normal text-gray-600 mb-8>
               BACK TO HOME
             </p>
