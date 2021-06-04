@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mewjibox/static/css/main.0d5f760d.chunk.css",
-    "main.js": "/mewjibox/static/js/main.19a037b7.chunk.js",
-    "main.js.map": "/mewjibox/static/js/main.19a037b7.chunk.js.map",
+    "main.js": "/mewjibox/static/js/main.bffd5384.chunk.js",
+    "main.js.map": "/mewjibox/static/js/main.bffd5384.chunk.js.map",
     "runtime-main.js": "/mewjibox/static/js/runtime-main.4f3261e2.js",
     "runtime-main.js.map": "/mewjibox/static/js/runtime-main.4f3261e2.js.map",
     "static/css/2.c439b42d.chunk.css": "/mewjibox/static/css/2.c439b42d.chunk.css",
@@ -34,7 +34,7 @@
     "static/media/IdeateSolution.jpg": "/mewjibox/static/media/IdeateSolution.ea3b396c.jpg",
     "static/media/Interview_Questions.pdf": "/mewjibox/static/media/Interview_Questions.fb7ab700.pdf",
     "static/media/Low-Fidelity-Wireframe.jpg": "/mewjibox/static/media/Low-Fidelity-Wireframe.9b62257f.jpg",
-    "static/media/NICHAPHAT_UX_RESUME.pdf": "/mewjibox/static/media/NICHAPHAT_UX_RESUME.f9f89a68.pdf",
+    "static/media/NICHAPHAT_UX_RESUME.pdf": "/mewjibox/static/media/NICHAPHAT_UX_RESUME.19adf388.pdf",
     "static/media/OnboardAndLogin.gif": "/mewjibox/static/media/OnboardAndLogin.99ae9fbd.gif",
     "static/media/Outward.png": "/mewjibox/static/media/Outward.65344b6c.png",
     "static/media/Partner.png": "/mewjibox/static/media/Partner.24cf6400.png",
@@ -69,6 +69,6 @@
     "static/css/2.c439b42d.chunk.css",
     "static/js/2.6494c321.chunk.js",
     "static/css/main.0d5f760d.chunk.css",
-    "static/js/main.19a037b7.chunk.js"
+    "static/js/main.bffd5384.chunk.js"
   ]
 }
