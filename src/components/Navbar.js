@@ -18,15 +18,13 @@ export default function Navbar(props) {
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
             className={
-              (props.transparent
-                ? 'text-gray-800 lg:hover:text-gray-300'
-                : 'text-white lg:hover:text-red-300') +
+              (props.transparent ? 'text-gray-800 ' : 'text-white ') +
               ' text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap cursor-pointer '
             }
             onClick={goto('/')}
           >
             MEWJI
-            <p className="text-sm font-light">ux designer</p>
+            <p className="text-sm font-light">ux/ui designer</p>
           </a>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -57,6 +55,21 @@ export default function Navbar(props) {
                     : 'text-white hover:text-gray-300') +
                   ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold cursor-pointer'
                 }
+                onClick={goto('/Landing')}
+                // target="_blank"
+              >
+                {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
+                Home
+              </a>
+            </li>
+            <li className="flex items-center">
+              <a
+                className={
+                  (props.transparent
+                    ? 'lg:text-white lg:hover:text-gray-300 text-gray-800'
+                    : 'text-white hover:text-gray-300') +
+                  ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold cursor-pointer'
+                }
                 onClick={goto('/AboutMe')}
                 // target="_blank"
               >
@@ -73,11 +86,11 @@ export default function Navbar(props) {
                     : 'text-white hover:text-gray-300') +
                   ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold'
                 }
-                href={require('assets/file/Interview_Questions.pdf').default}
+                href={require('assets/file/NICHAPHAT_UX_RESUME.pdf').default}
                 target="_blank"
               >
                 {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
-                Download Resume
+                Resume
               </a>
             </li>
           </ul>

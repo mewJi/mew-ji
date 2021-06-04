@@ -20,26 +20,26 @@ export default function Landing() {
           }}
         >
           <div className="container relative mx-auto px-4">
-            <div className="items-center justify-center mx-auto flex flex-wrap md:w-4/5">
-              <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
-                <h1 className="text-white font-semibold text-5xl lg:hover:text-red-300">
-                  Hi, I am Mewji
-                </h1>
-
-                <p className="mt-8 text-lg text-white lg:hover:text-red-300">
-                  Because UX brings people's lives better. This is the reason
-                  why I am passionate about UX
-                </p>
-              </div>
+            <div className="items-center justify-center text-center md:text-left mx-auto flex flex-wrap md:w-4/5">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4 ">
-                <div className="md:w-full">
+                <div className="lg:w-full flex flex-wrap justify-center">
                   <img
                     alt="..."
-                    src={require('assets/img/gift.png').default}
-                    className="max-w-full pl-4 "
+                    src={require('assets/img/mew-charactor-white.png').default}
+                    className="max-w-full lg:pl-4 pb-8"
                     style={{}}
                   />
                 </div>
+              </div>
+              <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
+                <h1 className="text-white font-semibold text-5xl md:text-6xl ">
+                  Hi, I am Mewji
+                </h1>
+
+                <p className="mt-8 text-2xl md:text-3xl text-white ">
+                  " I believe that empathy and creativity can bring people's
+                  lives better "
+                </p>
               </div>
             </div>
           </div>
