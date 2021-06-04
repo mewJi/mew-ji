@@ -48,7 +48,7 @@ export default function Landing() {
             </h1>
             <div className="flex flex-wrap justify-center text-center mb-8 mx-10">
               <CardTextContent
-                className="md:w-3/5"
+                className="lg:w-3/5"
                 title="HOME HERO"
                 subtitle="UX Case Study | Mobile App Design"
                 description="Easily find the technician in one app, Your home fixed with the best technician"

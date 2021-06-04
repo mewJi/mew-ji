@@ -22,11 +22,11 @@ export default function AboutMe() {
                 <img
                   alt="..."
                   src={require('assets/img/me.png').default}
-                  className="max-w-full pl-4 "
+                  className="max-w-full "
                   style={{}}
                 />
               </div>
-              <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
+              <div className="w-full md:w-6/12 ml-auto mr-auto px-4 py-8">
                 <h3 className="font-semibold text-5xl text-gray-800">
                   Hi, I am Mewji
                 </h3>
@@ -59,13 +59,13 @@ export default function AboutMe() {
         >
           <div className="container  relative mx-auto px-4">
             <h2 className="text-center text-3xl text-gray-800 font-semibold mb-4">
-              Hobbies
+              Lifestyle
             </h2>
-            <div className="items-center justify-center mx-auto flex flex-wrap md:w-4/6 ">
+            <div className="items-center items-stretch justify-center mx-auto flex flex-wrap md:w-4/5 ">
               <div className="w-full md:w-1/4">
                 <CardHobbiesWithBorder
-                  title="Drawing"
-                  description="Drawing drawing drawing drawing drawing drawing drawing"
+                  title="I love drawing"
+                  description="Because drawing help me develop my creative muscle, improve my concentration. And yes!, it's my best therapy"
                   imageUrl={require('assets/img/lackofskill.png').default}
                   object={
                     <ButtonSmall
@@ -79,8 +79,8 @@ export default function AboutMe() {
               </div>
               <div className="w-full md:w-1/4">
                 <CardHobbiesWithBorder
-                  title="Drawing"
-                  description="Drawing drawing drawing drawing drawing drawing drawing"
+                  title="I love playing guitar and Signing"
+                  description="When I was young I had a dream to be a singer. Unfortunately, my life isn't what I expected.  So I taught myself to play guitar and cover the song when I have free time"
                   imageUrl={require('assets/img/lackofskill.png').default}
                   object={
                     <ButtonSmall
@@ -94,8 +94,9 @@ export default function AboutMe() {
               </div>
               <div className="w-full md:w-1/4">
                 <CardHobbiesWithBorder
-                  title="Drawing"
-                  description="Drawing drawing drawing drawing drawing drawing drawing"
+                  title="I love photography"
+                  description=" 
+                  I am the one who loves nature and minimalism, so I usually capture their moment and keep it in the photograph"
                   imageUrl={require('assets/img/lackofskill.png').default}
                   object={
                     <ButtonSmall
@@ -109,8 +110,8 @@ export default function AboutMe() {
               </div>
               <div className="w-full md:w-1/4">
                 <CardHobbiesWithBorder
-                  title="Drawing"
-                  description="Drawing drawing drawing drawing drawing drawing drawing"
+                  title="I love DIY"
+                  description="Making something new out of something old is my favorite activity, It is the way to live sustainably and keep the world away from global warming"
                   imageUrl={require('assets/img/lackofskill.png').default}
                 ></CardHobbiesWithBorder>
               </div>
@@ -128,25 +129,25 @@ export default function AboutMe() {
             <h2 className="text-center text-3xl text-gray-800 font-semibold mb-4">
               Current Reading
             </h2>
-            <div className="items-center justify-center mx-auto flex flex-wrap md:w-4/6 ">
+            <div className="items-center justify-center items-stretch mx-auto flex flex-wrap md:w-4/6 ">
               <div className="w-full md:w-1/3">
                 <CardHobbiesWithBorder
-                  title="Drawing"
-                  description="Drawing drawing drawing drawing drawing drawing drawing"
+                  title="100 Things Every Designer Needs To Know About People"
+                  description="by Susan M. Weinschenk"
                   imageUrl={require('assets/img/lackofskill.png').default}
                 ></CardHobbiesWithBorder>
               </div>
               <div className="w-full md:w-1/3">
                 <CardHobbiesWithBorder
-                  title="Drawing"
-                  description="Drawing drawing drawing drawing drawing drawing drawing"
+                  title="The Small Big"
+                  description="by Steve J. Martin, Noah J. Goldstein, Robert B. Cialdini"
                   imageUrl={require('assets/img/lackofskill.png').default}
                 ></CardHobbiesWithBorder>
               </div>
               <div className="w-full md:w-1/3">
                 <CardHobbiesWithBorder
-                  title="Drawing"
-                  description="Drawing drawing drawing drawing drawing drawing drawing"
+                  title="The Outward Mindset"
+                  description="by The Arbinger Institute"
                   imageUrl={require('assets/img/lackofskill.png').default}
                 ></CardHobbiesWithBorder>
               </div>

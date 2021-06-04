@@ -301,14 +301,14 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               <div className="flex  flex-wrap lg:w-1/3 justify-center">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/o_confusing_icon.png').default}
-                  title="Unclear Icon Meaning"
+                  title="Confusing Icons"
                   titleAlign="text-center"
                 ></CardArticleWithTopImg>
               </div>
               <div className="flex flex-wrap lg:w-1/3 justify-center">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/o_button_position.png').default}
-                  title="Confusing Button Position"
+                  title="Overlapping Button"
                   titleAlign="text-center"
                 ></CardArticleWithTopImg>
               </div>
@@ -427,7 +427,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 </div>
               </div>
 
-              <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+              <div className="flex flex-wrap justify-center mx-auto md:w-4/5 ">
                 <div className="md:w-1/2 ">
                   <h2 className="text-xl font-semibold text-gray-800 mb-8 text-center">
                     Idea
@@ -441,7 +441,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         style={{ maxWidth: '120px' }}
                       />
                       <div className="pt-4 text-center">
-                        <p className="mt-1 text-sm text-gray-500 text-left ">
+                        <p className="mt-1 text-sm text-gray-500  ">
                           Home <br /> Living Place
                         </p>
                       </div>
@@ -454,7 +454,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         style={{ maxWidth: '120px' }}
                       />
                       <div className="pt-4 text-center">
-                        <p className="mt-1 text-sm text-gray-500  text-left  ">
+                        <p className="mt-1 text-sm text-gray-500  ">
                           Freindly <br /> Buddy
                         </p>
                       </div>
@@ -474,7 +474,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         style={{ maxWidth: '120px' }}
                       />
                       <div className="pt-4 text-center">
-                        <p className="mt-1 text-sm text-gray-500  text-left  ">
+                        <p className="mt-1 text-sm text-gray-500  ">
                           Trustworthly <br /> Reliable
                         </p>
                       </div>
@@ -487,7 +487,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         style={{ maxWidth: '120px' }}
                       />
                       <div className="pt-4 text-center">
-                        <p className="mt-1 text-sm text-gray-500  text-left  ">
+                        <p className="mt-1 text-sm text-gray-500   ">
                           Communication <br />
                           Encouragement
                         </p>
@@ -514,7 +514,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   title="Style Guide"
                   subtitle="Design’s consistency and Efficient communication
                   "
-                  description="Design guideline can keep design's consistency and makes communication between team more efficient because everyone can see the same product's visualization"
+                  description="I decided to create style guide becuase it can keep design's consistency. And it can makes communication between team more efficient because everyone can see the same product's visualization"
                 />
               </div>
 
@@ -550,7 +550,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <CardContentPrototype
                   title="Component Library"
                   subtitle="Speed up development process"
-                  description="Besides maintaining design's consistency, Component library also reduced decision making effort for developer"
+                  description="As I have been working with a developer, let me know besides maintaining the design's consistency, the Component library also reduced the decision making effort for them. So I decided to create component on my project"
                 />
               </div>
             </div>
@@ -572,7 +572,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               <div className="md:w-1/3 md:px-8">
                 <CardArticleWithTopImg
                   imageUrl={require('assets/img/question.png').default}
-                  title="Constraints is challenge "
+                  title="Change constraint into the challenge"
                   description="There are some constraints in the project such as being a first-time solo player in doing UX or limited access to users I contacted. This challenge is forced me to figure out how to deal with myself and others"
                 ></CardArticleWithTopImg>
               </div>
@@ -613,10 +613,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       description={
                         <div>
                           In the initial state, I decided to explore people’s
-                          home service experience by setting an interview
-                          questions and conducting <b>online user interview</b>{' '}
-                          to learn user behavior and thier activities from start
-                          to end. You can see my some questions in the link
+                          home service experience by setting several interview
+                          questions and conducting{' '}
+                          <b>online user interviews </b>to learn user behavior
+                          and their activities from start to end
                         </div>
                       }
                       object={
@@ -626,7 +626,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                             require('assets/file/Interview_Questions.pdf')
                               .default
                           }
-                          buttonText="SEE QUESTIONS"
+                          buttonText="See Questions"
                           buttontype="secondary"
                         />
                       }
@@ -646,7 +646,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </div>
                 </div>
 
-                <div className="w-full md:w-1/3">
+                <div
+                  className="w-full md:w-1/3"
+                  onClick={pushImageAffinityMapOnLightBox}
+                >
                   <ImageWithCaption
                     imageUrl={require('assets/img/affinity_map.jpg').default}
                     caption="Affinity Map"
@@ -655,7 +658,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               </div>
 
               <div className="w-full ">
-                <h4 className="text-2xl text-center mt-14 font-semibold leading-normal  text-blue-500">
+                <h4 className="text-2xl text-center mt-14 font-semibold leading-normal  text-gray-800">
                   Key Finding
                 </h4>
                 <div className="flex flex-wrap mt-6 md:w-full mx-auto text-center mx-auto">
@@ -668,8 +671,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       </div>
                       <div>
                         <p className="text-gray-600 text-md leading-relaxed my-5">
-                          <b> It’s very time-consuming</b> in collecting service
-                          information from many sources
+                          <b> It’s very time-consuming</b> <br></br>in
+                          collecting service information from many sources
                         </p>
                       </div>
                     </div>
@@ -683,9 +686,9 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       </div>
                       <div>
                         <p className="text-gray-600 text-md  leading-relaxed my-5">
-                          <b> Lacking of specialized knowledge and skill</b>{' '}
-                          made people feel anxious and many time made them lost
-                          a lot of money
+                          <b> knowledge and skill Lacking</b> <br></br>sometimes
+                          it makes people upset and this can be the cause of
+                          losing their money
                         </p>
                       </div>
                     </div>
@@ -700,7 +703,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       <div>
                         <p className="text-gray-600 text-md  leading-relaxed my-5">
                           <b> “How trust” is more important than “How much”</b>
-                          people pay more If the result is worth it
+                          <br></br> people have enough capability to pay if they
+                          could get the satisfied service back
                         </p>
                       </div>
                     </div>
@@ -714,8 +718,9 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                       </div>
                       <div>
                         <p className="text-gray-600 text-md leading-relaxed my-5">
-                          <b>“How can I do it by myself?” </b>is the question
-                          they usually ask in case of minor problem
+                          <b>“How can I do it by myself?” </b>
+                          <br></br>is the question people usually ask themselves
+                          if it just a minor problem
                         </p>
                       </div>
                     </div>
@@ -750,10 +755,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                             <div>
                               {' '}
                               According to my research study, I have two
-                              differences type of users seperated by service
-                              that they got. So that I created two empathy map
-                              to understand user attitudes and behaviors of each
-                              user type.
+                              different types of users separated by service that
+                              they got. So that I created two empathy maps to
+                              understand user attitudes and behaviors of each
+                              user type
                             </div>
                           }
                           textalign={'left'}
@@ -783,10 +788,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                           description={
                             <div>
                               {' '}
-                              To follow user-centered design(UCD), I used
-                              personas to help me indentify who are my target
-                              users, so that I can design the right things to
-                              the right person.
+                              To follow user-centered design (UCD), I used
+                              personas to help me identify my target users so
+                              that I can design the right things for the right
+                              person
                             </div>
                           }
                           textalign={'left'}
@@ -819,10 +824,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                             description={
                               <div>
                                 {' '}
-                                I created storyboard to understand a sequence
-                                and capture at attention point of user’s story.
-                                It’s good way to understand whole story by
-                                seeing image.
+                                I created a storyboard to understand a sequence
+                                and capture at attention point of the user’s
+                                story. It’s a good way to understand the whole
+                                story by seeing an image
                               </div>
                             }
                             textalign={'left'}
@@ -847,10 +852,11 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                             description={
                               <div>
                                 {' '}
-                                To understand user’s problems, I created user
+                                To understand user’s problems, I created a user
                                 journey map to visualize the home service
-                                experience. This help me see what/where/when/why
-                                those problem occur in the user’s journey.
+                                experience. This helps me see
+                                what/where/when/why those problems occur in the
+                                user’s journey
                               </div>
                             }
                             textalign={'left'}
@@ -880,9 +886,9 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   </h2>
 
                   <p className="mt-8 text-lg leading-relaxed text-gray-600 text-left">
-                    Mapping user’s problem with its HMW questions to find out
-                    what is the most impact problem for them. After mapping, I
-                    found common HMW that reflect user’s main problems
+                    Mapping user’s problems with its HMW questions to find out
+                    what is the most impactful problem for them. After mapping,
+                    I found a common HMW that reflect the user’s main problems
                   </p>
                 </div>
 
@@ -909,7 +915,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         </div>
                         <div>
                           <p className="text-gray-600 text-md leading-relaxed my-5">
-                            lacking of technical knowledge
+                            lack of technical knowledge
                           </p>
                         </div>
                       </div>
@@ -923,7 +929,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         </div>
                         <div>
                           <p className="text-gray-600 text-md leading-relaxed my-5">
-                            have no time to learn technical skill
+                            have no time to learn the technical skill
                           </p>
                         </div>
                       </div>
@@ -951,11 +957,11 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                         How Might We
                       </h4>
                       <p className="text-lg leading-relaxed text-gray-700">
-                        Getting home service by just find a satisfied technician
-                        in one source and able to get advices or technical
-                        knowledge from an expert
+                        Getting home service by just find a trustworthy
+                        technician in one source and able to get advice or
+                        technical knowledge from an expert
                       </p>
-                      <p className="text-4xl">?</p>
+                      <p className="text-4xl text-gray-700">?</p>
                     </div>
                   </div>
                 </div>
@@ -976,9 +982,9 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 </h2>
 
                 <p className="mt-8 text-lg leading-relaxed text-gray-600 text-left">
-                  With all problem defination and how might we I got, I started
-                  to generate several solutions and pick the most impact
-                  solution by concidering their pros and cons
+                  With all problem definitions and <b>How Might We</b> I got, I
+                  started to generate several solutions and pick the most impact
+                  solution by considering their <b>pros and cons</b>
                 </p>
               </div>
 
@@ -998,11 +1004,11 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     Solution
                   </h4>
                   <p className="text-lg leading-relaxed text-gray-700">
-                    Get home service by using online platform which a huge of
-                    technician information to find a satisfied technician and
+                    Get home service by using an online platform which a huge of
+                    technician information to find a trustworthy technician and
                     get technical advice from an expert
                   </p>
-                  <p className="text-4xl">?</p>
+                  <p className="text-4xl text-gray-700">?</p>
                 </div>
               </div>
             </div>
@@ -1026,20 +1032,6 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   }
                   textalign="left"
                 />
-                <div className="my-5">
-                  <CardArticleWithObject
-                    subtitle="Minimum-Viable-Product approach"
-                    description={
-                      <div>
-                        I sliced a story map into first and second release in
-                        order to{' '}
-                        <b>prioritize which features should be in prototype</b>{' '}
-                        to learn if users understand the process and can
-                        successfully reach the goal
-                      </div>
-                    }
-                  />
-                </div>
               </div>
 
               <div
@@ -1062,10 +1054,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                     subtitle="Structure the site with Information Architecture (IA)"
                     description={
                       <div>
-                        After I maped out user’s story and conducted open-card
-                        sorting using online tool (Optimal Workshop), I can
-                        identify content and fuctionality that should be placed
-                        in platform by creating sitemap.
+                        After I mapped out the user’s story and conducted
+                        open-card sorting using an online tool (Optimal
+                        Workshop), I can identify content and functionality that
+                        should be placed on the platform by creating a sitemap
                       </div>
                     }
                     textalign="left"
@@ -1086,14 +1078,14 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
         </section>
         {/* { Prototype} */}
         <section>
-          <div className="relative flex flex-wrap w-full mx-auto  bg-white justify-center sticky top-0 z-50">
+          <div className="relative flex flex-wrap w-full mx-auto px-4 bg-white justify-center sticky top-0 z-50">
             <TitleWithCaption
               title="Turn ideas into prototype"
               caption="Prototype"
             />
           </div>
           <div>
-            <section className="relative py-12 bg-white">
+            <section className="relative py-12 bg-white px-4">
               <div className="container mx-auto ">
                 <div className="relative flex flex-wrap lg:w-4/5 mx-auto">
                   <div className="md:w-3/5 mx-auto mb-4">
@@ -1241,11 +1233,11 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   description={
                     <div>
                       After conducting the{' '}
-                      <b className="text-blue-700">online usability testing</b>{' '}
-                      with a clickable prototype by using think aloud method, I
-                      found some usability problems and also discovered some
-                      opportunities to improve the design for the for the{' '}
-                      <b className="text-blue-700">next iteration</b>
+                      <b className="text-blue-700">online usability testing </b>{' '}
+                      with a clickable prototype by using the think-aloud
+                      method, I found some usability problems and also
+                      discovered some opportunities to improve the design for
+                      the <b className="text-blue-700">next iteration</b>
                     </div>
                   }
                   textalign="left"
@@ -1267,16 +1259,13 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <div className="flex  flex-wrap lg:w-1/2">
                   <CardSumaryWithBorder
                     title="Problem #2"
-                    subtitle="Unclear Icon Meaning"
-                    description="Users did not understand the meaning of the icon such as the calendar icon(following with date and time) on the order summary card. because they did not know if it's an order create date or an appointment date
+                    subtitle="Confusing Icons"
+                    description="Users did not understand the meaning of the icon such as the calendar icon (followed by with date and time) on the order summary card. The design cannot tell them if it's an order create date or an appointment date
                 "
                     imageUrl={require('assets/img/Icon_Meaning.png').default}
                   />
                 </div>
-                <div
-                  className="flex lg:w-1/2"
-                  onClick={pushImageProblem3OnLightBox}
-                >
+                <div className="flex lg:w-1/2">
                   <CardSumaryWithBorder
                     title="Problem #3"
                     subtitle="Overlapping Button"
@@ -1289,7 +1278,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
           </div>
         </section>
 
-        <section>
+        <section className="px-4">
           <div className="relative flex flex-wrap w-full mx-auto justify-center bg-white sticky top-0 z-50 ">
             {' '}
             <TitleWithCaption
@@ -1297,7 +1286,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               caption="About"
             />
           </div>
-          <div className="flex flex-wrap items-stretch items-center md:w-3/5 my-12 text-center mx-auto bg-white  border rounded-2xl py-8">
+          <div className="flex flex-wrap items-stretch items-center md:w-3/5 my-12  text-center mx-auto bg-white  border rounded-2xl py-8">
             <div className="w-full md:w-1/4 mx-auto py-2">
               <div className="mb-4">
                 <i className="fas fa-suitcase text-2xl text-blue-400"></i>
@@ -1396,8 +1385,8 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
 
         <div className="text-center py-8 md:py-16">
           <h2 className=" text-xl font-normal text-red-300 mb-8 ">
-            Please feel free to leave me feedback <br></br>I am willing to hear
-            every thought
+            Please feel free to give me some feedbacks <br></br>I am willing to
+            hear every thought
           </h2>
           <a href="http://localhost:3000/landing">
             <p text-xl font-normal text-gray-600 mb-8>
