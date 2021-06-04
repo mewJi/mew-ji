@@ -27,25 +27,33 @@ export default function AboutMe() {
                 />
               </div>
               <div className="w-full md:w-6/12 ml-auto mr-auto px-4 py-8">
-                <h3 className="font-semibold text-5xl text-gray-700">
-                  Hi, I am Mewji
+                <h3 className="font-medium text-5xl text-gray-700">
+                  Hi, I am Nichaphat
                 </h3>
+                <h2 className="font-bold text-2xl text-gray-700 pt-4">
+                  You can call me "Mewji"
+                </h2>
                 <p className="mt-8 text-lg text-gray-700">
                   Eight years of experience in supporting clients in an IT
                   consulting company gave me a very big and long chance to
                   understand people and client’s core business. This makes me
                   realize that empathy can improve people’s lives and bring
-                  success to the business.
-                  <br></br>
-                  <br></br>
-                  This is why I intend to learn about UX and willing to be a
-                  part of the big success.
+                  success to the business. This is why I intend to learn about
+                  UX and willing to be a part of the big success.
                   <br></br>
                   <br></br>
                   Seeing people’s lives better while the business meets their
                   goals is the reason why I am passionate to come into the User
                   Experience Design career.
                 </p>
+                <h2 className="font-semibold text-xl text-gray-700 pt-4">
+                  Have a good day :)
+                </h2>
+                <h2 className="font-normal italic text-xl text-gray-700 pt-4">
+                  ... Mewji ...
+                </h2>
+
+                <div className="flex flex-wrap items-center w-full"></div>
               </div>
             </div>
           </div>
