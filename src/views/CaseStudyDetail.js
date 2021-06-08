@@ -19,6 +19,7 @@ import HomeTopic from 'components/HomeTopic';
 import CardArticleWithTopImg from 'components/CardArticleWithTopImg';
 import CaseStudyTextBanner from 'components/caseStudyDetail/CaseStudyTextBanner';
 import { ImageLightboxContext } from 'contexts/ImageLightboxContext';
+import useGoto from 'hooks/useGoto';
 
 export default function CaseStudyDetail() {
   const {
@@ -62,6 +63,8 @@ export default function CaseStudyDetail() {
     setImages([require('assets/img/Icon_Meaning.png').default]);
   const pushImageProblem3OnLightBox = () =>
     setImages([require('assets/img/Button_Position.png').default]);
+
+  const goto = useGoto();
 
   return (
     <>
@@ -1388,7 +1391,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             Please feel free to give me some feedbacks <br></br>I am willing to
             hear every thought
           </h2>
-          <a href="http://localhost:3000/landing">
+          <a onClick={goto('/Landing')} className="cursor-pointer">
             <p text-xl font-normal text-gray-600 mb-8>
               BACK TO HOME
             </p>
