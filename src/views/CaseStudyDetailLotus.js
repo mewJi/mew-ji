@@ -84,7 +84,7 @@ export default function CaseStudyDetail() {
         <section className="px-4 bg-white pt-8">
           <div className="w-full h-full  md:flex flex-wrap justify-center text-center">
             <div className="w-full h-full">
-              <h3 className="text-lg font-light md:text-lg text-gray-400 ">
+              <h3 className="text-lg font-semibold md:text-lg text-gray-400 ">
                 UI Redesign Assignment
               </h3>
               <br />
@@ -144,7 +144,7 @@ export default function CaseStudyDetail() {
         </section>
 
         {/* All Design Process*/}
-        <div name="design-processes" className="bg-gray-800 py-16 text-white">
+        <div className="bg-gray-800 py-16 text-white">
           <h1 className="text-xl text-center"> step by step </h1>
           <h3 className="text-4xl text-center"> Design Process </h3>
         </div>
