@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mewjibox/static/css/main.0d5f760d.chunk.css",
-    "main.js": "/mewjibox/static/js/main.f4630df8.chunk.js",
-    "main.js.map": "/mewjibox/static/js/main.f4630df8.chunk.js.map",
+    "main.js": "/mewjibox/static/js/main.12f7885a.chunk.js",
+    "main.js.map": "/mewjibox/static/js/main.12f7885a.chunk.js.map",
     "runtime-main.js": "/mewjibox/static/js/runtime-main.4f3261e2.js",
     "runtime-main.js.map": "/mewjibox/static/js/runtime-main.4f3261e2.js.map",
     "static/css/2.c439b42d.chunk.css": "/mewjibox/static/css/2.c439b42d.chunk.css",
@@ -82,6 +82,6 @@
     "static/css/2.c439b42d.chunk.css",
     "static/js/2.8cd2b3a4.chunk.js",
     "static/css/main.0d5f760d.chunk.css",
-    "static/js/main.f4630df8.chunk.js"
+    "static/js/main.12f7885a.chunk.js"
   ]
 }
