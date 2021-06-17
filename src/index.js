@@ -8,6 +8,7 @@ import 'react-image-lightbox/style.css';
 
 import Landing from 'views/Landing.js';
 import CaseStudyDetail from 'views/CaseStudyDetail.js';
+import CaseStudyDetailLotus from 'views/CaseStudyDetailLotus.js';
 import AboutMe from 'views/AboutMe.js';
 import {
   ImageLightboxProvider,
@@ -21,6 +22,10 @@ ReactDOM.render(
         <Switch>
           <Route path="/landing" component={Landing} />
           <Route path="/CaseStudyDetail" component={CaseStudyDetail} />
+          <Route
+            path="/CaseStudyDetailLotus"
+            component={CaseStudyDetailLotus}
+          />
           <Route path="/AboutMe" component={AboutMe} />
           <Redirect from="/" to="/landing" />
         </Switch>

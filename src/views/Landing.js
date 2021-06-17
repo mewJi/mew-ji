@@ -57,7 +57,18 @@ export default function Landing() {
                 description="Easily find the technician in one app, Your home fixed with the best technician"
                 imageUrl={require('assets/img/cover_case1.png').default}
                 onLinkButtonClick={goto('/CaseStudyDetail')}
-                buttonText="View Project"
+                buttonText="View Details"
+              />
+            </div>
+            <div className="flex flex-wrap justify-center text-center mb-8 mx-10">
+              <CardTextContent
+                className="lg:w-3/5"
+                title="Tesco Lotus - UI Redesign"
+                subtitle="UI Redesign | Mobile App Design"
+                description=""
+                imageUrl={require('assets/img/cover_case1.png').default}
+                onLinkButtonClick={goto('/CaseStudyDetailLotus')}
+                buttonText="View Details"
               />
             </div>
           </div>

@@ -4,6 +4,10 @@ export default function CaseStudyTextBanner({
   className,
   isAbsolute,
   textCss,
+  caption,
+  title,
+  description,
+  titleColor,
 }) {
   const cssInner =
     isAbsolute !== true
@@ -15,16 +19,13 @@ export default function CaseStudyTextBanner({
       <div className="w-full h-full">
         <div className={`${cssInner} ${textCss}`}>
           <h3 className="text-lg font-light md:text-xl lg:text-2xl text-gray-400">
-            UX case study
+            {caption}
           </h3>
           <br />
-          <h1 className="text-4xl lg:text-5xl text-blue-500">
-            HOME <span className="text-yellow-500">H</span>ERO
-          </h1>
+          <h1 className={`text-4xl lg:text-5xl ${titleColor}`}>{title}</h1>
           <br />
           <p className="text-center md:text-left text-xl md:text-xl lg:text-2xl italic text-left font-normal text-gray-500">
-            The technicians are everywhere, but the RIGHT technician is not
-            everywhere
+            {description}
           </p>
         </div>
       </div>

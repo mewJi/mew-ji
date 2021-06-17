@@ -84,10 +84,21 @@ export default function CaseStudyDetail() {
             className="w-full h-full absolute top-0 hidden md:flex  "
             textCss="items-start"
             isAbsolute
+            caption="UX case study"
+            title=" HOME HERO"
+            description="The technicians are everywhere, but the RIGHT technician is not everywhere"
+            titleColor="text-blue-500"
           />
         </div>
         <section className="block sm:hidden pt-4">
-          <CaseStudyTextBanner className="flex w-full" textCss="items-center" />
+          <CaseStudyTextBanner
+            className="flex w-full"
+            textCss="items-center"
+            caption="UX case study"
+            title=" HOME HERO"
+            description="The technicians are everywhere, but the RIGHT technician is not everywhere"
+            titleColor="text-blue-500"
+          />
         </section>
         {/* {show case section 1} */}
         <section className="px-4 bg-white pb-16">

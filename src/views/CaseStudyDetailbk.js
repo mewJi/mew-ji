@@ -23,7 +23,7 @@ export default function CaseStudyDetail() {
           <section className="container flex flex-col items-center mx-auto text-center py-8">
             <img
               className="w-full text-center "
-              src={require('assets/img/banner-case1.png').default}
+              src={require('assets/img/Cover_Final_Large.png').default}
             />
             <div className="relative flex flex-wrap items-stretch justify-around w-full text-xl bg-white">
               <div className="w-1/3 lg:shadow-sm py-4">
@@ -507,7 +507,7 @@ export default function CaseStudyDetail() {
                 <div>
                   <img
                     alt="..."
-                    src={require('assets/img/findsolution_map2.png').default}
+                    src={require('assets/img/Customer.png').default}
                     className="max-w-full mx-auto"
                     style={{}}
                   />
@@ -515,7 +515,7 @@ export default function CaseStudyDetail() {
                 <div>
                   <img
                     alt="..."
-                    src={require('assets/img/IdeateSolution.png').default}
+                    src={require('assets/img/Customer.png').default}
                     className="max-w-full mx-auto"
                     style={{}}
                   />
@@ -630,7 +630,7 @@ export default function CaseStudyDetail() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require('assets/img/team-1-800x800.jpg').default}
+                    src={require('assets/img/Customer.png').default}
                     className="shadow-lg rounded-full max-w-full mx-auto"
                     style={{ maxWidth: '120px' }}
                   />
@@ -666,7 +666,7 @@ export default function CaseStudyDetail() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require('assets/img/team-2-800x800.jpg').default}
+                    src={require('assets/img/Customer.png').default}
                     className="shadow-lg rounded-full max-w-full mx-auto"
                     style={{ maxWidth: '120px' }}
                   />
@@ -696,7 +696,7 @@ export default function CaseStudyDetail() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require('assets/img/team-3-800x800.jpg').default}
+                    src={require('assets/img/Customer.png').default}
                     className="shadow-lg rounded-full max-w-full mx-auto"
                     style={{ maxWidth: '120px' }}
                   />
@@ -732,7 +732,7 @@ export default function CaseStudyDetail() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require('assets/img/team-4-470x470.png').default}
+                    src={require('assets/img/Customer.png').default}
                     className="shadow-lg rounded-full max-w-full mx-auto"
                     style={{ maxWidth: '120px' }}
                   />
