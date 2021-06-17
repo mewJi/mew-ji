@@ -20,14 +20,14 @@ ReactDOM.render(
     <ImageLightboxConsumer>
       <BrowserRouter>
         <Switch>
-          <Route path="/landing" component={Landing} />
+          <Route path="/mewjibox" component={Landing} />
           <Route path="/CaseStudyDetail" component={CaseStudyDetail} />
           <Route
             path="/CaseStudyDetailLotus"
             component={CaseStudyDetailLotus}
           />
           <Route path="/AboutMe" component={AboutMe} />
-          <Redirect from="/" to="/landing" />
+          <Redirect from="/" to="/mewjibox" />
         </Switch>
       </BrowserRouter>
       <ScrollToTop
