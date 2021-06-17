@@ -76,29 +76,54 @@ export default function CaseStudyDetail() {
         <div className="flex-col items-stretch w-full relative text-center">
           <img
             alt="..."
-            src={require('assets/img/Cover_Final_Large.jpg').default}
+            src={require('assets/img/Lotus/Cover_Final_Large1.png').default}
             className="max-w-full"
             style={{}}
           />
-          <CaseStudyTextBanner
-            className="w-full h-full absolute top-0 hidden md:flex  "
-            textCss="items-start"
-            isAbsolute
-            caption="UI Redesign Assignment"
-            title="Lotus's App - Redesign"
-            description=""
-            titleColor="text-green-600"
-          />
         </div>
-        <section className="block sm:hidden pt-4">
-          <CaseStudyTextBanner
-            className="flex w-full"
-            textCss="items-center text-green-700"
-            caption="UI Redesign Assignment"
-            title="Lotus's App - UI Redesign"
-            description=""
-            titleColor="text-green-600"
-          />
+        <section className="px-4 bg-white pt-8">
+          <div className="w-full h-full  md:flex flex-wrap justify-center text-center">
+            <div className="w-full h-full">
+              <h3 className="text-lg font-light md:text-lg text-gray-400 ">
+                UI Redesign Assignment
+              </h3>
+              <br />
+              <h1 className={`text-2xl font-bold lg:text-4xl text-green-500`}>
+                Lotus's Shopping Online Application - Redesign
+              </h1>
+              <br />
+            </div>
+          </div>
+        </section>
+
+        <section className="px-4 bg-white pt-8">
+          <div className="relative flex flex-wrap items-stretch justify-center mx-auto md:w-3/5">
+            <div className="md:w-6/12 md:px-8">
+              <img
+                alt="..."
+                src={require('assets/img/Lotus/before.png').default}
+                className="max-w-full my-4"
+                style={{}}
+              />
+            </div>
+            <div className="md:w-6/12 md:px-8">
+              <img
+                alt="..."
+                src={require('assets/img/Lotus/after.png').default}
+                className="max-w-full my-4"
+                style={{}}
+              />
+            </div>
+          </div>
+          <div className="flex flex-wrap mt-2 md:my-6 justify-center md:justify-center">
+            <div className="md:text-left">
+              <Button
+                buttonText="Try prototype"
+                targetUrl="https://www.figma.com/proto/sTSrzLSYiB0YRRRQGQHVk6/Redesign-Tesco-Lotus?node-id=14%3A2&scaling=scale-down&page-id=0%3A1"
+                buttontype="primary"
+              />
+            </div>
+          </div>
         </section>
 
         <section className="px-4 bg-white pb-16">
@@ -119,10 +144,10 @@ export default function CaseStudyDetail() {
         </section>
 
         {/* All Design Process*/}
-        {/* <div name="design-processes" className="bg-gray-800 py-16 text-white">
+        <div name="design-processes" className="bg-gray-800 py-16 text-white">
           <h1 className="text-xl text-center"> step by step </h1>
           <h3 className="text-4xl text-center"> Design Process </h3>
-        </div> */}
+        </div>
         {/* Empathy */}
         <section className="relative py-16 bg-gray-50 px-4">
           <div className="flex flex-wrap w-full bg-gray-50  items-center justify-center sticky top-0 z-50">
@@ -289,7 +314,7 @@ export default function CaseStudyDetail() {
                 <div className="md:w-4/12 mx-auto md:px-4 mb-4">
                   <CardContentPrototype
                     title="#3"
-                    subtitle="Transform search navigation into Search button
+                    subtitle="Transform search navigation into search button
                   "
                     description="Transform search navigation into search button by leaving it's at the top of the screen, to catch customer's eye once they come"
                   />
@@ -306,25 +331,25 @@ export default function CaseStudyDetail() {
                 <div className="md:w-4/12 mx-auto md:px-4 mb-4">
                   <CardContentPrototype
                     title="#4"
-                    subtitle="Remove log-in section from home screen
+                    subtitle="Announced campaigns and promotion using banner
                   "
-                    description="Remove log-in section and allow the user to add item into the cart without logging in (However, we might request the user's delivery place before the item was added to check branch available stock)"
+                    description="Banner is simply eye-catching and is the good Call-To-Action(CTA), So changing this can increase the conversion rate"
                   />
                 </div>
                 <div className="md:w-4/12 mx-auto md:px-4 mb-4">
                   <CardContentPrototype
                     title="#5"
-                    subtitle="New version of product category
+                    subtitle="Show products seperated by promotion
                   "
-                    description="Bring out the variety of product to user's eyes quickly by replacing old category button with category card"
+                    description="To keep customer's satisfaction, showing many products with the special price can increase conversion rate"
                   />
                 </div>
                 <div className="md:w-4/12 mx-auto md:px-4 mb-4">
                   <CardContentPrototype
                     title="#6"
-                    subtitle="Transform search navigation into Search button
+                    subtitle="Prioritize menu on button navigation 
                   "
-                    description="Transform search navigation into search button by leaving it's at the top of the screen, to catch customer's eye once they come"
+                    description="Cart menu was moved to top right corner for eye-catching, the privilege was placed at second rank because users will be reminded that the brand gives them a priority and benefit"
                   />
                 </div>
               </div>
@@ -339,33 +364,33 @@ export default function CaseStudyDetail() {
                 <div className="md:w-4/12 mx-auto md:px-4 mb-4">
                   <CardContentPrototype
                     title="#7"
-                    subtitle="Remove log-in section from home screen
+                    subtitle="Redesign filter section
                   "
-                    description="Remove log-in section and allow the user to add item into the cart without logging in (However, we might request the user's delivery place before the item was added to check branch available stock)"
+                    description="Redesign filter section by adding specific condition such as promotion to help the user easily find the target product"
                   />
                 </div>
                 <div className="md:w-4/12 mx-auto md:px-4 mb-4">
                   <CardContentPrototype
                     title="#8"
-                    subtitle="New version of product category
+                    subtitle="Redesign product item card 
                   "
-                    description="Bring out the variety of product to user's eyes quickly by replacing old category button with category card"
+                    description="If product is on promotion, the original price should be displayed to rush the customer's decision "
                   />
                 </div>
                 <div className="md:w-4/12 mx-auto md:px-4 mb-4">
                   <CardContentPrototype
                     title="#9"
-                    subtitle="Transform search navigation into Search button
+                    subtitle="Redeisgn product search result
                   "
-                    description="Transform search navigation into search button by leaving it's at the top of the screen, to catch customer's eye once they come"
+                    description="Displaying two column product result can increase the number of product item more than one column"
                   />
                 </div>
               </div>
               <div className="relative flex flex-wrap items-stretch justify-center mx-auto md:w-3/5">
                 <CardContentPrototype
-                  title="e-commerce design approach"
+                  title=""
                   subtitle="Engage younger generation whereas retaining an older and loyal customer"
-                  description=""
+                  description="Clean design concept, white, teal, and yellow pastel color can make it easy on the eye. Web Content Accessibility Guidelines (WCAG) was considered and applied to the design "
                 />
               </div>
               <img
@@ -468,10 +493,6 @@ export default function CaseStudyDetail() {
         </section>
 
         <div className="text-center py-8 md:py-16">
-          <h2 className=" text-xl font-normal text-red-300 mb-8 ">
-            Please feel free to give me some feedbacks <br></br>I am willing to
-            hear every thought
-          </h2>
           <a onClick={goto('/Landing')} className="cursor-pointer">
             <p text-xl font-normal text-gray-600 mb-8>
               BACK TO HOME

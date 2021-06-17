@@ -60,13 +60,15 @@ export default function Landing() {
                 buttonText="View Details"
               />
             </div>
-            <div className="flex flex-wrap justify-center text-center mb-8 mx-10">
+            <div className="flex flex-wrap justify-center text-center mb-8 mx-8">
               <CardTextContent
                 className="lg:w-3/5"
                 title="Tesco Lotus - UI Redesign"
                 subtitle="UI Redesign | Mobile App Design"
                 description=""
-                imageUrl={require('assets/img/cover_case1.png').default}
+                imageUrl={
+                  require('assets/img/Lotus/Cover-Case-Lotus.png').default
+                }
                 onLinkButtonClick={goto('/CaseStudyDetailLotus')}
                 buttonText="View Details"
               />
