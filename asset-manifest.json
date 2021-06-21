@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mewjibox/static/css/main.0d5f760d.chunk.css",
-    "main.js": "/mewjibox/static/js/main.12f7885a.chunk.js",
-    "main.js.map": "/mewjibox/static/js/main.12f7885a.chunk.js.map",
+    "main.js": "/mewjibox/static/js/main.31d9dd49.chunk.js",
+    "main.js.map": "/mewjibox/static/js/main.31d9dd49.chunk.js.map",
     "runtime-main.js": "/mewjibox/static/js/runtime-main.4f3261e2.js",
     "runtime-main.js.map": "/mewjibox/static/js/runtime-main.4f3261e2.js.map",
     "static/css/2.c439b42d.chunk.css": "/mewjibox/static/css/2.c439b42d.chunk.css",
@@ -33,6 +33,10 @@
     "static/media/Draw.png": "/mewjibox/static/media/Draw.55ffeec1.png",
     "static/media/EmpathyMap_no1.png": "/mewjibox/static/media/EmpathyMap_no1.0e9998b1.png",
     "static/media/EmpathyMap_no2.png": "/mewjibox/static/media/EmpathyMap_no2.c7a2654e.png",
+    "static/media/Frame_All_1.png": "/mewjibox/static/media/Frame_All_1.c24a449d.png",
+    "static/media/Frame_All_2.png": "/mewjibox/static/media/Frame_All_2.3b695154.png",
+    "static/media/Frame_All_3.png": "/mewjibox/static/media/Frame_All_3.ed08a052.png",
+    "static/media/Frame_All_4.png": "/mewjibox/static/media/Frame_All_4.77525234.png",
     "static/media/High-Fidelity-Wireframe.png": "/mewjibox/static/media/High-Fidelity-Wireframe.0a4e2ae2.png",
     "static/media/Icon_Meaning.png": "/mewjibox/static/media/Icon_Meaning.8a3e4a45.png",
     "static/media/IdeateSolution.jpg": "/mewjibox/static/media/IdeateSolution.ea3b396c.jpg",
@@ -82,6 +86,6 @@
     "static/css/2.c439b42d.chunk.css",
     "static/js/2.8cd2b3a4.chunk.js",
     "static/css/main.0d5f760d.chunk.css",
-    "static/js/main.12f7885a.chunk.js"
+    "static/js/main.31d9dd49.chunk.js"
   ]
 }
