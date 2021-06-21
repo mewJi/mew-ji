@@ -244,6 +244,18 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
               </div>
             </div>
           </div>
+          <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
+            <div className="w-full md:w-full md:px-10 mt-8">
+              <Carousel
+                imageUrls={[
+                  require('assets/img/Frame_All_1.png').default,
+                  require('assets/img/Frame_All_2.png').default,
+                  require('assets/img/Frame_All_3.png').default,
+                  require('assets/img/Frame_All_4.png').default,
+                ]}
+              />
+            </div>
+          </div>
         </section>
         <section className="px-4 bg-white pb-16">
           <div className="flex flex-wrap justify-center mx-auto md:w-4/5">
