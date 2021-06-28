@@ -236,7 +236,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                   <div className="md:text-left">
                     <Button
                       buttonText="Try prototype"
-                      targetUrl="https://www.figma.com/proto/rsSk8Ny8Hv4x1oQuXjjlKJ/Case-Study-Home-Buddy?node-id=416%3A2625&scaling=scale-down&page-id=148%3A13"
+                      targetUrl="https://www.figma.com/proto/rsSk8Ny8Hv4x1oQuXjjlKJ/Case-Study-Home-Hero?node-id=1035%3A10494&scaling=scale-down&page-id=148%3A13"
                       buttontype="primary"
                     />
                   </div>
