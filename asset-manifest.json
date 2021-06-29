@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mewjibox/static/css/main.0d5f760d.chunk.css",
-    "main.js": "/mewjibox/static/js/main.79061587.chunk.js",
-    "main.js.map": "/mewjibox/static/js/main.79061587.chunk.js.map",
+    "main.js": "/mewjibox/static/js/main.7b230865.chunk.js",
+    "main.js.map": "/mewjibox/static/js/main.7b230865.chunk.js.map",
     "runtime-main.js": "/mewjibox/static/js/runtime-main.4f3261e2.js",
     "runtime-main.js.map": "/mewjibox/static/js/runtime-main.4f3261e2.js.map",
     "static/css/2.c439b42d.chunk.css": "/mewjibox/static/css/2.c439b42d.chunk.css",
-    "static/js/2.8cd2b3a4.chunk.js": "/mewjibox/static/js/2.8cd2b3a4.chunk.js",
-    "static/js/2.8cd2b3a4.chunk.js.map": "/mewjibox/static/js/2.8cd2b3a4.chunk.js.map",
+    "static/js/2.2198f957.chunk.js": "/mewjibox/static/js/2.2198f957.chunk.js",
+    "static/js/2.2198f957.chunk.js.map": "/mewjibox/static/js/2.2198f957.chunk.js.map",
     "index.html": "/mewjibox/index.html",
     "static/css/2.c439b42d.chunk.css.map": "/mewjibox/static/css/2.c439b42d.chunk.css.map",
     "static/css/main.0d5f760d.chunk.css.map": "/mewjibox/static/css/main.0d5f760d.chunk.css.map",
-    "static/js/2.8cd2b3a4.chunk.js.LICENSE.txt": "/mewjibox/static/js/2.8cd2b3a4.chunk.js.LICENSE.txt",
+    "static/js/2.2198f957.chunk.js.LICENSE.txt": "/mewjibox/static/js/2.2198f957.chunk.js.LICENSE.txt",
     "static/media/100Things.png": "/mewjibox/static/media/100Things.b7ab1050.png",
     "static/media/BookingAndScheduling.gif": "/mewjibox/static/media/BookingAndScheduling.1fed4461.gif",
     "static/media/Business.png": "/mewjibox/static/media/Business.a5a234d8.png",
@@ -84,8 +84,8 @@
   "entrypoints": [
     "static/js/runtime-main.4f3261e2.js",
     "static/css/2.c439b42d.chunk.css",
-    "static/js/2.8cd2b3a4.chunk.js",
+    "static/js/2.2198f957.chunk.js",
     "static/css/main.0d5f760d.chunk.css",
-    "static/js/main.79061587.chunk.js"
+    "static/js/main.7b230865.chunk.js"
   ]
 }
