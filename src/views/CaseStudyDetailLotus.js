@@ -493,7 +493,7 @@ export default function CaseStudyDetail() {
         </section>
 
         <div className="text-center py-8 md:py-16">
-          <a onClick={goto('/Landing')} className="cursor-pointer">
+          <a onClick={goto('/')} className="cursor-pointer">
             <p text-xl font-normal text-gray-600 mb-8>
               BACK TO HOME
             </p>

@@ -20,7 +20,7 @@ ReactDOM.render(
     <ImageLightboxConsumer>
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Landing} />
+          <Route exact path="/" component={Landing} />
           <Route path="/CaseStudyDetail" component={CaseStudyDetail} />
           <Route
             path="/CaseStudyDetailLotus"

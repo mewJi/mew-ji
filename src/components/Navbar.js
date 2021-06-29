@@ -55,7 +55,7 @@ export default function Navbar(props) {
                     : 'text-white hover:text-gray-300') +
                   ' px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-semibold cursor-pointer'
                 }
-                onClick={goto('/Landing')}
+                onClick={goto('/')}
                 // target="_blank"
               >
                 {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
