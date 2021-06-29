@@ -118,9 +118,10 @@ export default function CaseStudyDetail() {
           <div className="flex flex-wrap mt-2 md:my-6 justify-center md:justify-center">
             <div className="md:text-left">
               <Button
-                buttonText="Try prototype"
+                buttonText="Try Prototype"
                 targetUrl="https://www.figma.com/proto/sTSrzLSYiB0YRRRQGQHVk6/Redesign-Tesco-Lotus?node-id=14%3A2&scaling=scale-down&page-id=0%3A1"
                 buttontype="primary"
+                openWithNewTab
               />
             </div>
           </div>

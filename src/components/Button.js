@@ -7,6 +7,7 @@ export default function Button({
   buttontype,
   onClick,
   className = 'container',
+  openWithNewTab,
 }) {
   const primaryClassButton = 'bg-blue-500 text-white';
   const secondaryClassButton =
@@ -23,6 +24,7 @@ export default function Button({
       <a
         {...(targetUrl ? { href: targetUrl } : {})}
         {...(typeof onClick === 'function' ? { onClick } : {})}
+        target={openWithNewTab === true ? '_blank' : undefined}
       >
         <button
           className={`active:bg-orange-500 text-xl font-medium px-10 py-3 shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 my-4 ${btnClassName}`}

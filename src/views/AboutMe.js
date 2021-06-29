@@ -81,6 +81,7 @@ export default function AboutMe() {
                       targetUrl="https://www.facebook.com/areyousurecomic"
                       buttonText="My Facebook Page"
                       buttontype="secondary"
+                      openWithNewTab
                     />
                   }
                 ></CardHobbiesWithBorder>
@@ -96,6 +97,7 @@ export default function AboutMe() {
                       targetUrl="https://youtu.be/XA1IcShoGd8"
                       buttonText="My Last Cover"
                       buttontype="secondary"
+                      openWithNewTab
                     />
                   }
                 ></CardHobbiesWithBorder>
@@ -109,9 +111,10 @@ export default function AboutMe() {
                   object={
                     <ButtonSmall
                       iconClassName="far fa-eye"
-                      targetUrl="https://youtu.be/XA1IcShoGd8"
+                      targetUrl="https://www.instagram.com/mewji.gallery/"
                       buttonText="My Gallery"
                       buttontype="secondary"
+                      openWithNewTab
                     />
                   }
                 ></CardHobbiesWithBorder>

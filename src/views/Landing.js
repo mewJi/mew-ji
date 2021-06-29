@@ -63,7 +63,7 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center text-center mb-8 mx-8">
               <CardTextContent
                 className="lg:w-3/5"
-                title="Lotus'S Apps - UI Redesign"
+                title="Lotus's Apps - UI Redesign"
                 subtitle="UI Redesign | Mobile App Design"
                 description=""
                 imageUrl={

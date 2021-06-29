@@ -235,9 +235,10 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                 <div className="flex flex-wrap mt-4 md:mt-10 justify-center md:justify-start">
                   <div className="md:text-left">
                     <Button
-                      buttonText="Try prototype"
+                      buttonText="Try Prototype"
                       targetUrl="https://www.figma.com/proto/rsSk8Ny8Hv4x1oQuXjjlKJ/Case-Study-Home-Hero?node-id=1035%3A10494&scaling=scale-down&page-id=148%3A13"
                       buttontype="primary"
+                      openWithNewTab
                     />
                   </div>
                 </div>
@@ -654,6 +655,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
                           }
                           buttonText="See Questions"
                           buttontype="secondary"
+                          openWithNewTab
                         />
                       }
                     />
