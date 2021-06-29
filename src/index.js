@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -18,7 +18,7 @@ import {
 ReactDOM.render(
   <ImageLightboxProvider>
     <ImageLightboxConsumer>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/CaseStudyDetail" component={CaseStudyDetail} />
@@ -28,7 +28,7 @@ ReactDOM.render(
           />
           <Route path="/AboutMe" component={AboutMe} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
       <ScrollToTop
         smooth
         color="#176CAA"
