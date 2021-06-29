@@ -1416,7 +1416,7 @@ is so wide, meanwhile, it is specific. Studying and practicing was a need"
             Please feel free to give me some feedbacks <br></br>I am willing to
             hear every thought
           </h2>
-          <a onClick={goto('/Landing')} className="cursor-pointer">
+          <a onClick={goto('/')} className="cursor-pointer">
             <p text-xl font-normal text-gray-600 mb-8>
               BACK TO HOME
             </p>
