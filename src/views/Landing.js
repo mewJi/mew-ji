@@ -63,6 +63,19 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center text-center mb-8 mx-8">
               <CardTextContent
                 className="lg:w-3/5"
+                title="Magical - Furniture Selling Website"
+                subtitle="UI Design | Website Design"
+                description="Magical - Furniture selling brand website in the minimal style"
+                imageUrl={
+                  require('assets/img/Magical/Magical-Mockup.png').default
+                }
+                onLinkButtonClick={goto('/CaseStudyDetailMagical')}
+                buttonText="View Details"
+              />
+            </div>
+            <div className="flex flex-wrap justify-center text-center mb-8 mx-8">
+              <CardTextContent
+                className="lg:w-3/5"
                 title="Lotus's Apps - UI Redesign"
                 subtitle="UI Redesign | Mobile App Design"
                 description=""

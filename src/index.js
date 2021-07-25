@@ -9,6 +9,7 @@ import 'react-image-lightbox/style.css';
 import Landing from 'views/Landing.js';
 import CaseStudyDetail from 'views/CaseStudyDetail.js';
 import CaseStudyDetailLotus from 'views/CaseStudyDetailLotus.js';
+import CaseStudyDetailMagical from 'views/CaseStudyDetailMagical.js';
 import AboutMe from 'views/AboutMe.js';
 import {
   ImageLightboxProvider,
@@ -25,6 +26,10 @@ ReactDOM.render(
           <Route
             path="/CaseStudyDetailLotus"
             component={CaseStudyDetailLotus}
+          />
+          <Route
+            path="/CaseStudyDetailMagical"
+            component={CaseStudyDetailMagical}
           />
           <Route path="/AboutMe" component={AboutMe} />
         </Switch>
