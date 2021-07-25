@@ -24,7 +24,7 @@ export default function Navbar(props) {
             onClick={goto('/')}
           >
             MEWJI
-            <p className="text-sm font-light">ux/ui designer</p>
+            <p className="text-sm font-light">User Experience Designer</p>
           </a>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -74,7 +74,7 @@ export default function Navbar(props) {
                 // target="_blank"
               >
                 {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
-                About Me
+                About
               </a>
             </li>
 

@@ -46,13 +46,10 @@ export default function Landing() {
         </div>
         <section className="pb-20 bg-white pt-20">
           <div className="container relative mx-auto">
-            <h1 className="text-gray-800 font-semibold text-3xl text-center mb-8 ">
-              Case Study
-            </h1>
             <div className="flex flex-wrap justify-center text-center mb-8 mx-10">
               <CardTextContent
                 className="lg:w-3/5"
-                title="HOME HERO"
+                title="Home Hero"
                 subtitle="UX Case Study | Mobile App Design"
                 description="Easily find the technician in one app, Your home fixed with the best technician"
                 imageUrl={require('assets/img/cover_case1.png').default}
@@ -63,7 +60,7 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center text-center mb-8 mx-8">
               <CardTextContent
                 className="lg:w-3/5"
-                title="Magical - Furniture Selling Website"
+                title="Magical"
                 subtitle="UI Design | Website Design"
                 description="Magical - Furniture selling brand website in the minimal style"
                 imageUrl={
@@ -76,7 +73,7 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center text-center mb-8 mx-8">
               <CardTextContent
                 className="lg:w-3/5"
-                title="Lotus's Apps - UI Redesign"
+                title="Lotus's"
                 subtitle="UI Redesign | Mobile App Design"
                 description=""
                 imageUrl={

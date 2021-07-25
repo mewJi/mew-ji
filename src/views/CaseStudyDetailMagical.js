@@ -43,10 +43,10 @@ export default function CaseStudyDetailMagical() {
           <div className="w-full h-full  md:flex flex-wrap justify-center text-center">
             <div className="w-full h-full">
               <h3 className="text-lg font-semibold md:text-lg text-gray-400 ">
-                Website design
+                Website Design
               </h3>
               <br />
-              <h1 className={`text-2xl font-bold lg:text-4xl text-gray-700`}>
+              <h1 className={`text-2xl font-bold lg:text-4xl text-gray-800`}>
                 Magical - Furniture Selling Website
               </h1>
               <br />
