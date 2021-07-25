@@ -83,6 +83,19 @@ export default function Landing() {
                 buttonText="View Details"
               />
             </div>
+            <div className="flex flex-wrap justify-center text-center mb-8 mx-8">
+              <CardTextContent
+                className="lg:w-3/5"
+                title="Smart Home (Coming Soon)"
+                subtitle="UX Challenge | Mobile App Design"
+                description="Control your devices, monitor electricity bill and save the world"
+                imageUrl={
+                  require('assets/img/SmartHome/Welcome-SmartHome.png').default
+                }
+                onLinkButtonClick={goto('/SmartHome')}
+                buttonText="View Details"
+              />
+            </div>
           </div>
         </section>
       </main>

@@ -10,6 +10,7 @@ import Landing from 'views/Landing.js';
 import CaseStudyDetail from 'views/CaseStudyDetail.js';
 import CaseStudyDetailLotus from 'views/CaseStudyDetailLotus.js';
 import CaseStudyDetailMagical from 'views/CaseStudyDetailMagical.js';
+import SmartHome from 'views/SmartHome.js';
 import AboutMe from 'views/AboutMe.js';
 import {
   ImageLightboxProvider,
@@ -31,6 +32,7 @@ ReactDOM.render(
             path="/CaseStudyDetailMagical"
             component={CaseStudyDetailMagical}
           />
+          <Route path="/SmartHome" component={SmartHome} />
           <Route path="/AboutMe" component={AboutMe} />
         </Switch>
       </HashRouter>

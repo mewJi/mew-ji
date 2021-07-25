@@ -119,7 +119,7 @@ export default function CaseStudyDetail() {
             <div className="md:text-left">
               <Button
                 buttonText="Try Prototype"
-                targetUrl="https://www.figma.com/proto/sTSrzLSYiB0YRRRQGQHVk6/Redesign-Tesco-Lotus?node-id=14%3A2&scaling=scale-down&page-id=0%3A1"
+                targetUrl="https://www.figma.com/proto/sTSrzLSYiB0YRRRQGQHVk6/Redesign-Tesco-Lotus?node-id=169%3A1205&scaling=min-zoom&page-id=169%3A345&starting-point-node-id=169%3A1205"
                 buttontype="primary"
                 openWithNewTab
               />
