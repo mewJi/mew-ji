@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mewjibox/static/css/main.0d5f760d.chunk.css",
-    "main.js": "/mewjibox/static/js/main.9f8f50f2.chunk.js",
-    "main.js.map": "/mewjibox/static/js/main.9f8f50f2.chunk.js.map",
+    "main.js": "/mewjibox/static/js/main.ee3317c2.chunk.js",
+    "main.js.map": "/mewjibox/static/js/main.ee3317c2.chunk.js.map",
     "runtime-main.js": "/mewjibox/static/js/runtime-main.4f3261e2.js",
     "runtime-main.js.map": "/mewjibox/static/js/runtime-main.4f3261e2.js.map",
     "static/css/2.c439b42d.chunk.css": "/mewjibox/static/css/2.c439b42d.chunk.css",
@@ -44,7 +44,7 @@
     "static/media/Low-Fidelity-Wireframe.jpg": "/mewjibox/static/media/Low-Fidelity-Wireframe.9b62257f.jpg",
     "static/media/Magica-Home-Page.png": "/mewjibox/static/media/Magica-Home-Page.af5934e8.png",
     "static/media/Magical-Mockup.png": "/mewjibox/static/media/Magical-Mockup.ec690a87.png",
-    "static/media/NICHAPHAT_UX_RESUME.pdf": "/mewjibox/static/media/NICHAPHAT_UX_RESUME.d006e29b.pdf",
+    "static/media/NICHAPHAT_UX_RESUME.pdf": "/mewjibox/static/media/NICHAPHAT_UX_RESUME.b5cddcba.pdf",
     "static/media/OnboardAndLogin.gif": "/mewjibox/static/media/OnboardAndLogin.99ae9fbd.gif",
     "static/media/Outward.png": "/mewjibox/static/media/Outward.65344b6c.png",
     "static/media/PainPoint1.png": "/mewjibox/static/media/PainPoint1.c029eee0.png",
@@ -90,6 +90,6 @@
     "static/css/2.c439b42d.chunk.css",
     "static/js/2.13efad6d.chunk.js",
     "static/css/main.0d5f760d.chunk.css",
-    "static/js/main.9f8f50f2.chunk.js"
+    "static/js/main.ee3317c2.chunk.js"
   ]
 }
